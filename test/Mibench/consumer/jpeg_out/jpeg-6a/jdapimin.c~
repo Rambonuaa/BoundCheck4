@@ -170,7 +170,9 @@ __boundcheck_metadata_store((void *)(&cid2),(void *)((size_t)(&cid2)+sizeof(cid2
       else if (cid0 == 82 && cid1 == 71 && cid2 == 66)
 	cinfo->jpeg_color_space = JCS_RGB; /* ASCII 'R', 'G', 'B' */
       else {
-	TRACEMS3(cinfo, 1, JTRC_UNKNOWN_IDS, cid0, cid1, cid2);
+	TRACEMS3(
+__boundcheck_metadata_store((void *)(&_mp),(void *)((size_t)(&_mp)+sizeof(_mp)*8-1));
+cinfo, 1, JTRC_UNKNOWN_IDS, cid0, cid1, cid2);
 	cinfo->jpeg_color_space = JCS_YCbCr; /* assume it's YCbCr */
       }
     }

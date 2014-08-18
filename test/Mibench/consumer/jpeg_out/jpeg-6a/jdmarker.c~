@@ -217,7 +217,13 @@ __boundcheck_metadata_store((void *)(&ci),(void *)((size_t)(&ci)+sizeof(ci)*8-1)
   jpeg_component_info * compptr;
 __boundcheck_metadata_store((void *)(&compptr),(void *)((size_t)(&compptr)+sizeof(compptr)*8-1));
 
-  INPUT_VARS(cinfo);
+  INPUT_VARS(
+__boundcheck_metadata_store((void *)(&datasrc),(void *)((size_t)(&datasrc)+sizeof(datasrc)*8-1));
+
+__boundcheck_metadata_store((void *)(&next_input_byte),(void *)((size_t)(&next_input_byte)+sizeof(next_input_byte)*8-1));
+
+__boundcheck_metadata_store((void *)(&bytes_in_buffer),(void *)((size_t)(&bytes_in_buffer)+sizeof(bytes_in_buffer)*8-1));
+cinfo);
 
   cinfo->progressive_mode = is_prog;
   cinfo->arith_code = is_arith;

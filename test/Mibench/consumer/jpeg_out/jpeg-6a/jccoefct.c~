@@ -453,7 +453,7 @@ __boundcheck_metadata_store((void *)(&compptr),(void *)((size_t)(&compptr)+sizeo
 	compptr = cinfo->cur_comp_info[_RV_insert_check(0,4,370,12,"compress_output",ci)];
 	start_col = MCU_col_num * compptr->MCU_width;
 	for (yindex = 0; yindex < compptr->MCU_height; yindex++) {
-	  buffer_ptr = buffer[ci][yindex+yoffset] + start_col;
+	  buffer_ptr = (*(JBLOCKROW *)(__boundcheck_ptr_reference(373,42,"compress_output",(void *)(&buffer[ci][0]),(void *)(&buffer[ci][yi_RV_insert_check(0,4,373,17,"compress_output",nd)ex + yoffset])))) + start_col;
 	  for (xindex = 0; xindex < compptr->MCU_width; xindex++) {
 	    coef->MCU_buffer[_RV_insert_check(0,10,375,6,"compress_output",blkn++)] = buffer_ptr++;
 	  }

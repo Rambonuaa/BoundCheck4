@@ -315,7 +315,7 @@ __boundcheck_metadata_store((void *)(&do_dct),(void *)((size_t)(&do_dct)+sizeof(
 
   FAST_FLOAT * divisors = fdct->float_divisors[_RV_insert_check(0,4,279,27,"forward_DCT_float",compptr->quant_tbl_no)];
 __boundcheck_metadata_store((void *)(&divisors),(void *)((size_t)(&divisors)+sizeof(divisors)*8-1));
- 
+float  
   FAST_FLOAT workspace[DCTSIZE2];__boundcheck_metadata_store(&workspace[0],&workspace[64-1]);
  /* work area for FDCT subroutine */
   JDIMENSION bi;

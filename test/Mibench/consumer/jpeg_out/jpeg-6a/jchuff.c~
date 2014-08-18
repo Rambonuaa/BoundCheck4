@@ -611,7 +611,7 @@ htest_one_block (JCOEFPTR block, int last_dc_val,
   r = 0;			/* r = run length of zeros */
   
   for (k = 1; k < DCTSIZE2; k++) {
-    if ((temp = block[jpeg_natural_order[k]]) == 0) {
+    if ((temp = (*(JCOEF *)(__boundcheck_ptr_reference(568,17,"htest_one_block",(void *)(&block[0]),(void *)(&block[jpeg(*(const int *)(__boundcheck_ptr_reference(568,23,"htest_one_block",(void *)(&jpeg_natural_order[0]),(void *)(&jpeg_natural_order[k])))))) == 0) {
       r++;
     } else {
       /* if run length > 15, must emit special run-length-16 codes (0xF0) */

@@ -73,7 +73,8 @@ __boundcheck_metadata_store((void *)(&tmp5),(void *)((size_t)(&tmp5)+sizeof(tmp5
 float  tmp6;
 __boundcheck_metadata_store((void *)(&tmp6),(void *)((size_t)(&tmp6)+sizeof(tmp6)*8-1));
 float  tmp7;
-__boundcheck_metadata_store((void *)(&tmp7),(void *)((size_t)(&tmp7)+sizeof(tmp7)*8-1)); 
+__boundcheck_metadata_store((void *)(&tmp7),(void *)((size_t)(&tmp7)+sizeof(tmp7)*8-1));
+float 
   FAST_FLOAT tmp10;
 __boundcheck_metadata_store((void *)(&tmp10),(void *)((size_t)(&tmp10)+sizeof(tmp10)*8-1));
 float  tmp11;
@@ -81,7 +82,8 @@ __boundcheck_metadata_store((void *)(&tmp11),(void *)((size_t)(&tmp11)+sizeof(tm
 float  tmp12;
 __boundcheck_metadata_store((void *)(&tmp12),(void *)((size_t)(&tmp12)+sizeof(tmp12)*8-1));
 float  tmp13;
-__boundcheck_metadata_store((void *)(&tmp13),(void *)((size_t)(&tmp13)+sizeof(tmp13)*8-1)); 
+__boundcheck_metadata_store((void *)(&tmp13),(void *)((size_t)(&tmp13)+sizeof(tmp13)*8-1));
+float 
   FAST_FLOAT z1;
 __boundcheck_metadata_store((void *)(&z1),(void *)((size_t)(&z1)+sizeof(z1)*8-1));
 float  z2;
@@ -95,7 +97,8 @@ __boundcheck_metadata_store((void *)(&z5),(void *)((size_t)(&z5)+sizeof(z5)*8-1)
 float  z11;
 __boundcheck_metadata_store((void *)(&z11),(void *)((size_t)(&z11)+sizeof(z11)*8-1));
 float  z13;
-__boundcheck_metadata_store((void *)(&z13),(void *)((size_t)(&z13)+sizeof(z13)*8-1));  
+__boundcheck_metadata_store((void *)(&z13),(void *)((size_t)(&z13)+sizeof(z13)*8-1));
+float  
   FAST_FLOAT *dataptr;
 __boundcheck_metadata_store((void *)(&dataptr),(void *)((size_t)(&dataptr)+sizeof(dataptr)*8-1));
 

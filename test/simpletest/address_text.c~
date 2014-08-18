@@ -7,7 +7,7 @@ void count_char(void *q_base,void *q_bound,char *q)
 void bubble_sort(void *_array_base,void *_array_bound,char *array[])
 {
    printf("%p,%p,%p,%p\n",_array_base,_array_bound,array,(void *)array+1);
-   printf("%p,%p,%p,%p\n",_array_base,_array_bound,array,(void *)(array+2));
+   printf("%p,%p,%p,%p\n",_array_base,_array_bound,array,(void *)(array+1));
    if((void *)array+1<_array_bound)
      printf("KKKKK\n");
 

@@ -27,11 +27,11 @@ int main()
    char *p;
    p=a;
 
-//   printf("%s\n",string1[1]);
-//   printf("strlen(string1[1])=%d\n",strlen(string1[1]));
-//   printf("strlen(string2[1])=%d\n",strlen(string2[1]));
-//   printf("%p,%p\n",&a,p);
-//   count_char(&a[0],&a[4],a);
+   printf("%s\n",string1[1]);
+   printf("strlen(string1[1])=%d\n",strlen(string1[1]));
+   printf("strlen(string2[1])=%d\n",strlen(string2[1]));
+   printf("%p,%p\n",&a,p);
+   count_char(&a[0],&a[4],a);
    count_char(&string1[1][0],&string1[1][2],string1[1]);
    bubble_sort(&string2[0],&string2[2],string2);
    
