@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+	//dangling stack pointer dereference	
+
+
+	//dangling heap pointer dereference
+	int *m,*n;
+	m=(int *)malloc(10*sizeof(int));
+	m[_RV_insert_check(0,10 * sizeof(int)/sizeof(int),12,4,"main",1)]=5;
+	n=m;
+        printf("the 2st is %d\n",n[_RV_insert_check(0,10 * sizeof(int)/sizeof(int),14,36,"main",1)]);
+	free(m);
+	printf("the 2st is %d\n",n[_RV_insert_check(0,0,16,29,"main",1)]);
+	
+    //multiple deallocations
+	int  *c,*d;
+	c=(int *)malloc(10*sizeof(int));
+	d=c;
+        printf("the 2st is %d\n",c[_RV_insert_check(0,10 * sizeof(int)/sizeof(int),22,36,"main",1)]);
+        printf("the 2st is %d\n",d[_RV_insert_check(0,10 * sizeof(int)/sizeof(int),23,36,"main",1)]);
+	free(c);
+        printf("the 2st is %d\n",d[_RV_insert_check(0,0,25,36,"main",1)]);
+	free(d);
+        printf("the 2st is %d\n",d[_RV_insert_check(0,0,27,36,"main",1)]);
+}
+	
+	
+	

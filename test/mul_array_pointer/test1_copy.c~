@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+typedef unsigned int size_t;
+
+extern  void e_acsl_assert(int predicate,char *kind,char *fct,char *pred_txt,int line);
+
+extern  void *__store_block(void *ptr,size_t size);
+
+extern  void __delete_block(void *ptr);
+
+extern  void __initialize(void *ptr,size_t size);
+
+extern  void __full_init(void *ptr);
+
+extern  void __literal_string(void *ptr);
+
+extern  int __valid(void *ptr, size_t size);
+
+extern  int __valid_read(void *ptr,size_t size);
+
+extern  int __initialized(void *ptr,size_t size);
+
+extern  void __e_acsl_memory_clean(void);
+
+int main(void)
+{
+  int a=5;
+  int *b=&a;
+  int ** c = &b;
+  __store_block((void *)(& c),4U);
+  __store_block((void *)(& b),4U);
+  __store_block((void *)(& a),4U);
+  printf("%d\n",*((int *)__valid_read((void *)(*((int **)__valid_read((void *)c,sizeof(int **)))),sizeof(int *))));
+  **c =10;
+  printf("a=**c=%d\n",*((int *)__valid_read((void *)(*((int **)__valid_read((void *)c,sizeof(int **)))),sizeof(int *))));
+}
+
+

@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+/*
+   int a=3;
+   printf("%p ",&a);
+   int *p;
+   printf("%p ",(void *)p);
+   p=&a;
+   printf("%p ",(void *)p);
+*/
+
+  char string[10]="asdfdsf";
+  printf("%p ",&string[0]);
+  char *p;
+  printf("%p ",(void *)p);
+  p=string;
+  printf("%p ",(void *)p);
+   return 1;
+}
+   

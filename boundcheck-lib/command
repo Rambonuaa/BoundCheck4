@@ -1,0 +1,1 @@
+clang -o function3_out -I'/home/administrator/boundcheck3/boundcheck-lib' function3_out.c -L'/home/administrator/boundcheck3/boundcheck-lib' -lboundcheck_rt

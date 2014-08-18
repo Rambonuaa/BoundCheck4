@@ -1,0 +1,44 @@
+#include"boundcheck.h"
+#include<string.h>
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	static char tbuf[2][2048];
+
+int __tbuf_0;
+	for(__tbuf_0=0;__tbuf_0<2;__tbuf_0++)
+__boundcheck_metadata_store(&tbuf[__tbuf_0][0],&tbuf[__tbuf_0][2048-1]);
+
+        char buf[2][3][4];
+
+int __buf_0;
+
+int __buf_1;
+	for(__buf_0=0;__buf_0<2;__buf_0++)
+	for(__buf_1=0;__buf_1<3;__buf_1++)
+__boundcheck_metadata_store(&buf[__buf_0][__buf_1][0],&buf[__buf_0][__buf_1][4-1]);
+
+	char buf1[3][4][5];
+
+int __buf1_0;
+
+int __buf1_1;
+	for(__buf1_0=0;__buf1_0<3;__buf1_0++)
+	for(__buf1_1=0;__buf1_1<4;__buf1_1++)
+__boundcheck_metadata_store(&buf1[__buf1_0][__buf1_1][0],&buf1[__buf1_0][__buf1_1][5-1]);
+
+
+	(*(char *)(__boundcheck_ptr_reference(9,13,"main",(void *)(&buf[1][1][0]),(void *)(&buf[1][1][1]))))='c';
+//	__boundcheck_strcpy((*(char **)(__boundcheck_ptr_reference(10,17,"main",(void *)(&buf[2][0]),(void *)(&buf[2][2])))),"AAA");
+	printf("%s",(*(char **)(__boundcheck_ptr_reference(11,22,"main",(void *)(&buf[1][0]),(void *)(&buf[1][1])))));
+
+        printf("%d\n",strlen((*(char **)(__boundcheck_ptr_reference(13,38,"main",(void *)(&buf[1][0]),(void *)(&buf[1][1]))))));
+	memset((*(char **)(__boundcheck_ptr_reference(14,15,"main",(void *)(&tbuf[0]),(void *)(&tbuf[0])))),0,2048);
+	memset((*(char **)(__boundcheck_ptr_reference(15,15,"main",(void *)(&tbuf[0]),(void *)(&tbuf[1])))),0,2048);
+	__boundcheck_strcpy((*(char **)(__boundcheck_ptr_reference(16,15,"main",(void *)(&tbuf[0]),(void *)(&tbuf[0])))),"AAAA");
+	__boundcheck_strcpy((*(char **)(__boundcheck_ptr_reference(17,15,"main",(void *)(&tbuf[0]),(void *)(&tbuf[1])))),(*(char **)(__boundcheck_ptr_reference(17,23,"main",(void *)(&tbuf[0]),(void *)(&tbuf[0])))));
+	__boundcheck_strcat((*(char **)(__boundcheck_ptr_reference(18,15,"main",(void *)(&tbuf[0]),(void *)(&tbuf[1])))),"a");
+	(*(char *)(__boundcheck_ptr_reference(19,14,"main",(void *)(&tbuf[1][0]),(void *)(&tbuf[1][2047]))))='\0';
+	return 0;
+}

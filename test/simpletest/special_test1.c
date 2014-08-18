@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<malloc.h>
+#include<string.h>
+#include <stdlib.h>
+typedef struct data_type{
+   int age;
+   char *string;
+}data;
+
+void func2(data *p)
+{
+   printf("%c is %d years old\n",*(p->string+3),p->age);
+}
+
+int main()
+{
+  char len[8]="ASDESFP";
+  data *bob=(data *)malloc(sizeof(data));
+  if(bob!=NULL)
+  {
+     bob->age=3;
+     bob->string=len;
+  }
+  func2(bob);
+  return 1;
+}

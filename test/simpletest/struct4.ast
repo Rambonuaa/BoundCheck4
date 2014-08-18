@@ -1,0 +1,1822 @@
+TranslationUnitDecl 0xbbfe600 <<invalid sloc>>
+|-TypedefDecl 0xbbfe8d0 <<invalid sloc>> __builtin_va_list 'char *'
+|-TypedefDecl 0xbbfe910 </home/administrator/build/Release+Asserts/bin/../lib/clang/3.4/include/stddef.h:34:1, col:26> ptrdiff_t 'int'
+|-TypedefDecl 0xbbfe950 <line:42:1, col:23> size_t 'unsigned int'
+|-TypedefDecl 0xbbfe990 <line:65:1, col:24> wchar_t 'int'
+|-TypedefDecl 0xbbfe9d0 </usr/include/i386-linux-gnu/bits/types.h:31:1, col:23> __u_char 'unsigned char'
+|-TypedefDecl 0xbbfea10 <line:32:1, col:28> __u_short 'unsigned short'
+|-TypedefDecl 0xbbfea50 <line:33:1, col:22> __u_int 'unsigned int'
+|-TypedefDecl 0xbbfea90 <line:34:1, col:27> __u_long 'unsigned long'
+|-TypedefDecl 0xbbfead0 <line:37:1, col:21> __int8_t 'signed char'
+|-TypedefDecl 0xbbfeb10 <line:38:1, col:23> __uint8_t 'unsigned char'
+|-TypedefDecl 0xbbfeb50 <line:39:1, col:26> __int16_t 'short'
+|-TypedefDecl 0xbbfeb90 <line:40:1, col:28> __uint16_t 'unsigned short'
+|-TypedefDecl 0xbbfebd0 <line:41:1, col:20> __int32_t 'int'
+|-TypedefDecl 0xbbfec10 <line:42:1, col:22> __uint32_t 'unsigned int'
+|-TypedefDecl 0xbbfec50 <line:47:15, col:44> __int64_t 'long long'
+|-TypedefDecl 0xbbfec90 <line:48:15, col:46> __uint64_t 'unsigned long long'
+|-TypedefDecl 0xbbfecd0 <line:56:15, col:37> __quad_t 'long long'
+|-TypedefDecl 0xbbfed10 <line:57:15, col:46> __u_quad_t 'unsigned long long'
+|-TypedefDecl 0xbbfed60 <line:116:36, line:134:25> __dev_t '__u_quad_t':'unsigned long long'
+|-TypedefDecl 0xbbfeda0 <line:116:36, line:135:25> __uid_t 'unsigned int'
+|-TypedefDecl 0xbbfede0 <line:116:36, line:136:25> __gid_t 'unsigned int'
+|-TypedefDecl 0xbbfee20 <line:116:36, line:137:25> __ino_t 'unsigned long'
+|-TypedefDecl 0xbbfee50 <line:116:36, line:138:27> __ino64_t '__u_quad_t':'unsigned long long'
+|-TypedefDecl 0xbbfee90 <line:116:36, line:139:26> __mode_t 'unsigned int'
+|-TypedefDecl 0xbbfeed0 <line:116:36, line:140:27> __nlink_t 'unsigned int'
+|-TypedefDecl 0xbbfef10 <line:116:36, line:141:25> __off_t 'long'
+|-TypedefDecl 0xbbfef60 <line:116:36, line:142:27> __off64_t '__quad_t':'long long'
+|-TypedefDecl 0xbbfefa0 <line:116:36, line:143:25> __pid_t 'int'
+|-RecordDecl 0xbbfefd0 </usr/include/i386-linux-gnu/bits/typesizes.h:59:24, col:47> struct definition
+| `-FieldDecl 0xbbff090 <col:33, col:44> __val 'int [2]'
+|-TypedefDecl 0xbbff0f0 </usr/include/i386-linux-gnu/bits/types.h:116:36, line:144:26> __fsid_t 'struct __fsid_t':'__fsid_t'
+|-TypedefDecl 0xbbff140 <line:116:36, line:145:27> __clock_t 'long'
+|-TypedefDecl 0xbbff180 <line:116:36, line:146:26> __rlim_t 'unsigned long'
+|-TypedefDecl 0xbbff1b0 <line:116:36, line:147:28> __rlim64_t '__u_quad_t':'unsigned long long'
+|-TypedefDecl 0xbbff1f0 <line:116:36, line:148:24> __id_t 'unsigned int'
+|-TypedefDecl 0xbbff230 <line:116:36, line:149:26> __time_t 'long'
+|-TypedefDecl 0xbbff270 <line:116:36, line:150:30> __useconds_t 'unsigned int'
+|-TypedefDecl 0xbbff2b0 <line:116:36, line:151:31> __suseconds_t 'long'
+|-TypedefDecl 0xbbff2f0 <line:116:36, line:153:27> __daddr_t 'int'
+|-TypedefDecl 0xbbff330 <line:116:36, line:154:27> __swblk_t 'long'
+|-TypedefDecl 0xbbff370 <line:116:36, line:155:25> __key_t 'int'
+|-TypedefDecl 0xbbff3b0 <line:116:36, line:158:29> __clockid_t 'int'
+|-TypedefDecl 0xbbff3f0 <line:116:36, line:161:27> __timer_t 'void *'
+|-TypedefDecl 0xbbff430 <line:116:36, line:164:29> __blksize_t 'long'
+|-TypedefDecl 0xbbff470 <line:116:36, line:169:28> __blkcnt_t 'long'
+|-TypedefDecl 0xbc4d4c0 <line:116:36, line:170:30> __blkcnt64_t '__quad_t':'long long'
+|-TypedefDecl 0xbc4d500 <line:116:36, line:173:30> __fsblkcnt_t 'unsigned long'
+|-TypedefDecl 0xbc4d530 <line:116:36, line:174:32> __fsblkcnt64_t '__u_quad_t':'unsigned long long'
+|-TypedefDecl 0xbc4d570 <line:116:36, line:177:30> __fsfilcnt_t 'unsigned long'
+|-TypedefDecl 0xbc4d5a0 <line:116:36, line:178:32> __fsfilcnt64_t '__u_quad_t':'unsigned long long'
+|-TypedefDecl 0xbc4d5e0 <line:116:36, line:180:27> __ssize_t 'int'
+|-TypedefDecl 0xbc4d630 <line:184:1, col:19> __loff_t '__off64_t':'long long'
+|-TypedefDecl 0xbc4d6b0 <line:185:1, col:19> __qaddr_t '__quad_t *'
+|-TypedefDecl 0xbc4d6f0 <line:186:1, col:15> __caddr_t 'char *'
+|-TypedefDecl 0xbc4d730 <line:116:36, line:189:25> __intptr_t 'int'
+|-TypedefDecl 0xbc4d770 <line:116:36, line:192:23> __socklen_t 'unsigned int'
+|-RecordDecl 0xbc4d7a0 </usr/include/stdio.h:45:1, col:8> struct _IO_FILE
+|-TypedefDecl 0xbc4d830 <line:49:1, col:25> FILE 'struct _IO_FILE':'struct _IO_FILE'
+|-TypedefDecl 0xbc4d870 <line:65:1, col:25> __FILE 'struct _IO_FILE':'struct _IO_FILE'
+|-RecordDecl 0xbc4d8a0 </usr/include/wchar.h:83:9, line:95:1> struct definition
+| |-FieldDecl 0xbc4d910 <line:85:3, col:7> __count 'int'
+| |-RecordDecl 0xbc4d940 <line:86:3, line:94:3> union definition
+| | |-FieldDecl 0xbc4d9b0 <<built-in>:57:23, /usr/include/wchar.h:89:19> __wch 'unsigned int'
+| | `-FieldDecl 0xbc4da40 <line:93:5, col:18> __wchb 'char [4]'
+| `-FieldDecl 0xbc4daa0 <line:86:3, line:94:5> __value 'union <anonymous union at /usr/include/wchar.h:86:3>':'union __mbstate_t::<anonymous at /usr/include/wchar.h:86:3>'
+|-TypedefDecl 0xbc4db00 <line:83:1, line:95:3> __mbstate_t 'struct __mbstate_t':'__mbstate_t'
+|-RecordDecl 0xbc4db40 </usr/include/_G_config.h:22:9, line:26:1> struct definition
+| |-FieldDecl 0xbc4dbc0 <line:24:3, col:11> __pos '__off_t':'long'
+| `-FieldDecl 0xbc4dc10 <line:25:3, col:15> __state '__mbstate_t':'__mbstate_t'
+|-TypedefDecl 0xbc4dc70 <line:22:1, line:26:3> _G_fpos_t 'struct _G_fpos_t':'_G_fpos_t'
+|-RecordDecl 0xbc4dcb0 <line:27:9, line:31:1> struct definition
+| |-FieldDecl 0xbc4dd20 <line:29:3, col:13> __pos '__off64_t':'long long'
+| `-FieldDecl 0xbc4dd60 <line:30:3, col:15> __state '__mbstate_t':'__mbstate_t'
+|-TypedefDecl 0xbc4ddc0 <line:27:1, line:31:3> _G_fpos64_t 'struct _G_fpos64_t':'_G_fpos64_t'
+|-TypedefDecl 0xbc4de20 <line:53:1, col:13> _G_int16_t 'short'
+| `-ModeAttr 0xbc4de60 <col:40, col:56> __HI__
+|-TypedefDecl 0xbc4deb0 <line:54:1, col:13> _G_int32_t 'int'
+| `-ModeAttr 0xbc4def0 <col:40, col:56> __SI__
+|-TypedefDecl 0xbc4df40 <line:55:1, col:22> _G_uint16_t 'unsigned short'
+| `-ModeAttr 0xbc4df80 <col:50, col:66> __HI__
+|-TypedefDecl 0xbc4dfd0 <line:56:1, col:22> _G_uint32_t 'unsigned int'
+| `-ModeAttr 0xbc4e010 <col:50, col:66> __SI__
+|-TypedefDecl 0xbc4e060 </home/administrator/build/Release+Asserts/bin/../lib/clang/3.4/include/stdarg.h:30:1, col:27> va_list '__builtin_va_list':'char *'
+|-TypedefDecl 0xbc4e090 <line:48:1, col:27> __gnuc_va_list '__builtin_va_list':'char *'
+|-RecordDecl 0xbc4e0c0 </usr/include/libio.h:172:1, col:8> struct _IO_jump_t
+|-RecordDecl 0xbc4e120 prev 0xbc4d7a0 <col:21, col:28> struct _IO_FILE
+|-TypedefDecl 0xbc4e170 <line:182:1, col:14> _IO_lock_t 'void'
+|-RecordDecl 0xbc4e1a0 <line:188:1, line:205:1> struct _IO_marker definition
+| |-FieldDecl 0xbc4e270 <line:189:3, col:22> _next 'struct _IO_marker *'
+| |-FieldDecl 0xbc4e2f0 <line:190:3, col:20> _sbuf 'struct _IO_FILE *'
+| `-FieldDecl 0xbc4e330 <line:194:3, col:7> _pos 'int'
+|-EnumDecl 0xbc4e360 <line:208:1, line:214:1> __codecvt_result
+| |-EnumConstantDecl 0xbc4e3c0 <line:210:3> __codecvt_ok 'int'
+| |-EnumConstantDecl 0xbc4e3f0 <line:211:3> __codecvt_partial 'int'
+| |-EnumConstantDecl 0xbc4e420 <line:212:3> __codecvt_error 'int'
+| `-EnumConstantDecl 0xbc4e450 <line:213:3> __codecvt_noconv 'int'
+|-RecordDecl 0xbc59020 prev 0xbc4e120 <line:273:1, line:340:1> struct _IO_FILE definition
+| |-FieldDecl 0xbc59080 <line:274:3, col:7> _flags 'int'
+| |-FieldDecl 0xbc590c0 <line:279:3, col:9> _IO_read_ptr 'char *'
+| |-FieldDecl 0xbc59100 <line:280:3, col:9> _IO_read_end 'char *'
+| |-FieldDecl 0xbc59140 <line:281:3, col:9> _IO_read_base 'char *'
+| |-FieldDecl 0xbc59180 <line:282:3, col:9> _IO_write_base 'char *'
+| |-FieldDecl 0xbc591c0 <line:283:3, col:9> _IO_write_ptr 'char *'
+| |-FieldDecl 0xbc59200 <line:284:3, col:9> _IO_write_end 'char *'
+| |-FieldDecl 0xbc59240 <line:285:3, col:9> _IO_buf_base 'char *'
+| |-FieldDecl 0xbc59280 <line:286:3, col:9> _IO_buf_end 'char *'
+| |-FieldDecl 0xbc592c0 <line:288:3, col:9> _IO_save_base 'char *'
+| |-FieldDecl 0xbc59300 <line:289:3, col:9> _IO_backup_base 'char *'
+| |-FieldDecl 0xbc59340 <line:290:3, col:9> _IO_save_end 'char *'
+| |-FieldDecl 0xbc59390 <line:292:3, col:22> _markers 'struct _IO_marker *'
+| |-FieldDecl 0xbc593e0 <line:294:3, col:20> _chain 'struct _IO_FILE *'
+| |-FieldDecl 0xbc59420 <line:296:3, col:7> _fileno 'int'
+| |-FieldDecl 0xbc59460 <line:300:3, col:7> _flags2 'int'
+| |-FieldDecl 0xbc594a0 </usr/include/_G_config.h:33:18, /usr/include/libio.h:302:13> _old_offset '__off_t':'long'
+| |-FieldDecl 0xbc594e0 <line:306:3, col:18> _cur_column 'unsigned short'
+| |-FieldDecl 0xbc59520 <line:307:3, col:15> _vtable_offset 'signed char'
+| |-FieldDecl 0xbc595b0 <line:308:3, col:19> _shortbuf 'char [1]'
+| |-FieldDecl 0xbc59620 <line:312:3, col:15> _lock '_IO_lock_t *'
+| |-FieldDecl 0xbc59660 </usr/include/_G_config.h:34:20, /usr/include/libio.h:321:15> _offset '__off64_t':'long long'
+| |-FieldDecl 0xbc596a0 <line:330:3, col:9> __pad1 'void *'
+| |-FieldDecl 0xbc596e0 <line:331:3, col:9> __pad2 'void *'
+| |-FieldDecl 0xbc59720 <line:332:3, col:9> __pad3 'void *'
+| |-FieldDecl 0xbc59760 <line:333:3, col:9> __pad4 'void *'
+| |-FieldDecl 0xbc597b0 <line:334:3, col:10> __pad5 'size_t':'unsigned int'
+| |-FieldDecl 0xbc597f0 <line:336:3, col:7> _mode 'int'
+| `-FieldDecl 0xbc59980 <line:338:3, col:74> _unused2 'char [40]'
+|-TypedefDecl 0xbc599c0 <line:343:1, col:25> _IO_FILE 'struct _IO_FILE':'struct _IO_FILE'
+|-RecordDecl 0xbc599f0 <line:346:1, col:8> struct _IO_FILE_plus
+|-VarDecl 0xbc59a80 <line:348:1, col:29> _IO_2_1_stdin_ 'struct _IO_FILE_plus':'struct _IO_FILE_plus' extern
+|-VarDecl 0xbc59ac0 <line:349:1, col:29> _IO_2_1_stdout_ 'struct _IO_FILE_plus':'struct _IO_FILE_plus' extern
+|-VarDecl 0xbc59b00 <line:350:1, col:29> _IO_2_1_stderr_ 'struct _IO_FILE_plus':'struct _IO_FILE_plus' extern
+|-TypedefDecl 0xbc59c80 <line:366:1, col:77> __io_read_fn '__ssize_t (void *, char *, size_t)'
+|-TypedefDecl 0xbc59e10 <line:374:1, line:375:16> __io_write_fn '__ssize_t (void *, const char *, size_t)'
+|-TypedefDecl 0xbc59fa0 <line:383:1, col:70> __io_seek_fn 'int (void *, __off64_t *, int)'
+|-TypedefDecl 0xbc5dbc0 <line:386:1, col:42> __io_close_fn 'int (void *)'
+|-FunctionDecl 0xbc5dcc0 <line:418:1, col:35> __underflow 'int (_IO_FILE *)' extern
+| `-ParmVarDecl 0xbc5dc30 <col:25, col:35> '_IO_FILE *'
+|-FunctionDecl 0xbc5dd90 <line:419:1, col:31> __uflow 'int (_IO_FILE *)' extern
+| `-ParmVarDecl 0xbc5dd40 <col:21, col:31> '_IO_FILE *'
+|-FunctionDecl 0xbc5def0 <line:420:1, col:39> __overflow 'int (_IO_FILE *, int)' extern
+| |-ParmVarDecl 0xbc5de10 <col:24, col:34> '_IO_FILE *'
+| `-ParmVarDecl 0xbc5de50 <col:36, col:39> 'int'
+|-FunctionDecl 0xbc5dfc0 <line:462:1, col:36> _IO_getc 'int (_IO_FILE *)' extern
+| `-ParmVarDecl 0xbc5df70 <col:22, col:32> __fp '_IO_FILE *'
+|-FunctionDecl 0xbc5e120 <line:463:1, col:45> _IO_putc 'int (int, _IO_FILE *)' extern
+| |-ParmVarDecl 0xbc5e040 <col:22, col:26> __c 'int'
+| `-ParmVarDecl 0xbc5e080 <col:31, col:41> __fp '_IO_FILE *'
+|-FunctionDecl 0xbc5e1f0 <line:464:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> _IO_feof 'int (_IO_FILE *)' extern
+| |-ParmVarDecl 0xbc5e1a0 </usr/include/libio.h:464:22, col:32> __fp '_IO_FILE *'
+| `-NoThrowAttr 0xbc5e260 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc5e2f0 </usr/include/libio.h:465:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> _IO_ferror 'int (_IO_FILE *)' extern
+| |-ParmVarDecl 0xbc5e2a0 </usr/include/libio.h:465:24, col:34> __fp '_IO_FILE *'
+| `-NoThrowAttr 0xbc5e360 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc5e3f0 </usr/include/libio.h:467:1, col:44> _IO_peekc_locked 'int (_IO_FILE *)' extern
+| `-ParmVarDecl 0xbc5e3a0 <col:30, col:40> __fp '_IO_FILE *'
+|-FunctionDecl 0xbc5e500 <line:473:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> _IO_flockfile 'void (_IO_FILE *)' extern
+| |-ParmVarDecl 0xbc5e470 </usr/include/libio.h:473:28, col:38> '_IO_FILE *'
+| `-NoThrowAttr 0xbc5e570 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc5e600 </usr/include/libio.h:474:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> _IO_funlockfile 'void (_IO_FILE *)' extern
+| |-ParmVarDecl 0xbc5e5b0 </usr/include/libio.h:474:30, col:40> '_IO_FILE *'
+| `-NoThrowAttr 0xbc5e670 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc5e700 </usr/include/libio.h:475:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> _IO_ftrylockfile 'int (_IO_FILE *)' extern
+| |-ParmVarDecl 0xbc5e6b0 </usr/include/libio.h:475:30, col:40> '_IO_FILE *'
+| `-NoThrowAttr 0xbc5e770 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc5e960 </usr/include/libio.h:492:1, line:493:32> _IO_vfscanf 'int (_IO_FILE *restrict, const char *restrict, __gnuc_va_list, int *restrict)' extern
+| |-ParmVarDecl 0xbc5e7b0 <line:492:25, col:46> '_IO_FILE *restrict'
+| |-ParmVarDecl 0xbc5e7f0 <col:48, col:71> 'const char *restrict'
+| |-ParmVarDecl 0xbc5e840 <line:56:23, line:493:15> '__gnuc_va_list':'char *'
+| `-ParmVarDecl 0xbc5e8a0 <col:17, col:32> 'int *restrict'
+|-FunctionDecl 0xbc5eb10 <line:494:1, line:495:16> _IO_vfprintf 'int (_IO_FILE *restrict, const char *restrict, __gnuc_va_list)' extern
+| |-ParmVarDecl 0xbc5e9e0 <line:494:26, col:46> '_IO_FILE *restrict'
+| |-ParmVarDecl 0xbc5ea20 <col:48, col:70> 'const char *restrict'
+| `-ParmVarDecl 0xbc5ea60 <line:56:23, line:495:16> '__gnuc_va_list':'char *'
+|-FunctionDecl 0xbc61d90 <line:496:1, col:58> _IO_padn '__ssize_t (_IO_FILE *, int, __ssize_t)' extern
+| |-ParmVarDecl 0xbc61c60 <col:30, col:40> '_IO_FILE *'
+| |-ParmVarDecl 0xbc61ca0 <col:42, col:45> 'int'
+| `-ParmVarDecl 0xbc61ce0 </usr/include/_G_config.h:32:20, /usr/include/libio.h:496:58> '__ssize_t':'int'
+|-FunctionDecl 0xbc61f40 <line:497:1, col:60> _IO_sgetn 'size_t (_IO_FILE *, void *, size_t)' extern
+| |-ParmVarDecl 0xbc61e10 <col:30, col:40> '_IO_FILE *'
+| |-ParmVarDecl 0xbc61e50 <col:42, col:48> 'void *'
+| `-ParmVarDecl 0xbc61e90 </usr/include/_G_config.h:21:19, /usr/include/libio.h:497:60> 'size_t':'unsigned int'
+|-FunctionDecl 0xbc62130 <line:499:1, col:66> _IO_seekoff '__off64_t (_IO_FILE *, __off64_t, int, int)' extern
+| |-ParmVarDecl 0xbc61fc0 <col:33, col:43> '_IO_FILE *'
+| |-ParmVarDecl 0xbc62000 </usr/include/_G_config.h:34:20, /usr/include/libio.h:499:56> '__off64_t':'long long'
+| |-ParmVarDecl 0xbc62040 <col:58, col:61> 'int'
+| `-ParmVarDecl 0xbc62080 <col:63, col:66> 'int'
+|-FunctionDecl 0xbc622e0 <line:500:1, col:61> _IO_seekpos '__off64_t (_IO_FILE *, __off64_t, int)' extern
+| |-ParmVarDecl 0xbc621b0 <col:33, col:43> '_IO_FILE *'
+| |-ParmVarDecl 0xbc621f0 </usr/include/_G_config.h:34:20, /usr/include/libio.h:500:56> '__off64_t':'long long'
+| `-ParmVarDecl 0xbc62230 <col:58, col:61> 'int'
+|-FunctionDecl 0xbc623b0 <line:502:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> _IO_free_backup_area 'void (_IO_FILE *)' extern
+| |-ParmVarDecl 0xbc62360 </usr/include/libio.h:502:35, col:45> '_IO_FILE *'
+| `-NoThrowAttr 0xbc62420 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-TypedefDecl 0xbc62450 prev 0xbc4e060 </usr/include/stdio.h:80:1, col:20> va_list '__gnuc_va_list':'char *'
+|-TypedefDecl 0xbc62480 <line:91:1, col:17> off_t '__off_t':'long'
+|-TypedefDecl 0xbc624b0 <line:103:1, col:19> ssize_t '__ssize_t':'int'
+|-TypedefDecl 0xbc62500 <line:111:1, col:19> fpos_t '_G_fpos_t':'_G_fpos_t'
+|-VarDecl 0xbc62540 <line:169:1, col:25> stdin 'struct _IO_FILE *' extern
+|-VarDecl 0xbc62590 <line:170:1, col:25> stdout 'struct _IO_FILE *' extern
+|-VarDecl 0xbc625e0 <line:171:1, col:25> stderr 'struct _IO_FILE *' extern
+|-FunctionDecl 0xbc62690 <line:179:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> remove 'int (const char *)' extern
+| |-ParmVarDecl 0xbc62620 </usr/include/stdio.h:179:20, col:34> __filename 'const char *'
+| `-NoThrowAttr 0xbc62700 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc62800 </usr/include/stdio.h:181:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> rename 'int (const char *, const char *)' extern
+| |-ParmVarDecl 0xbc62740 </usr/include/stdio.h:181:20, col:34> __old 'const char *'
+| |-ParmVarDecl 0xbc62780 <col:41, col:55> __new 'const char *'
+| `-NoThrowAttr 0xbc62870 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc62a00 </usr/include/stdio.h:186:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> renameat 'int (int, const char *, int, const char *)' extern
+| |-ParmVarDecl 0xbc628b0 </usr/include/stdio.h:186:22, col:26> __oldfd 'int'
+| |-ParmVarDecl 0xbc628f0 <col:35, col:49> __old 'const char *'
+| |-ParmVarDecl 0xbc62930 <col:56, col:60> __newfd 'int'
+| |-ParmVarDecl 0xbc62970 <line:187:8, col:22> __new 'const char *'
+| `-NoThrowAttr 0xbc62a70 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc62b70 </usr/include/stdio.h:196:1, col:27> tmpfile 'FILE *(void)' extern
+|-FunctionDecl 0xbc64660 <line:210:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> tmpnam 'char *(char *)' extern
+| |-ParmVarDecl 0xbc62be0 </usr/include/stdio.h:210:22, col:28> __s 'char *'
+| `-NoThrowAttr 0xbc646d0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc64760 </usr/include/stdio.h:216:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> tmpnam_r 'char *(char *)' extern
+| |-ParmVarDecl 0xbc64710 </usr/include/stdio.h:216:24, col:30> __s 'char *'
+| `-NoThrowAttr 0xbc647d0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc648d0 </usr/include/stdio.h:228:1, /usr/include/i386-linux-gnu/sys/cdefs.h:225:58> tempnam 'char *(const char *, const char *)' extern
+| |-ParmVarDecl 0xbc64810 </usr/include/stdio.h:228:23, col:37> __dir 'const char *'
+| |-ParmVarDecl 0xbc64850 <col:44, col:58> __pfx 'const char *'
+| |-MallocAttr 0xbc64940 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbc64970 <line:57:35>
+|-FunctionDecl 0xbc64a00 </usr/include/stdio.h:238:1, col:34> fclose 'int (FILE *)' extern
+| `-ParmVarDecl 0xbc64990 <col:20, col:26> __stream 'FILE *'
+|-FunctionDecl 0xbc64ad0 <line:243:1, col:34> fflush 'int (FILE *)' extern
+| `-ParmVarDecl 0xbc64a80 <col:20, col:26> __stream 'FILE *'
+|-FunctionDecl 0xbc64ba0 <line:253:1, col:43> fflush_unlocked 'int (FILE *)' extern
+| `-ParmVarDecl 0xbc64b50 <col:29, col:35> __stream 'FILE *'
+|-FunctionDecl 0xbc64d00 <line:273:1, line:274:39> fopen 'FILE *(const char *restrict, const char *restrict)' extern
+| |-ParmVarDecl 0xbc64c20 <line:273:21, col:46> __filename 'const char *restrict'
+| `-ParmVarDecl 0xbc64c60 <line:274:7, col:32> __modes 'const char *restrict'
+|-FunctionDecl 0xbc64eb0 <line:279:1, line:281:34> freopen 'FILE *(const char *restrict, const char *restrict, FILE *restrict)' extern
+| |-ParmVarDecl 0xbc64d80 <line:279:23, col:48> __filename 'const char *restrict'
+| |-ParmVarDecl 0xbc64dc0 <line:280:9, col:34> __modes 'const char *restrict'
+| `-ParmVarDecl 0xbc64e00 <line:281:9, col:26> __stream 'FILE *restrict'
+|-FunctionDecl 0xbc65010 <line:307:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> fdopen 'FILE *(int, const char *)' extern
+| |-ParmVarDecl 0xbc64f30 </usr/include/stdio.h:307:22, col:26> __fd 'int'
+| |-ParmVarDecl 0xbc64f70 <col:32, col:46> __modes 'const char *'
+| `-NoThrowAttr 0xbc65080 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc651f0 </usr/include/stdio.h:320:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> fmemopen 'FILE *(void *, size_t, const char *)' extern
+| |-ParmVarDecl 0xbc650c0 </usr/include/stdio.h:320:24, col:30> __s 'void *'
+| |-ParmVarDecl 0xbc65100 <col:35, col:42> __len 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbc65140 <col:49, col:63> __modes 'const char *'
+| `-NoThrowAttr 0xbc65260 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc653e0 </usr/include/stdio.h:326:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> open_memstream 'FILE *(char **, size_t *)' extern
+| |-ParmVarDecl 0xbc652c0 </usr/include/stdio.h:326:30, col:37> __bufloc 'char **'
+| |-ParmVarDecl 0xbc65340 <col:47, col:55> __sizeloc 'size_t *'
+| `-NoThrowAttr 0xbc65450 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc65560 </usr/include/stdio.h:333:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> setbuf 'void (FILE *restrict, char *restrict)' extern
+| |-ParmVarDecl 0xbc65490 </usr/include/stdio.h:333:21, col:38> __stream 'FILE *restrict'
+| |-ParmVarDecl 0xbc654d0 <col:48, col:65> __buf 'char *restrict'
+| `-NoThrowAttr 0xbc655d0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc65bd0 </usr/include/stdio.h:337:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> setvbuf 'int (FILE *restrict, char *restrict, int, size_t)' extern
+| |-ParmVarDecl 0xbc65a50 </usr/include/stdio.h:337:21, col:38> __stream 'FILE *restrict'
+| |-ParmVarDecl 0xbc65a90 <col:48, col:65> __buf 'char *restrict'
+| |-ParmVarDecl 0xbc65ad0 <line:338:7, col:11> __modes 'int'
+| |-ParmVarDecl 0xbc65b10 <col:20, col:27> __n 'size_t':'unsigned int'
+| `-NoThrowAttr 0xbc65c40 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc65db0 </usr/include/stdio.h:344:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> setbuffer 'void (FILE *restrict, char *restrict, size_t)' extern
+| |-ParmVarDecl 0xbc65c80 </usr/include/stdio.h:344:24, col:41> __stream 'FILE *restrict'
+| |-ParmVarDecl 0xbc65cc0 <col:51, col:68> __buf 'char *restrict'
+| |-ParmVarDecl 0xbc65d00 <line:345:10, col:17> __size 'size_t':'unsigned int'
+| `-NoThrowAttr 0xbc65e20 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc65ed0 </usr/include/stdio.h:348:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> setlinebuf 'void (FILE *)' extern
+| |-ParmVarDecl 0xbc65e60 </usr/include/stdio.h:348:25, col:31> __stream 'FILE *'
+| `-NoThrowAttr 0xbc65f40 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc66080 </usr/include/stdio.h:357:12> fprintf 'int (FILE *, const char *, ...)' extern
+| |-ParmVarDecl 0xbc660e0 <<invalid sloc>> 'FILE *'
+| |-ParmVarDecl 0xbc66110 <<invalid sloc>> 'const char *'
+| `-FormatAttr 0xbc66150 <col:12> printf 2 3
+|-FunctionDecl 0xbc66190 prev 0xbc66080 <col:1, line:358:45> fprintf 'int (FILE *, const char *, ...)' extern
+| |-ParmVarDecl 0xbc65f80 <line:357:21, col:38> __stream 'FILE *restrict'
+| |-ParmVarDecl 0xbc65fc0 <line:358:7, col:32> __format 'const char *restrict'
+| `-FormatAttr 0xbc66210 <line:357:12> printf 2 3
+|-FunctionDecl 0xbc662d0 <line:363:12> printf 'int (const char *, ...)' extern
+| |-ParmVarDecl 0xbc66330 <<invalid sloc>> 'const char *'
+| `-FormatAttr 0xbc66370 <col:12> printf 1 2
+|-FunctionDecl 0xbc663b0 prev 0xbc662d0 <col:1, col:58> printf 'int (const char *, ...)' extern
+| |-ParmVarDecl 0xbc66240 <col:20, col:45> __format 'const char *restrict'
+| `-FormatAttr 0xbc66430 <col:12> printf 1 2
+|-FunctionDecl 0xbc66540 <line:365:12> sprintf 'int (char *, const char *, ...)' extern
+| |-ParmVarDecl 0xbc665a0 <<invalid sloc>> 'char *'
+| |-ParmVarDecl 0xbc665d0 <<invalid sloc>> 'const char *'
+| `-FormatAttr 0xbc66610 <col:12> printf 2 3
+|-FunctionDecl 0xbc66650 prev 0xbc66540 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:58:49> sprintf 'int (char *, const char *, ...)' extern
+| |-ParmVarDecl 0xbc66460 </usr/include/stdio.h:365:21, col:38> __s 'char *restrict'
+| |-ParmVarDecl 0xbc664a0 <line:366:7, col:32> __format 'const char *restrict'
+| |-NoThrowAttr 0xbc666c0 </usr/include/i386-linux-gnu/sys/cdefs.h:58:37>
+| `-FormatAttr 0xbc666f0 </usr/include/stdio.h:365:12> printf 2 3
+|-FunctionDecl 0xbc66840 <line:372:12> vfprintf 'int ()' extern
+| `-FormatAttr 0xbc668a0 <col:12> printf 2 0
+|-FunctionDecl 0xbc668e0 prev 0xbc66840 <col:1, line:373:24> vfprintf 'int (FILE *restrict, const char *restrict, __gnuc_va_list)' extern
+| |-ParmVarDecl 0xbc66720 <line:372:22, col:39> __s 'FILE *restrict'
+| |-ParmVarDecl 0xbc66760 <col:44, col:69> __format 'const char *restrict'
+| |-ParmVarDecl 0xbc667a0 </usr/include/_G_config.h:66:20, /usr/include/stdio.h:373:19> __arg '__gnuc_va_list':'char *'
+| `-FormatAttr 0xbc66970 <line:372:12> printf 2 0
+|-FunctionDecl 0xbc66ac0 <line:378:12> vprintf 'int (const char *, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc66b20 <<invalid sloc>> 'const char *'
+| |-ParmVarDecl 0xbc66b50 <<invalid sloc>> '__builtin_va_list':'char *'
+| `-FormatAttr 0xbc66b90 <col:12> printf 1 0
+|-FunctionDecl 0xbc66bd0 prev 0xbc66ac0 <col:1, col:72> vprintf 'int (const char *, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc669a0 <col:21, col:46> __format 'const char *restrict'
+| |-ParmVarDecl 0xbc669e0 </usr/include/_G_config.h:66:20, /usr/include/stdio.h:378:67> __arg '__gnuc_va_list':'char *'
+| `-FormatAttr 0xbc66c50 <col:12> printf 1 0
+|-FunctionDecl 0xbc66de0 <line:380:12> vsprintf 'int (char *, const char *, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc66e40 <<invalid sloc>> 'char *'
+| |-ParmVarDecl 0xbc66e70 <<invalid sloc>> 'const char *'
+| |-ParmVarDecl 0xbc66ea0 <<invalid sloc>> '__builtin_va_list':'char *'
+| `-FormatAttr 0xbc66ee0 <col:12> printf 2 0
+|-FunctionDecl 0xbc66f20 prev 0xbc66de0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:58:49> vsprintf 'int (char *, const char *, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc66c80 </usr/include/stdio.h:380:22, col:39> __s 'char *restrict'
+| |-ParmVarDecl 0xbc66cc0 <col:44, col:69> __format 'const char *restrict'
+| |-ParmVarDecl 0xbc66d00 </usr/include/_G_config.h:66:20, /usr/include/stdio.h:381:19> __arg '__gnuc_va_list':'char *'
+| |-NoThrowAttr 0xbc66f90 </usr/include/i386-linux-gnu/sys/cdefs.h:58:37>
+| `-FormatAttr 0xbc66fc0 </usr/include/stdio.h:380:12> printf 2 0
+|-FunctionDecl 0xbc67160 <line:387:12> snprintf 'int (char *, unsigned int, const char *, ...)' extern
+| |-ParmVarDecl 0xbc671c0 <<invalid sloc>> 'char *'
+| |-ParmVarDecl 0xbc671f0 <<invalid sloc>> 'unsigned int'
+| |-ParmVarDecl 0xbc67220 <<invalid sloc>> 'const char *'
+| `-FormatAttr 0xbc67260 <col:12> printf 3 4
+|-FunctionDecl 0xbc672a0 prev 0xbc67160 <col:1, line:389:62> snprintf 'int (char *, unsigned int, const char *, ...)' extern
+| |-ParmVarDecl 0xbc66ff0 <line:387:22, col:39> __s 'char *restrict'
+| |-ParmVarDecl 0xbc67030 <col:44, col:51> __maxlen 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbc67070 <line:388:8, col:33> __format 'const char *restrict'
+| |-FormatAttr 0xbc67310 <line:389:32, col:60> printf 3 4
+| `-NoThrowAttr 0xbc67350 </usr/include/i386-linux-gnu/sys/cdefs.h:58:37>
+|-FunctionDecl 0xbc67560 </usr/include/stdio.h:391:12> vsnprintf 'int (char *, unsigned int, const char *, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc675c0 <<invalid sloc>> 'char *'
+| |-ParmVarDecl 0xbc675f0 <<invalid sloc>> 'unsigned int'
+| |-ParmVarDecl 0xbc67620 <<invalid sloc>> 'const char *'
+| |-ParmVarDecl 0xbc67650 <<invalid sloc>> '__builtin_va_list':'char *'
+| `-FormatAttr 0xbc67690 <col:12> printf 3 0
+|-FunctionDecl 0xbc676d0 prev 0xbc67560 <col:1, line:393:62> vsnprintf 'int (char *, unsigned int, const char *, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc67370 <line:391:23, col:40> __s 'char *restrict'
+| |-ParmVarDecl 0xbc673b0 <col:45, col:52> __maxlen 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbc673f0 <line:392:9, col:34> __format 'const char *restrict'
+| |-ParmVarDecl 0xbc67430 </usr/include/_G_config.h:66:20, /usr/include/stdio.h:392:55> __arg '__gnuc_va_list':'char *'
+| |-FormatAttr 0xbc67740 <line:393:32, col:60> printf 3 0
+| `-NoThrowAttr 0xbc67780 </usr/include/i386-linux-gnu/sys/cdefs.h:58:37>
+|-FunctionDecl 0xbc67910 </usr/include/stdio.h:418:1, line:420:52> vdprintf 'int (int, const char *restrict, __gnuc_va_list)' extern
+| |-ParmVarDecl 0xbc677a0 <line:418:22, col:26> __fd 'int'
+| |-ParmVarDecl 0xbc677e0 <col:32, col:57> __fmt 'const char *restrict'
+| |-ParmVarDecl 0xbc67820 </usr/include/_G_config.h:66:20, /usr/include/stdio.h:419:19> __arg '__gnuc_va_list':'char *'
+| `-FormatAttr 0xbc67980 <line:420:22, col:50> printf 2 0
+|-FunctionDecl 0xbc67b00 <line:421:1, line:422:52> dprintf 'int (int, const char *restrict, ...)' extern
+| |-ParmVarDecl 0xbc679d0 <line:421:21, col:25> __fd 'int'
+| |-ParmVarDecl 0xbc67a10 <col:31, col:56> __fmt 'const char *restrict'
+| `-FormatAttr 0xbc67b70 <line:422:22, col:50> printf 2 3
+|-FunctionDecl 0xbc67c60 <line:431:12> fscanf 'int (FILE *restrict, const char *restrict, ...)' extern
+| |-ParmVarDecl 0xbc67cc0 <<invalid sloc>> 'FILE *restrict'
+| |-ParmVarDecl 0xbc67cf0 <<invalid sloc>> 'const char *restrict'
+| `-FormatAttr 0xbc67d30 <col:12> scanf 2 3
+|-FunctionDecl 0xbc67d70 prev 0xbc67c60 <col:1, line:432:44> fscanf 'int (FILE *restrict, const char *restrict, ...)' extern
+| |-ParmVarDecl 0xbc67bc0 <line:431:20, col:37> __stream 'FILE *restrict'
+| |-ParmVarDecl 0xbc67c00 <line:432:6, col:31> __format 'const char *restrict'
+| `-FormatAttr 0xbc67df0 <line:431:12> scanf 2 3
+|-FunctionDecl 0xbc67e70 <line:437:12> scanf 'int (const char *restrict, ...)' extern
+| |-ParmVarDecl 0xbc67ed0 <<invalid sloc>> 'const char *restrict'
+| `-FormatAttr 0xbc67f10 <col:12> scanf 1 2
+|-FunctionDecl 0xbc67f50 prev 0xbc67e70 <col:1, col:57> scanf 'int (const char *restrict, ...)' extern
+| |-ParmVarDecl 0xbc67e20 <col:19, col:44> __format 'const char *restrict'
+| `-FormatAttr 0xbc67fd0 <col:12> scanf 1 2
+|-FunctionDecl 0xbc680e0 <line:439:12> sscanf 'int (const char *restrict, const char *restrict, ...)' extern
+| |-ParmVarDecl 0xbc68140 <<invalid sloc>> 'const char *restrict'
+| |-ParmVarDecl 0xbc68170 <<invalid sloc>> 'const char *restrict'
+| `-FormatAttr 0xbc681b0 <col:12> scanf 2 3
+|-FunctionDecl 0xbc681f0 prev 0xbc680e0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> sscanf 'int (const char *restrict, const char *restrict, ...)' extern
+| |-ParmVarDecl 0xbc68000 </usr/include/stdio.h:439:20, col:45> __s 'const char *restrict'
+| |-ParmVarDecl 0xbc68040 <line:440:6, col:31> __format 'const char *restrict'
+| |-NoThrowAttr 0xbc68260 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+| `-FormatAttr 0xbc68290 </usr/include/stdio.h:439:12> scanf 2 3
+|-FunctionDecl 0xbc683b0 prev 0xbc67d70 <line:449:1, /usr/include/i386-linux-gnu/sys/cdefs.h:191:79> fscanf 'int (FILE *restrict, const char *restrict, ...)' extern
+| |-ParmVarDecl 0xbc682c0 </usr/include/stdio.h:449:33, col:50> __stream 'FILE *restrict'
+| |-ParmVarDecl 0xbc68300 <line:450:5, col:30> __format 'const char *restrict'
+| |-AsmLabelAttr 0xbc68410 <<scratch space>:10:1> "__isoc99_fscanf"
+| `-FormatAttr 0xbc68460 </usr/include/stdio.h:431:12> scanf 2 3
+|-FunctionDecl 0xbc68530 prev 0xbc67f50 <line:452:1, /usr/include/i386-linux-gnu/sys/cdefs.h:191:79> scanf 'int (const char *restrict, ...)' extern
+| |-ParmVarDecl 0xbc68490 </usr/include/stdio.h:452:32, col:57> __format 'const char *restrict'
+| |-AsmLabelAttr 0xbc68590 <<scratch space>:12:1> "__isoc99_scanf"
+| `-FormatAttr 0xbc685e0 </usr/include/stdio.h:437:12> scanf 1 2
+|-FunctionDecl 0xbc686e0 prev 0xbc681f0 <line:454:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> sscanf 'int (const char *restrict, const char *restrict, ...)' extern
+| |-ParmVarDecl 0xbc68610 </usr/include/stdio.h:454:37, col:62> __s 'const char *restrict'
+| |-ParmVarDecl 0xbc68650 <line:455:9, col:34> __format 'const char *restrict'
+| |-AsmLabelAttr 0xbc68740 <<scratch space>:14:1> "__isoc99_sscanf"
+| |-NoThrowAttr 0xbc68790 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+| `-FormatAttr 0xbc687a0 </usr/include/stdio.h:439:12> scanf 2 3
+|-FunctionDecl 0xbc68910 <line:477:12> vfscanf 'int (FILE *restrict, const char *restrict, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc68970 <<invalid sloc>> 'FILE *restrict'
+| |-ParmVarDecl 0xbc689a0 <<invalid sloc>> 'const char *restrict'
+| |-ParmVarDecl 0xbc689d0 <<invalid sloc>> '__builtin_va_list':'char *'
+| `-FormatAttr 0xbc68a10 <col:12> scanf 2 0
+|-FunctionDecl 0xbc693f0 prev 0xbc68910 <col:1, line:479:51> vfscanf 'int (FILE *restrict, const char *restrict, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc687d0 <line:477:21, col:38> __s 'FILE *restrict'
+| |-ParmVarDecl 0xbc68810 <col:43, col:68> __format 'const char *restrict'
+| |-ParmVarDecl 0xbc68850 </usr/include/_G_config.h:66:20, /usr/include/stdio.h:478:18> __arg '__gnuc_va_list':'char *'
+| `-FormatAttr 0xbc69460 <line:479:22, col:49> scanf 2 0
+|-FunctionDecl 0xbc695a0 <line:485:12> vscanf 'int (const char *restrict, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc69600 <<invalid sloc>> 'const char *restrict'
+| |-ParmVarDecl 0xbc69630 <<invalid sloc>> '__builtin_va_list':'char *'
+| `-FormatAttr 0xbc69670 <col:12> scanf 1 0
+|-FunctionDecl 0xbc696b0 prev 0xbc695a0 <col:1, line:486:51> vscanf 'int (const char *restrict, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc694b0 <line:485:20, col:45> __format 'const char *restrict'
+| |-ParmVarDecl 0xbc694f0 </usr/include/_G_config.h:66:20, /usr/include/stdio.h:485:66> __arg '__gnuc_va_list':'char *'
+| `-FormatAttr 0xbc69720 <line:486:22, col:49> scanf 1 0
+|-FunctionDecl 0xbc69910 <line:489:12> vsscanf 'int (const char *restrict, const char *restrict, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc69970 <<invalid sloc>> 'const char *restrict'
+| |-ParmVarDecl 0xbc699a0 <<invalid sloc>> 'const char *restrict'
+| |-ParmVarDecl 0xbc699d0 <<invalid sloc>> '__builtin_va_list':'char *'
+| `-FormatAttr 0xbc69a10 <col:12> scanf 2 0
+|-FunctionDecl 0xbc69a50 prev 0xbc69910 <col:1, line:491:59> vsscanf 'int (const char *restrict, const char *restrict, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc69770 <line:489:21, col:46> __s 'const char *restrict'
+| |-ParmVarDecl 0xbc697b0 <line:490:7, col:32> __format 'const char *restrict'
+| |-ParmVarDecl 0xbc697f0 </usr/include/_G_config.h:66:20, /usr/include/stdio.h:490:53> __arg '__gnuc_va_list':'char *'
+| |-FormatAttr 0xbc69ac0 <line:491:30, col:57> scanf 2 0
+| `-NoThrowAttr 0xbc69b00 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc69c80 prev 0xbc693f0 </usr/include/stdio.h:500:1, line:504:51> vfscanf 'int (FILE *restrict, const char *restrict, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc69b20 <line:501:11, col:28> __s 'FILE *restrict'
+| |-ParmVarDecl 0xbc69b60 <line:502:4, col:29> __format 'const char *restrict'
+| |-ParmVarDecl 0xbc69ba0 </usr/include/_G_config.h:66:20, /usr/include/stdio.h:502:50> __arg '__gnuc_va_list':'char *'
+| |-AsmLabelAttr 0xbc69ce0 <<scratch space>:16:1> "__isoc99_vfscanf"
+| `-FormatAttr 0xbc69d30 </usr/include/stdio.h:504:22, col:49> scanf 2 0
+|-FunctionDecl 0xbc69e60 prev 0xbc696b0 <line:505:1, line:507:51> vscanf 'int (const char *restrict, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc69d60 <line:505:33, col:58> __format 'const char *restrict'
+| |-ParmVarDecl 0xbc69da0 </usr/include/_G_config.h:66:20, /usr/include/stdio.h:506:16> __arg '__gnuc_va_list':'char *'
+| |-AsmLabelAttr 0xbc69ec0 <<scratch space>:18:1> "__isoc99_vscanf"
+| `-FormatAttr 0xbc69f10 </usr/include/stdio.h:507:22, col:49> scanf 1 0
+|-FunctionDecl 0xbc6a080 prev 0xbc69a50 <line:508:1, line:512:51> vsscanf 'int (const char *restrict, const char *restrict, __builtin_va_list)' extern
+| |-ParmVarDecl 0xbc69f40 <line:509:8, col:33> __s 'const char *restrict'
+| |-ParmVarDecl 0xbc69f80 <line:510:8, col:33> __format 'const char *restrict'
+| |-ParmVarDecl 0xbc69fc0 </usr/include/_G_config.h:66:20, /usr/include/stdio.h:511:19> __arg '__gnuc_va_list':'char *'
+| |-AsmLabelAttr 0xbc6a0e0 <<scratch space>:20:1> "__isoc99_vsscanf"
+| |-FormatAttr 0xbc6a130 </usr/include/stdio.h:512:22, col:49> scanf 2 0
+| `-NoThrowAttr 0xbc6a150 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6a1c0 </usr/include/stdio.h:537:1, col:33> fgetc 'int (FILE *)' extern
+| `-ParmVarDecl 0xbc6a170 <col:19, col:25> __stream 'FILE *'
+|-FunctionDecl 0xbc6a290 <line:538:1, col:32> getc 'int (FILE *)' extern
+| `-ParmVarDecl 0xbc6a240 <col:18, col:24> __stream 'FILE *'
+|-FunctionDecl 0xbc6a370 <line:544:1, col:25> getchar 'int (void)' extern
+|-FunctionDecl 0xbc6ab30 <line:556:1, col:41> getc_unlocked 'int (FILE *)' extern
+| `-ParmVarDecl 0xbc6aae0 <col:27, col:33> __stream 'FILE *'
+|-FunctionDecl 0xbc6abf0 <line:557:1, col:34> getchar_unlocked 'int (void)' extern
+|-FunctionDecl 0xbc6acb0 <line:567:1, col:42> fgetc_unlocked 'int (FILE *)' extern
+| `-ParmVarDecl 0xbc6ac60 <col:28, col:34> __stream 'FILE *'
+|-FunctionDecl 0xbc6adf0 <line:579:1, col:42> fputc 'int (int, FILE *)' extern
+| |-ParmVarDecl 0xbc6ad30 <col:19, col:23> __c 'int'
+| `-ParmVarDecl 0xbc6ad70 <col:28, col:34> __stream 'FILE *'
+|-FunctionDecl 0xbc6af10 <line:580:1, col:41> putc 'int (int, FILE *)' extern
+| |-ParmVarDecl 0xbc6ae70 <col:18, col:22> __c 'int'
+| `-ParmVarDecl 0xbc6aeb0 <col:27, col:33> __stream 'FILE *'
+|-FunctionDecl 0xbc6b000 <line:586:1, col:28> putchar 'int (int)' extern
+| `-ParmVarDecl 0xbc6af90 <col:21, col:25> __c 'int'
+|-FunctionDecl 0xbc6b120 <line:600:1, col:51> fputc_unlocked 'int (int, FILE *)' extern
+| |-ParmVarDecl 0xbc6b080 <col:28, col:32> __c 'int'
+| `-ParmVarDecl 0xbc6b0c0 <col:37, col:43> __stream 'FILE *'
+|-FunctionDecl 0xbc6b240 <line:608:1, col:50> putc_unlocked 'int (int, FILE *)' extern
+| |-ParmVarDecl 0xbc6b1a0 <col:27, col:31> __c 'int'
+| `-ParmVarDecl 0xbc6b1e0 <col:36, col:42> __stream 'FILE *'
+|-FunctionDecl 0xbc6b310 <line:609:1, col:37> putchar_unlocked 'int (int)' extern
+| `-ParmVarDecl 0xbc6b2c0 <col:30, col:34> __c 'int'
+|-FunctionDecl 0xbc6b3e0 <line:616:1, col:32> getw 'int (FILE *)' extern
+| `-ParmVarDecl 0xbc6b390 <col:18, col:24> __stream 'FILE *'
+|-FunctionDecl 0xbc6b500 <line:619:1, col:41> putw 'int (int, FILE *)' extern
+| |-ParmVarDecl 0xbc6b460 <col:18, col:22> __w 'int'
+| `-ParmVarDecl 0xbc6b4a0 <col:27, col:33> __stream 'FILE *'
+|-FunctionDecl 0xbc6b6b0 <line:628:1, col:77> fgets 'char *(char *restrict, int, FILE *restrict)' extern
+| |-ParmVarDecl 0xbc6b580 <col:21, col:38> __s 'char *restrict'
+| |-ParmVarDecl 0xbc6b5c0 <col:43, col:47> __n 'int'
+| `-ParmVarDecl 0xbc6b600 <col:52, col:69> __stream 'FILE *restrict'
+|-FunctionDecl 0xbc6b780 <line:636:1, col:29> gets 'char *(char *)' extern
+| `-ParmVarDecl 0xbc6b730 <col:20, col:26> __s 'char *'
+|-FunctionDecl 0xbc6b970 <line:662:1, line:664:36> __getdelim '__ssize_t (char **restrict, size_t *restrict, int, FILE *restrict)' extern
+| |-ParmVarDecl 0xbc6b800 <line:662:32, col:50> __lineptr 'char **restrict'
+| |-ParmVarDecl 0xbc6b840 <line:663:11, col:30> __n 'size_t *restrict'
+| |-ParmVarDecl 0xbc6b880 <col:35, col:39> __delimiter 'int'
+| `-ParmVarDecl 0xbc6b8c0 <line:664:11, col:28> __stream 'FILE *restrict'
+|-FunctionDecl 0xbc6cb50 <line:665:1, line:667:34> getdelim '__ssize_t (char **restrict, size_t *restrict, int, FILE *restrict)' extern
+| |-ParmVarDecl 0xbc6b9f0 <line:665:30, col:48> __lineptr 'char **restrict'
+| |-ParmVarDecl 0xbc6ba30 <line:666:9, col:28> __n 'size_t *restrict'
+| |-ParmVarDecl 0xbc6ba70 <col:33, col:37> __delimiter 'int'
+| `-ParmVarDecl 0xbc6caf0 <line:667:9, col:26> __stream 'FILE *restrict'
+|-FunctionDecl 0xbc6cd00 <line:675:1, line:677:33> getline '__ssize_t (char **restrict, size_t *restrict, FILE *restrict)' extern
+| |-ParmVarDecl 0xbc6cbd0 <line:675:29, col:47> __lineptr 'char **restrict'
+| |-ParmVarDecl 0xbc6cc10 <line:676:8, col:27> __n 'size_t *restrict'
+| `-ParmVarDecl 0xbc6cc50 <line:677:8, col:25> __stream 'FILE *restrict'
+|-FunctionDecl 0xbc6ce60 <line:686:1, col:74> fputs 'int (const char *restrict, FILE *restrict)' extern
+| |-ParmVarDecl 0xbc6cd80 <col:19, col:44> __s 'const char *restrict'
+| `-ParmVarDecl 0xbc6cdc0 <col:49, col:66> __stream 'FILE *restrict'
+|-FunctionDecl 0xbc6cf30 <line:692:1, col:35> puts 'int (const char *)' extern
+| `-ParmVarDecl 0xbc6cee0 <col:18, col:32> __s 'const char *'
+|-FunctionDecl 0xbc6d050 <line:699:1, col:43> ungetc 'int (int, FILE *)' extern
+| |-ParmVarDecl 0xbc6cfb0 <col:20, col:24> __c 'int'
+| `-ParmVarDecl 0xbc6cff0 <col:29, col:35> __stream 'FILE *'
+|-FunctionDecl 0xbc6d240 <line:706:1, line:707:45> fread 'size_t (void *restrict, size_t, size_t, FILE *restrict)' extern
+| |-ParmVarDecl 0xbc6d0d0 <line:706:22, col:39> __ptr 'void *restrict'
+| |-ParmVarDecl 0xbc6d110 <col:46, col:53> __size 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbc6d150 <line:707:8, col:15> __n 'size_t':'unsigned int'
+| `-ParmVarDecl 0xbc6d190 <col:20, col:37> __stream 'FILE *restrict'
+|-FunctionDecl 0xbc6d450 <line:712:1, line:713:41> fwrite 'size_t (const void *restrict, size_t, size_t, FILE *restrict)' extern
+| |-ParmVarDecl 0xbc6d2e0 <line:712:23, col:48> __ptr 'const void *restrict'
+| |-ParmVarDecl 0xbc6d320 <col:55, col:62> __size 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbc6d360 <line:713:9, col:16> __n 'size_t':'unsigned int'
+| `-ParmVarDecl 0xbc6d3a0 <col:21, col:38> __s 'FILE *restrict'
+|-FunctionDecl 0xbc6d5f0 <line:734:1, line:735:47> fread_unlocked 'size_t (void *restrict, size_t, size_t, FILE *restrict)' extern
+| |-ParmVarDecl 0xbc6d4d0 <line:734:31, col:48> __ptr 'void *restrict'
+| |-ParmVarDecl 0xbc6d510 <col:55, col:62> __size 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbc6d550 <line:735:10, col:17> __n 'size_t':'unsigned int'
+| `-ParmVarDecl 0xbc6d590 <col:22, col:39> __stream 'FILE *restrict'
+|-FunctionDecl 0xbc6d790 <line:736:1, line:737:48> fwrite_unlocked 'size_t (const void *restrict, size_t, size_t, FILE *restrict)' extern
+| |-ParmVarDecl 0xbc6d670 <line:736:32, col:57> __ptr 'const void *restrict'
+| |-ParmVarDecl 0xbc6d6b0 <col:64, col:71> __size 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbc6d6f0 <line:737:11, col:18> __n 'size_t':'unsigned int'
+| `-ParmVarDecl 0xbc6d730 <col:23, col:40> __stream 'FILE *restrict'
+|-FunctionDecl 0xbc6d940 <line:746:1, col:63> fseek 'int (FILE *, long, int)' extern
+| |-ParmVarDecl 0xbc6d810 <col:19, col:25> __stream 'FILE *'
+| |-ParmVarDecl 0xbc6d850 <col:35, col:44> __off 'long'
+| `-ParmVarDecl 0xbc6d890 <col:51, col:55> __whence 'int'
+|-FunctionDecl 0xbc6da50 <line:751:1, col:38> ftell 'long (FILE *)' extern
+| `-ParmVarDecl 0xbc6d9c0 <col:24, col:30> __stream 'FILE *'
+|-FunctionDecl 0xbc6db40 <line:756:1, col:35> rewind 'void (FILE *)' extern
+| `-ParmVarDecl 0xbc6daf0 <col:21, col:27> __stream 'FILE *'
+|-FunctionDecl 0xbc6dcc0 <line:770:1, col:63> fseeko 'int (FILE *, __off_t, int)' extern
+| |-ParmVarDecl 0xbc6dbc0 <col:20, col:26> __stream 'FILE *'
+| |-ParmVarDecl 0xbc6dc00 <col:36, col:44> __off '__off_t':'long'
+| `-ParmVarDecl 0xbc6dc40 <col:51, col:55> __whence 'int'
+|-FunctionDecl 0xbc6ddb0 <line:775:1, col:38> ftello '__off_t (FILE *)' extern
+| `-ParmVarDecl 0xbc6dd40 <col:24, col:30> __stream 'FILE *'
+|-FunctionDecl 0xbc6df60 <line:795:1, col:72> fgetpos 'int (FILE *restrict, fpos_t *restrict)' extern
+| |-ParmVarDecl 0xbc6de30 <col:21, col:38> __stream 'FILE *restrict'
+| `-ParmVarDecl 0xbc6dec0 <col:48, col:67> __pos 'fpos_t *restrict'
+|-FunctionDecl 0xbc6e100 <line:800:1, col:58> fsetpos 'int (FILE *, const fpos_t *)' extern
+| |-ParmVarDecl 0xbc6dfe0 <col:21, col:27> __stream 'FILE *'
+| `-ParmVarDecl 0xbc6e060 <col:37, col:53> __pos 'const fpos_t *'
+|-FunctionDecl 0xbc6e1d0 <line:823:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> clearerr 'void (FILE *)' extern
+| |-ParmVarDecl 0xbc6e180 </usr/include/stdio.h:823:23, col:29> __stream 'FILE *'
+| `-NoThrowAttr 0xbc6e240 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6e2d0 </usr/include/stdio.h:825:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> feof 'int (FILE *)' extern
+| |-ParmVarDecl 0xbc6e280 </usr/include/stdio.h:825:18, col:24> __stream 'FILE *'
+| `-NoThrowAttr 0xbc6e340 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6e3d0 </usr/include/stdio.h:827:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> ferror 'int (FILE *)' extern
+| |-ParmVarDecl 0xbc6e380 </usr/include/stdio.h:827:20, col:26> __stream 'FILE *'
+| `-NoThrowAttr 0xbc6e440 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6e4d0 </usr/include/stdio.h:832:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> clearerr_unlocked 'void (FILE *)' extern
+| |-ParmVarDecl 0xbc6e480 </usr/include/stdio.h:832:32, col:38> __stream 'FILE *'
+| `-NoThrowAttr 0xbc6e540 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6e5d0 </usr/include/stdio.h:833:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> feof_unlocked 'int (FILE *)' extern
+| |-ParmVarDecl 0xbc6e580 </usr/include/stdio.h:833:27, col:33> __stream 'FILE *'
+| `-NoThrowAttr 0xbc6e640 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6e6d0 </usr/include/stdio.h:834:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> ferror_unlocked 'int (FILE *)' extern
+| |-ParmVarDecl 0xbc6e680 </usr/include/stdio.h:834:29, col:35> __stream 'FILE *'
+| `-NoThrowAttr 0xbc6e740 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6e7f0 </usr/include/stdio.h:843:1, col:38> perror 'void (const char *)' extern
+| `-ParmVarDecl 0xbc6e780 <col:21, col:35> __s 'const char *'
+|-VarDecl 0xbc6e870 </usr/include/i386-linux-gnu/bits/sys_errlist.h:27:1, col:12> sys_nerr 'int' extern
+|-VarDecl 0xbc6e8f0 <line:28:1, col:42> sys_errlist 'const char *const []' extern
+|-FunctionDecl 0xbc6e980 </usr/include/stdio.h:855:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> fileno 'int (FILE *)' extern
+| |-ParmVarDecl 0xbc6e930 </usr/include/stdio.h:855:20, col:26> __stream 'FILE *'
+| `-NoThrowAttr 0xbc6e9f0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6ea80 </usr/include/stdio.h:860:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> fileno_unlocked 'int (FILE *)' extern
+| |-ParmVarDecl 0xbc6ea30 </usr/include/stdio.h:860:29, col:35> __stream 'FILE *'
+| `-NoThrowAttr 0xbc6f040 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6f140 </usr/include/stdio.h:870:1, col:67> popen 'FILE *(const char *, const char *)' extern
+| |-ParmVarDecl 0xbc6f080 <col:21, col:35> __command 'const char *'
+| `-ParmVarDecl 0xbc6f0c0 <col:46, col:60> __modes 'const char *'
+|-FunctionDecl 0xbc6f210 <line:876:1, col:34> pclose 'int (FILE *)' extern
+| `-ParmVarDecl 0xbc6f1c0 <col:20, col:26> __stream 'FILE *'
+|-FunctionDecl 0xbc6f2e0 <line:882:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> ctermid 'char *(char *)' extern
+| |-ParmVarDecl 0xbc6f290 </usr/include/stdio.h:882:23, col:29> __s 'char *'
+| `-NoThrowAttr 0xbc6f350 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6f3e0 </usr/include/stdio.h:910:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> flockfile 'void (FILE *)' extern
+| |-ParmVarDecl 0xbc6f390 </usr/include/stdio.h:910:24, col:30> __stream 'FILE *'
+| `-NoThrowAttr 0xbc6f450 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6f4e0 </usr/include/stdio.h:914:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> ftrylockfile 'int (FILE *)' extern
+| |-ParmVarDecl 0xbc6f490 </usr/include/stdio.h:914:26, col:32> __stream 'FILE *'
+| `-NoThrowAttr 0xbc6f550 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6f5e0 </usr/include/stdio.h:917:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> funlockfile 'void (FILE *)' extern
+| |-ParmVarDecl 0xbc6f590 </usr/include/stdio.h:917:26, col:32> __stream 'FILE *'
+| `-NoThrowAttr 0xbc6f650 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6f710 </usr/include/malloc.h:61:14> malloc 'void *(unsigned int)' extern
+| `-ParmVarDecl 0xbc6f770 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc6f7b0 prev 0xbc6f710 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:225:58> malloc 'void *(unsigned int)' extern
+| |-ParmVarDecl 0xbc6f680 </usr/include/malloc.h:61:22, col:29> __size 'size_t':'unsigned int'
+| |-MallocAttr 0xbc6f820 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbc6f850 <line:57:35>
+|-FunctionDecl 0xbc6f950 </usr/include/malloc.h:64:14> calloc 'void *(unsigned int, unsigned int)' extern
+| |-ParmVarDecl 0xbc6f9b0 <<invalid sloc>> 'unsigned int'
+| `-ParmVarDecl 0xbc6f9e0 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc6fa20 prev 0xbc6f950 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:225:58> calloc 'void *(unsigned int, unsigned int)' extern
+| |-ParmVarDecl 0xbc6f870 </usr/include/malloc.h:64:22, col:29> __nmemb 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbc6f8b0 <col:38, col:45> __size 'size_t':'unsigned int'
+| |-MallocAttr 0xbc6fa90 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbc6fac0 <line:57:35>
+|-FunctionDecl 0xbc6fbc0 </usr/include/malloc.h:72:14> realloc 'void *(void *, unsigned int)' extern
+| |-ParmVarDecl 0xbc6fc20 <<invalid sloc>> 'void *'
+| `-ParmVarDecl 0xbc6fc50 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc6fc90 prev 0xbc6fbc0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:299:43> realloc 'void *(void *, unsigned int)' extern
+| |-ParmVarDecl 0xbc6fae0 </usr/include/malloc.h:72:23, col:29> __ptr 'void *'
+| |-ParmVarDecl 0xbc6fb20 <col:36, col:43> __size 'size_t':'unsigned int'
+| |-WarnUnusedResultAttr 0xbc6fd00 </usr/include/i386-linux-gnu/sys/cdefs.h:299:20>
+| `-NoThrowAttr 0xbc6fd30 <line:57:35>
+|-FunctionDecl 0xbc6fdc0 </usr/include/malloc.h:76:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> free 'void (void *)' extern
+| |-ParmVarDecl 0xbc6fd50 </usr/include/malloc.h:76:19, col:25> __ptr 'void *'
+| `-NoThrowAttr 0xbc6fe30 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc6fec0 </usr/include/malloc.h:79:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> cfree 'void (void *)' extern
+| |-ParmVarDecl 0xbc6fe70 </usr/include/malloc.h:79:20, col:26> __ptr 'void *'
+| `-NoThrowAttr 0xbc6ff30 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc72290 </usr/include/malloc.h:82:1, /usr/include/i386-linux-gnu/sys/cdefs.h:225:58> memalign 'void *(size_t, size_t)' extern
+| |-ParmVarDecl 0xbc6ff60 </usr/include/malloc.h:82:24, col:31> __alignment 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbc6ffa0 <col:44, col:51> __size 'size_t':'unsigned int'
+| |-MallocAttr 0xbc72300 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbc72330 <line:57:35>
+|-FunctionDecl 0xbc723a0 </usr/include/malloc.h:86:1, /usr/include/i386-linux-gnu/sys/cdefs.h:225:58> valloc 'void *(size_t)' extern
+| |-ParmVarDecl 0xbc72350 </usr/include/malloc.h:86:22, col:29> __size 'size_t':'unsigned int'
+| |-MallocAttr 0xbc72410 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbc72440 <line:57:35>
+|-FunctionDecl 0xbc724b0 </usr/include/malloc.h:90:1, /usr/include/i386-linux-gnu/sys/cdefs.h:225:58> pvalloc 'void *(size_t)' extern
+| |-ParmVarDecl 0xbc72460 </usr/include/malloc.h:90:24, col:31> __size 'size_t':'unsigned int'
+| |-MallocAttr 0xbc72520 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbc72550 <line:57:35>
+|-VarDecl 0xbc72680 </usr/include/malloc.h:94:1, col:45> __morecore 'void *(*)(ptrdiff_t)' extern
+|-FunctionDecl 0xbc72710 <line:97:1, /usr/include/i386-linux-gnu/sys/cdefs.h:225:58> __default_morecore 'void *(ptrdiff_t)' extern
+| |-ParmVarDecl 0xbc726c0 </usr/include/malloc.h:97:34, col:44> __size 'ptrdiff_t':'int'
+| |-MallocAttr 0xbc72780 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbc727b0 <line:57:35>
+|-RecordDecl 0xbc727c0 </usr/include/malloc.h:102:1, line:114:1> struct mallinfo definition
+| |-FieldDecl 0xbc72830 <line:104:3, col:7> arena 'int'
+| |-FieldDecl 0xbc72870 <line:105:3, col:7> ordblks 'int'
+| |-FieldDecl 0xbc728b0 <line:106:3, col:7> smblks 'int'
+| |-FieldDecl 0xbc728f0 <line:107:3, col:7> hblks 'int'
+| |-FieldDecl 0xbc72930 <line:108:3, col:7> hblkhd 'int'
+| |-FieldDecl 0xbc72970 <line:109:3, col:7> usmblks 'int'
+| |-FieldDecl 0xbc729b0 <line:110:3, col:7> fsmblks 'int'
+| |-FieldDecl 0xbc729f0 <line:111:3, col:7> uordblks 'int'
+| |-FieldDecl 0xbc72a30 <line:112:3, col:7> fordblks 'int'
+| `-FieldDecl 0xbc72a70 <line:113:3, col:7> keepcost 'int'
+|-FunctionDecl 0xbc72b60 <line:117:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> mallinfo 'struct mallinfo (void)' extern
+| `-NoThrowAttr 0xbc72bc0 <col:35>
+|-FunctionDecl 0xbc72cc0 </usr/include/malloc.h:144:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> mallopt 'int (int, int)' extern
+| |-ParmVarDecl 0xbc72c00 </usr/include/malloc.h:144:21, col:25> __param 'int'
+| |-ParmVarDecl 0xbc72c40 <col:34, col:38> __val 'int'
+| `-NoThrowAttr 0xbc72d30 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc72df0 </usr/include/malloc.h:148:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> malloc_trim 'int (size_t)' extern
+| |-ParmVarDecl 0xbc72d60 </usr/include/malloc.h:148:25, col:32> __pad 'size_t':'unsigned int'
+| `-NoThrowAttr 0xbc72e60 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc72f30 </usr/include/malloc.h:152:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> malloc_usable_size 'size_t (void *)' extern
+| |-ParmVarDecl 0xbc72ea0 </usr/include/malloc.h:152:35, col:41> __ptr 'void *'
+| `-NoThrowAttr 0xbc72fa0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc73030 </usr/include/malloc.h:155:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> malloc_stats 'void (void)' extern
+| `-NoThrowAttr 0xbc73090 <col:35>
+|-FunctionDecl 0xbc73170 </usr/include/malloc.h:158:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> malloc_info 'int (int, FILE *)' extern
+| |-ParmVarDecl 0xbc730d0 </usr/include/malloc.h:158:25, col:29> __options 'int'
+| |-ParmVarDecl 0xbc73110 <col:40, col:46> __fp 'FILE *'
+| `-NoThrowAttr 0xbc731e0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc742a0 </usr/include/malloc.h:161:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> malloc_get_state 'void *(void)' extern
+| `-NoThrowAttr 0xbc74300 <col:35>
+|-FunctionDecl 0xbc74390 </usr/include/malloc.h:165:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> malloc_set_state 'int (void *)' extern
+| |-ParmVarDecl 0xbc74340 </usr/include/malloc.h:165:30, col:36> __ptr 'void *'
+| `-NoThrowAttr 0xbc74400 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-VarDecl 0xbc744e0 </usr/include/malloc.h:170:1, col:69> __malloc_initialize_hook 'void (*volatile)(void)' extern
+| `-DeprecatedAttr 0xbc74510 </usr/include/i386-linux-gnu/sys/cdefs.h:259:51> ""
+|-VarDecl 0xbc74670 </usr/include/malloc.h:173:1, line:174:32> __free_hook 'void (*volatile)(void *, const void *)' extern
+| `-DeprecatedAttr 0xbc746a0 </usr/include/i386-linux-gnu/sys/cdefs.h:259:51> ""
+|-VarDecl 0xbc74820 </usr/include/malloc.h:176:1, line:177:35> __malloc_hook 'void *(*volatile)(size_t, const void *)' extern
+| `-DeprecatedAttr 0xbc74850 </usr/include/i386-linux-gnu/sys/cdefs.h:259:51> ""
+|-VarDecl 0xbc74a30 </usr/include/malloc.h:179:1, line:181:36> __realloc_hook 'void *(*volatile)(void *, size_t, const void *)' extern
+| `-DeprecatedAttr 0xbc74a60 </usr/include/i386-linux-gnu/sys/cdefs.h:259:51> ""
+|-VarDecl 0xbc74c40 </usr/include/malloc.h:183:1, line:185:30> __memalign_hook 'void *(*volatile)(size_t, size_t, const void *)' extern
+| `-DeprecatedAttr 0xbc74c70 </usr/include/i386-linux-gnu/sys/cdefs.h:259:51> ""
+|-VarDecl 0xbc74d10 </usr/include/malloc.h:187:1, col:66> __after_morecore_hook 'void (*volatile)(void)' extern
+|-FunctionDecl 0xbc74da0 <line:190:1, /usr/include/i386-linux-gnu/sys/cdefs.h:259:66> __malloc_check_init 'void (void)' extern
+| |-DeprecatedAttr 0xbc74e00 <col:51> ""
+| `-NoThrowAttr 0xbc74e30 <line:57:35>
+|-FunctionDecl 0xbc74fb0 </usr/include/string.h:44:14> memcpy 'void *(void *, const void *, unsigned int)' extern
+| |-ParmVarDecl 0xbc75010 <<invalid sloc>> 'void *'
+| |-ParmVarDecl 0xbc75040 <<invalid sloc>> 'const void *'
+| `-ParmVarDecl 0xbc75070 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc750b0 prev 0xbc74fb0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> memcpy 'void *(void *, const void *, unsigned int)' extern
+| |-ParmVarDecl 0xbc74e50 </usr/include/string.h:44:22, col:39> __dest 'void *restrict'
+| |-ParmVarDecl 0xbc74e90 <line:45:8, col:33> __src 'const void *restrict'
+| |-ParmVarDecl 0xbc74ed0 <col:40, col:47> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc75120 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:46:30> 0 1
+| `-NoThrowAttr 0xbc75160 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc762e0 </usr/include/string.h:49:14> memmove 'void *(void *, const void *, unsigned int)' extern
+| |-ParmVarDecl 0xbc76340 <<invalid sloc>> 'void *'
+| |-ParmVarDecl 0xbc76370 <<invalid sloc>> 'const void *'
+| `-ParmVarDecl 0xbc763a0 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc763e0 prev 0xbc762e0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> memmove 'void *(void *, const void *, unsigned int)' extern
+| |-ParmVarDecl 0xbc75180 </usr/include/string.h:49:23, col:29> __dest 'void *'
+| |-ParmVarDecl 0xbc751c0 <col:37, col:51> __src 'const void *'
+| |-ParmVarDecl 0xbc75200 <col:58, col:65> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc76450 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:50:30> 0 1
+| `-NoThrowAttr 0xbc76490 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc76660 </usr/include/string.h:57:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> memccpy 'void *(void *restrict, const void *restrict, int, size_t)' extern
+| |-ParmVarDecl 0xbc764b0 </usr/include/string.h:57:23, col:40> __dest 'void *restrict'
+| |-ParmVarDecl 0xbc764f0 <col:48, col:73> __src 'const void *restrict'
+| |-ParmVarDecl 0xbc76530 <line:58:9, col:13> __c 'int'
+| |-ParmVarDecl 0xbc76570 <col:18, col:25> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc766d0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:59:30> 0 1
+| `-NoThrowAttr 0xbc76710 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc76880 </usr/include/string.h:65:14> memset 'void *(void *, int, unsigned int)' extern
+| |-ParmVarDecl 0xbc768e0 <<invalid sloc>> 'void *'
+| |-ParmVarDecl 0xbc76910 <<invalid sloc>> 'int'
+| `-ParmVarDecl 0xbc76940 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc76980 prev 0xbc76880 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> memset 'void *(void *, int, unsigned int)' extern
+| |-ParmVarDecl 0xbc76730 </usr/include/string.h:65:22, col:28> __s 'void *'
+| |-ParmVarDecl 0xbc76770 <col:33, col:37> __c 'int'
+| |-ParmVarDecl 0xbc767b0 <col:42, col:49> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc769f0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:65:75> 0
+| `-NoThrowAttr 0xbc76a30 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc76bb0 </usr/include/string.h:68:12> memcmp 'int (const void *, const void *, unsigned int)' extern
+| |-ParmVarDecl 0xbc76c10 <<invalid sloc>> 'const void *'
+| |-ParmVarDecl 0xbc76c40 <<invalid sloc>> 'const void *'
+| `-ParmVarDecl 0xbc76c70 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc76cb0 prev 0xbc76bb0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> memcmp 'int (const void *, const void *, unsigned int)' extern
+| |-ParmVarDecl 0xbc76a50 </usr/include/string.h:68:20, col:34> __s1 'const void *'
+| |-ParmVarDecl 0xbc76a90 <col:40, col:54> __s2 'const void *'
+| |-ParmVarDecl 0xbc76ad0 <col:60, col:67> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc76d20 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:69:49> 0 1
+| |-PureAttr 0xbc76d60 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc76d70 <line:57:35>
+|-FunctionDecl 0xbc76ee0 </usr/include/string.h:95:14> memchr 'void *(const void *, int, unsigned int)' extern
+| |-ParmVarDecl 0xbc76f40 <<invalid sloc>> 'const void *'
+| |-ParmVarDecl 0xbc76f70 <<invalid sloc>> 'int'
+| `-ParmVarDecl 0xbc76fa0 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc76fe0 prev 0xbc76ee0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> memchr 'void *(const void *, int, unsigned int)' extern
+| |-ParmVarDecl 0xbc76d90 </usr/include/string.h:95:22, col:36> __s 'const void *'
+| |-ParmVarDecl 0xbc76dd0 <col:41, col:45> __c 'int'
+| |-ParmVarDecl 0xbc76e10 <col:50, col:57> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc77050 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:96:47> 0
+| |-PureAttr 0xbc77090 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc770a0 <line:57:35>
+|-FunctionDecl 0xbc771d0 </usr/include/string.h:128:14> strcpy 'char *(char *, const char *)' extern
+| |-ParmVarDecl 0xbc77230 <<invalid sloc>> 'char *'
+| `-ParmVarDecl 0xbc77260 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc77ac0 prev 0xbc771d0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strcpy 'char *(char *, const char *)' extern
+| |-ParmVarDecl 0xbc770c0 </usr/include/string.h:128:22, col:39> __dest 'char *restrict'
+| |-ParmVarDecl 0xbc77100 <col:47, col:72> __src 'const char *restrict'
+| |-NonNullAttr 0xbc77b30 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:129:30> 0 1
+| `-NoThrowAttr 0xbc77b70 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc77cf0 </usr/include/string.h:131:14> strncpy 'char *(char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc77d50 <<invalid sloc>> 'char *'
+| |-ParmVarDecl 0xbc77d80 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc77db0 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc77df0 prev 0xbc77cf0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strncpy 'char *(char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc77b90 </usr/include/string.h:131:23, col:40> __dest 'char *restrict'
+| |-ParmVarDecl 0xbc77bd0 <line:132:9, col:34> __src 'const char *restrict'
+| |-ParmVarDecl 0xbc77c10 <col:41, col:48> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc77e60 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:133:30> 0 1
+| `-NoThrowAttr 0xbc77ea0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc77f90 </usr/include/string.h:136:14> strcat 'char *(char *, const char *)' extern
+| |-ParmVarDecl 0xbc77ff0 <<invalid sloc>> 'char *'
+| `-ParmVarDecl 0xbc78020 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc78060 prev 0xbc77f90 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strcat 'char *(char *, const char *)' extern
+| |-ParmVarDecl 0xbc77ec0 </usr/include/string.h:136:22, col:39> __dest 'char *restrict'
+| |-ParmVarDecl 0xbc77f00 <col:47, col:72> __src 'const char *restrict'
+| |-NonNullAttr 0xbc780d0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:137:30> 0 1
+| `-NoThrowAttr 0xbc78110 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc78240 </usr/include/string.h:139:14> strncat 'char *(char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc782a0 <<invalid sloc>> 'char *'
+| |-ParmVarDecl 0xbc782d0 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc78300 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc78340 prev 0xbc78240 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strncat 'char *(char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc78130 </usr/include/string.h:139:23, col:40> __dest 'char *restrict'
+| |-ParmVarDecl 0xbc78170 <col:48, col:73> __src 'const char *restrict'
+| |-ParmVarDecl 0xbc781b0 <line:140:9, col:16> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc783b0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:140:45> 0 1
+| `-NoThrowAttr 0xbc783f0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc784e0 </usr/include/string.h:143:12> strcmp 'int (const char *, const char *)' extern
+| |-ParmVarDecl 0xbc78540 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc78570 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc785b0 prev 0xbc784e0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strcmp 'int (const char *, const char *)' extern
+| |-ParmVarDecl 0xbc78410 </usr/include/string.h:143:20, col:34> __s1 'const char *'
+| |-ParmVarDecl 0xbc78450 <col:40, col:54> __s2 'const char *'
+| |-NonNullAttr 0xbc78620 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:144:49> 0 1
+| |-PureAttr 0xbc78660 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc78670 <line:57:35>
+|-FunctionDecl 0xbc787f0 </usr/include/string.h:146:12> strncmp 'int (const char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc78850 <<invalid sloc>> 'const char *'
+| |-ParmVarDecl 0xbc78880 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc788b0 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc788f0 prev 0xbc787f0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strncmp 'int (const char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc78690 </usr/include/string.h:146:21, col:35> __s1 'const char *'
+| |-ParmVarDecl 0xbc786d0 <col:41, col:55> __s2 'const char *'
+| |-ParmVarDecl 0xbc78710 <col:61, col:68> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc78960 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:147:49> 0 1
+| |-PureAttr 0xbc789a0 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc789b0 <line:57:35>
+|-FunctionDecl 0xbc4efe0 </usr/include/string.h:150:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strcoll 'int (const char *, const char *)' extern
+| |-ParmVarDecl 0xbc789d0 </usr/include/string.h:150:21, col:35> __s1 'const char *'
+| |-ParmVarDecl 0xbc78a10 <col:41, col:55> __s2 'const char *'
+| |-NonNullAttr 0xbc4f050 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:151:49> 0 1
+| |-PureAttr 0xbc4f090 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc4f0a0 <line:57:35>
+|-FunctionDecl 0xbc4f210 </usr/include/string.h:153:15> strxfrm 'unsigned int (char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc4f270 <<invalid sloc>> 'char *'
+| |-ParmVarDecl 0xbc4f2a0 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc4f2d0 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc4f310 prev 0xbc4f210 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strxfrm 'unsigned int (char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc4f0c0 </usr/include/string.h:153:24, col:41> __dest 'char *restrict'
+| |-ParmVarDecl 0xbc4f100 <line:154:10, col:35> __src 'const char *restrict'
+| |-ParmVarDecl 0xbc4f140 <col:42, col:49> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc4f380 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:155:27> 1
+| `-NoThrowAttr 0xbc4f3c0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-RecordDecl 0xbc4f3d0 </usr/include/xlocale.h:28:9, line:40:1> struct __locale_struct definition
+| |-RecordDecl 0xbc4f430 parent 0xbbfe600 <line:31:3, col:10> struct __locale_data
+| |-FieldDecl 0xbc4f570 <col:3, col:37> __locales 'struct __locale_data *[13]'
+| |-FieldDecl 0xbc4f5d0 <line:34:3, col:29> __ctype_b 'const unsigned short *'
+| |-FieldDecl 0xbc4f630 <line:35:3, col:14> __ctype_tolower 'const int *'
+| |-FieldDecl 0xbc4f670 <line:36:3, col:14> __ctype_toupper 'const int *'
+| `-FieldDecl 0xbc4f700 <line:39:3, col:25> __names 'const char *[13]'
+|-TypedefDecl 0xbc4f7a0 <line:28:1, line:40:4> __locale_t 'struct __locale_struct *'
+|-TypedefDecl 0xbc4f800 <line:43:1, col:20> locale_t '__locale_t':'struct __locale_struct *'
+|-FunctionDecl 0xbc4f9c0 </usr/include/string.h:165:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strcoll_l 'int (const char *, const char *, __locale_t)' extern
+| |-ParmVarDecl 0xbc4f840 </usr/include/string.h:165:23, col:37> __s1 'const char *'
+| |-ParmVarDecl 0xbc4f880 <col:43, col:57> __s2 'const char *'
+| |-ParmVarDecl 0xbc4f8c0 <col:63, col:74> __l '__locale_t':'struct __locale_struct *'
+| |-NonNullAttr 0xbc4fa30 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:166:52> 0 1 2
+| |-PureAttr 0xbc4fa80 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc4fa90 <line:57:35>
+|-FunctionDecl 0xbc4fc50 </usr/include/string.h:168:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strxfrm_l 'size_t (char *, const char *, size_t, __locale_t)' extern
+| |-ParmVarDecl 0xbc4fab0 </usr/include/string.h:168:26, col:32> __dest 'char *'
+| |-ParmVarDecl 0xbc4faf0 <col:40, col:54> __src 'const char *'
+| |-ParmVarDecl 0xbc4fb30 <col:61, col:68> __n 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbc4fb70 <line:169:5, col:16> __l '__locale_t':'struct __locale_struct *'
+| |-NonNullAttr 0xbc4fcc0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:169:45> 1 3
+| `-NoThrowAttr 0xbc4fd00 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc4fdb0 </usr/include/string.h:175:14> strdup 'char *(const char *)' extern
+| `-ParmVarDecl 0xbc4fe10 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc4fe50 prev 0xbc4fdb0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strdup 'char *(const char *)' extern
+| |-ParmVarDecl 0xbc4fd20 </usr/include/string.h:175:22, col:36> __s 'const char *'
+| |-NonNullAttr 0xbc4fec0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:176:48> 0
+| |-MallocAttr 0xbc4ff00 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbc4ff10 <line:57:35>
+|-FunctionDecl 0xbc7cb40 </usr/include/string.h:183:14> strndup 'char *(const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc7cba0 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc7cbd0 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc7cc10 prev 0xbc7cb40 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strndup 'char *(const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc4ff30 </usr/include/string.h:183:23, col:37> __string 'const char *'
+| |-ParmVarDecl 0xbc4ff70 <col:47, col:54> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc7cc80 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:184:48> 0
+| |-MallocAttr 0xbc7ccc0 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbc7ccd0 <line:57:35>
+|-FunctionDecl 0xbc7cdd0 </usr/include/string.h:235:14> strchr 'char *(const char *, int)' extern
+| |-ParmVarDecl 0xbc7ce30 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc7ce60 <<invalid sloc>> 'int'
+|-FunctionDecl 0xbc7cea0 prev 0xbc7cdd0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strchr 'char *(const char *, int)' extern
+| |-ParmVarDecl 0xbc7ccf0 </usr/include/string.h:235:22, col:36> __s 'const char *'
+| |-ParmVarDecl 0xbc7cd30 <col:41, col:45> __c 'int'
+| |-NonNullAttr 0xbc7cf10 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:236:46> 0
+| |-PureAttr 0xbc7cf50 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc7cf60 <line:57:35>
+|-FunctionDecl 0xbc7d030 </usr/include/string.h:262:14> strrchr 'char *(const char *, int)' extern
+| |-ParmVarDecl 0xbc7d090 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc7d0c0 <<invalid sloc>> 'int'
+|-FunctionDecl 0xbc7d100 prev 0xbc7d030 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strrchr 'char *(const char *, int)' extern
+| |-ParmVarDecl 0xbc7cf80 </usr/include/string.h:262:23, col:37> __s 'const char *'
+| |-ParmVarDecl 0xbc7cfc0 <col:42, col:46> __c 'int'
+| |-NonNullAttr 0xbc7d170 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:263:46> 0
+| |-PureAttr 0xbc7d1b0 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc7d1c0 <line:57:35>
+|-FunctionDecl 0xbc7d2e0 </usr/include/string.h:284:15> strcspn 'unsigned int (const char *, const char *)' extern
+| |-ParmVarDecl 0xbc7d340 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc7d370 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc7d3b0 prev 0xbc7d2e0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strcspn 'unsigned int (const char *, const char *)' extern
+| |-ParmVarDecl 0xbc7d1e0 </usr/include/string.h:284:24, col:38> __s 'const char *'
+| |-ParmVarDecl 0xbc7d220 <col:43, col:57> __reject 'const char *'
+| |-NonNullAttr 0xbc7d420 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:285:49> 0 1
+| |-PureAttr 0xbc7d460 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc7d470 <line:57:35>
+|-FunctionDecl 0xbc7d550 </usr/include/string.h:288:15> strspn 'unsigned int (const char *, const char *)' extern
+| |-ParmVarDecl 0xbc7d5b0 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc7d5e0 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc7d620 prev 0xbc7d550 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strspn 'unsigned int (const char *, const char *)' extern
+| |-ParmVarDecl 0xbc7d490 </usr/include/string.h:288:23, col:37> __s 'const char *'
+| |-ParmVarDecl 0xbc7d4d0 <col:42, col:56> __accept 'const char *'
+| |-NonNullAttr 0xbc7d690 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:289:49> 0 1
+| |-PureAttr 0xbc7d6d0 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc7d6e0 <line:57:35>
+|-FunctionDecl 0xbc7d7d0 </usr/include/string.h:314:14> strpbrk 'char *(const char *, const char *)' extern
+| |-ParmVarDecl 0xbc7d830 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc7d860 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc7d8a0 prev 0xbc7d7d0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strpbrk 'char *(const char *, const char *)' extern
+| |-ParmVarDecl 0xbc7d700 </usr/include/string.h:314:23, col:37> __s 'const char *'
+| |-ParmVarDecl 0xbc7d740 <col:42, col:56> __accept 'const char *'
+| |-NonNullAttr 0xbc7d910 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:315:49> 0 1
+| |-PureAttr 0xbc7d950 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc7d960 <line:57:35>
+|-FunctionDecl 0xbc7da50 </usr/include/string.h:342:14> strstr 'char *(const char *, const char *)' extern
+| |-ParmVarDecl 0xbc7dae0 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc7db10 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc7db50 prev 0xbc7da50 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strstr 'char *(const char *, const char *)' extern
+| |-ParmVarDecl 0xbc7d980 </usr/include/string.h:342:22, col:36> __haystack 'const char *'
+| |-ParmVarDecl 0xbc7d9c0 <col:48, col:62> __needle 'const char *'
+| |-NonNullAttr 0xbc7dbc0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:343:49> 0 1
+| |-PureAttr 0xbc7dc00 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc7dc10 <line:57:35>
+|-FunctionDecl 0xbc7dce0 </usr/include/string.h:348:14> strtok 'char *(char *, const char *)' extern
+| |-ParmVarDecl 0xbc7dd40 <<invalid sloc>> 'char *'
+| `-ParmVarDecl 0xbc7dd70 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc7ddb0 prev 0xbc7dce0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strtok 'char *(char *, const char *)' extern
+| |-ParmVarDecl 0xbc7dc30 </usr/include/string.h:348:22, col:39> __s 'char *restrict'
+| |-ParmVarDecl 0xbc7dc70 <col:44, col:69> __delim 'const char *restrict'
+| |-NonNullAttr 0xbc7de20 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:349:27> 1
+| `-NoThrowAttr 0xbc7de60 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc7dfe0 </usr/include/string.h:354:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> __strtok_r 'char *(char *restrict, const char *restrict, char **restrict)' extern
+| |-ParmVarDecl 0xbc7de80 </usr/include/string.h:354:26, col:43> __s 'char *restrict'
+| |-ParmVarDecl 0xbc7dec0 <line:355:5, col:30> __delim 'const char *restrict'
+| |-ParmVarDecl 0xbc7df00 <line:356:5, col:23> __save_ptr 'char **restrict'
+| |-NonNullAttr 0xbc7e050 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:357:30> 1 2
+| `-NoThrowAttr 0xbc7e090 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc7e1c0 </usr/include/string.h:359:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strtok_r 'char *(char *restrict, const char *restrict, char **restrict)' extern
+| |-ParmVarDecl 0xbc7e0b0 </usr/include/string.h:359:24, col:41> __s 'char *restrict'
+| |-ParmVarDecl 0xbc7e0f0 <col:46, col:71> __delim 'const char *restrict'
+| |-ParmVarDecl 0xbc7e130 <line:360:10, col:28> __save_ptr 'char **restrict'
+| |-NonNullAttr 0xbc7e230 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:361:30> 1 2
+| `-NoThrowAttr 0xbc7e270 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc7e340 </usr/include/string.h:399:15> strlen 'unsigned int (const char *)' extern
+| `-ParmVarDecl 0xbc7e3a0 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc7e3e0 prev 0xbc7e340 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strlen 'unsigned int (const char *)' extern
+| |-ParmVarDecl 0xbc7e290 </usr/include/string.h:399:23, col:37> __s 'const char *'
+| |-NonNullAttr 0xbc7e450 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:400:46> 0
+| |-PureAttr 0xbc7e490 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc7e4a0 <line:57:35>
+|-FunctionDecl 0xbc7e5b0 </usr/include/string.h:406:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strnlen 'size_t (const char *, size_t)' extern
+| |-ParmVarDecl 0xbc7e4c0 </usr/include/string.h:406:24, col:38> __string 'const char *'
+| |-ParmVarDecl 0xbc7e500 <col:48, col:55> __maxlen 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc7e620 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:407:46> 0
+| |-PureAttr 0xbc7e660 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc7e670 <line:57:35>
+|-FunctionDecl 0xbc7e700 </usr/include/string.h:413:14> strerror 'char *(int)' extern
+| `-ParmVarDecl 0xbc7e760 <<invalid sloc>> 'int'
+|-FunctionDecl 0xbc7e7a0 prev 0xbc7e700 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> strerror 'char *(int)' extern
+| |-ParmVarDecl 0xbc7e690 </usr/include/string.h:413:24, col:28> __errnum 'int'
+| `-NoThrowAttr 0xbc7e810 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc7e9d0 </usr/include/string.h:427:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strerror_r 'int (int, char *, size_t)' extern
+| |-ParmVarDecl 0xbc7e850 </usr/include/string.h:428:8, col:12> __errnum 'int'
+| |-ParmVarDecl 0xbc7e890 <col:22, col:28> __buf 'char *'
+| |-ParmVarDecl 0xbc7e8d0 <col:35, col:42> __buflen 'size_t':'unsigned int'
+| |-AsmLabelAttr 0xbc7ea30 <<scratch space>:22:1> "__xpg_strerror_r"
+| |-NonNullAttr 0xbc7ea80 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:429:38> 1
+| `-NoThrowAttr 0xbc7eab0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc7fbd0 </usr/include/string.h:445:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> strerror_l 'char *(int, __locale_t)' extern
+| |-ParmVarDecl 0xbc7faf0 </usr/include/string.h:445:26, col:30> __errnum 'int'
+| |-ParmVarDecl 0xbc7fb30 <col:40, col:51> __l '__locale_t':'struct __locale_struct *'
+| `-NoThrowAttr 0xbc7fc40 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc7fd70 </usr/include/string.h:451:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> __bzero 'void (void *, size_t)' extern
+| |-ParmVarDecl 0xbc7fc80 </usr/include/string.h:451:22, col:28> __s 'void *'
+| |-ParmVarDecl 0xbc7fcc0 <col:33, col:40> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc7fde0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:451:66> 0
+| `-NoThrowAttr 0xbc7fe20 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc7ffa0 </usr/include/string.h:455:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> bcopy 'void (const void *, void *, size_t)' extern
+| |-ParmVarDecl 0xbc7fe40 </usr/include/string.h:455:20, col:34> __src 'const void *'
+| |-ParmVarDecl 0xbc7fe80 <col:41, col:47> __dest 'void *'
+| |-ParmVarDecl 0xbc7fec0 <col:55, col:62> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc80010 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:456:30> 0 1
+| `-NoThrowAttr 0xbc80050 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc80120 </usr/include/string.h:459:13> bzero 'void (void *, unsigned int)' extern
+| |-ParmVarDecl 0xbc80180 <<invalid sloc>> 'void *'
+| `-ParmVarDecl 0xbc801b0 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc801f0 prev 0xbc80120 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> bzero 'void (void *, unsigned int)' extern
+| |-ParmVarDecl 0xbc80070 </usr/include/string.h:459:20, col:26> __s 'void *'
+| |-ParmVarDecl 0xbc800b0 <col:31, col:38> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc80260 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:459:64> 0
+| `-NoThrowAttr 0xbc802a0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc803d0 </usr/include/string.h:462:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> bcmp 'int (const void *, const void *, size_t)' extern
+| |-ParmVarDecl 0xbc802c0 </usr/include/string.h:462:18, col:32> __s1 'const void *'
+| |-ParmVarDecl 0xbc80300 <col:38, col:52> __s2 'const void *'
+| |-ParmVarDecl 0xbc80340 <col:58, col:65> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc80440 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:463:49> 0 1
+| |-PureAttr 0xbc80480 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc80490 <line:57:35>
+|-FunctionDecl 0xbc80560 </usr/include/string.h:489:14> index 'char *(const char *, int)' extern
+| |-ParmVarDecl 0xbc805c0 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc805f0 <<invalid sloc>> 'int'
+|-FunctionDecl 0xbc80630 prev 0xbc80560 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> index 'char *(const char *, int)' extern
+| |-ParmVarDecl 0xbc804b0 </usr/include/string.h:489:21, col:35> __s 'const char *'
+| |-ParmVarDecl 0xbc804f0 <col:40, col:44> __c 'int'
+| |-NonNullAttr 0xbc806a0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:490:46> 0
+| |-PureAttr 0xbc806e0 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc806f0 <line:57:35>
+|-FunctionDecl 0xbc807c0 </usr/include/string.h:517:14> rindex 'char *(const char *, int)' extern
+| |-ParmVarDecl 0xbc80820 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc80850 <<invalid sloc>> 'int'
+|-FunctionDecl 0xbc80890 prev 0xbc807c0 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> rindex 'char *(const char *, int)' extern
+| |-ParmVarDecl 0xbc80710 </usr/include/string.h:517:22, col:36> __s 'const char *'
+| |-ParmVarDecl 0xbc80750 <col:41, col:45> __c 'int'
+| |-NonNullAttr 0xbc80900 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:518:46> 0
+| |-PureAttr 0xbc80940 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc80950 <line:57:35>
+|-FunctionDecl 0xbc809c0 </usr/include/string.h:523:1, col:60> ffs 'int (int)' extern
+| |-ParmVarDecl 0xbc80970 <col:17, col:21> __i 'int'
+| |-ConstAttr 0xbc80a30 <col:50>
+| `-NoThrowAttr 0xbc80a60 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc80b80 </usr/include/string.h:536:12> strcasecmp 'int (const char *, const char *)' extern
+| |-ParmVarDecl 0xbc80be0 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc80c10 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc80c50 prev 0xbc80b80 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strcasecmp 'int (const char *, const char *)' extern
+| |-ParmVarDecl 0xbc80a80 </usr/include/string.h:536:24, col:38> __s1 'const char *'
+| |-ParmVarDecl 0xbc80af0 <col:44, col:58> __s2 'const char *'
+| |-NonNullAttr 0xbc80cc0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:537:49> 0 1
+| |-PureAttr 0xbc80d00 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc80d10 <line:57:35>
+|-FunctionDecl 0xbc80e40 </usr/include/string.h:540:12> strncasecmp 'int (const char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc80ea0 <<invalid sloc>> 'const char *'
+| |-ParmVarDecl 0xbc80ed0 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc80f00 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc80f40 prev 0xbc80e40 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strncasecmp 'int (const char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc80d30 </usr/include/string.h:540:25, col:39> __s1 'const char *'
+| |-ParmVarDecl 0xbc80d70 <col:45, col:59> __s2 'const char *'
+| |-ParmVarDecl 0xbc80db0 <col:65, col:72> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc80fb0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:541:49> 0 1
+| |-PureAttr 0xbc80ff0 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc81000 <line:57:35>
+|-FunctionDecl 0xbc81130 </usr/include/string.h:559:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strsep 'char *(char **restrict, const char *restrict)' extern
+| |-ParmVarDecl 0xbc81020 </usr/include/string.h:559:22, col:40> __stringp 'char **restrict'
+| |-ParmVarDecl 0xbc81060 <line:560:8, col:33> __delim 'const char *restrict'
+| |-NonNullAttr 0xbc811a0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:561:30> 0 1
+| `-NoThrowAttr 0xbc811e0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc81250 </usr/include/string.h:566:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> strsignal 'char *(int)' extern
+| |-ParmVarDecl 0xbc81200 </usr/include/string.h:566:25, col:29> __sig 'int'
+| `-NoThrowAttr 0xbc812c0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc813d0 </usr/include/string.h:569:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> __stpcpy 'char *(char *restrict, const char *restrict)' extern
+| |-ParmVarDecl 0xbc81300 </usr/include/string.h:569:24, col:41> __dest 'char *restrict'
+| |-ParmVarDecl 0xbc81340 <col:49, col:74> __src 'const char *restrict'
+| |-NonNullAttr 0xbc81440 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:570:30> 0 1
+| `-NoThrowAttr 0xbc81480 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc81570 </usr/include/string.h:571:14> stpcpy 'char *(char *, const char *)' extern
+| |-ParmVarDecl 0xbc815d0 <<invalid sloc>> 'char *'
+| `-ParmVarDecl 0xbc81600 <<invalid sloc>> 'const char *'
+|-FunctionDecl 0xbc81640 prev 0xbc81570 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> stpcpy 'char *(char *, const char *)' extern
+| |-ParmVarDecl 0xbc814a0 </usr/include/string.h:571:22, col:39> __dest 'char *restrict'
+| |-ParmVarDecl 0xbc814e0 <col:47, col:72> __src 'const char *restrict'
+| |-NonNullAttr 0xbc816b0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:572:30> 0 1
+| `-NoThrowAttr 0xbc816f0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc81820 </usr/include/string.h:576:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> __stpncpy 'char *(char *restrict, const char *restrict, size_t)' extern
+| |-ParmVarDecl 0xbc81710 </usr/include/string.h:576:25, col:42> __dest 'char *restrict'
+| |-ParmVarDecl 0xbc81750 <line:577:4, col:29> __src 'const char *restrict'
+| |-ParmVarDecl 0xbc81790 <col:36, col:43> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc81890 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:578:30> 0 1
+| `-NoThrowAttr 0xbc818d0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc81a00 </usr/include/string.h:579:14> stpncpy 'char *(char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc81a60 <<invalid sloc>> 'char *'
+| |-ParmVarDecl 0xbc81a90 <<invalid sloc>> 'const char *'
+| `-ParmVarDecl 0xbc81b00 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbc81b40 prev 0xbc81a00 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> stpncpy 'char *(char *, const char *, unsigned int)' extern
+| |-ParmVarDecl 0xbc818f0 </usr/include/string.h:579:23, col:40> __dest 'char *restrict'
+| |-ParmVarDecl 0xbc81930 <line:580:9, col:34> __src 'const char *restrict'
+| |-ParmVarDecl 0xbc81970 <col:41, col:48> __n 'size_t':'unsigned int'
+| |-NonNullAttr 0xbc81bb0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/string.h:581:30> 0 1
+| `-NoThrowAttr 0xbc81bf0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-RecordDecl 0xbc81c00 </usr/include/i386-linux-gnu/bits/waitstatus.h:67:1, line:98:3> union wait definition
+| |-FieldDecl 0xbc81c70 <line:69:5, col:9> w_status 'int'
+| |-RecordDecl 0xbc81ca0 <line:70:5, line:84:7> struct definition
+| | |-FieldDecl 0xbc81d30 <line:73:2, col:27> __w_termsig 'unsigned int'
+| | | `-IntegerLiteral 0xbc81d00 <col:27> 'int' 7
+| | |-FieldDecl 0xbc81d90 <line:74:2, col:28> __w_coredump 'unsigned int'
+| | | `-IntegerLiteral 0xbc81d60 <col:28> 'int' 1
+| | |-FieldDecl 0xbc81df0 <line:75:2, col:27> __w_retcode 'unsigned int'
+| | | `-IntegerLiteral 0xbc81dc0 <col:27> 'int' 8
+| | `-FieldDecl 0xbc81e50 <line:76:2, col:15> 'unsigned int'
+| |   `-IntegerLiteral 0xbc81e20 <col:15> 'int' 16
+| |-FieldDecl 0xbc81eb0 <line:70:5, line:84:9> __wait_terminated 'struct <anonymous struct at /usr/include/i386-linux-gnu/bits/waitstatus.h:70:5>':'struct wait::<anonymous at /usr/include/i386-linux-gnu/bits/waitstatus.h:70:5>'
+| |-RecordDecl 0xbc81ee0 <line:85:5, line:97:7> struct definition
+| | |-FieldDecl 0xbc81f70 <line:88:2, col:27> __w_stopval 'unsigned int'
+| | | `-IntegerLiteral 0xbc81f40 <col:27> 'int' 8
+| | |-FieldDecl 0xbc81fd0 <line:89:2, col:27> __w_stopsig 'unsigned int'
+| | | `-IntegerLiteral 0xbc81fa0 <col:27> 'int' 8
+| | `-FieldDecl 0xbc82030 <line:90:2, col:15> 'unsigned int'
+| |   `-IntegerLiteral 0xbc82000 <col:15> 'int' 16
+| `-FieldDecl 0xbc82090 <line:85:5, line:97:9> __wait_stopped 'struct <anonymous struct at /usr/include/i386-linux-gnu/bits/waitstatus.h:85:5>':'struct wait::<anonymous at /usr/include/i386-linux-gnu/bits/waitstatus.h:85:5>'
+|-RecordDecl 0xbc820c0 </usr/include/stdlib.h:68:9, line:72:3> union definition
+| |-TransparentUnionAttr 0xbc82260 <col:35>
+| |-FieldDecl 0xbc82190 <line:70:5, col:17> __uptr 'union wait *'
+| `-FieldDecl 0xbc821d0 <line:71:5, col:10> __iptr 'int *'
+|-TypedefDecl 0xbc82230 <line:68:1, line:72:5> __WAIT_STATUS 'union __WAIT_STATUS':'__WAIT_STATUS'
+|-RecordDecl 0xbc82290 <line:98:9, line:102:3> struct definition
+| |-FieldDecl 0xbc82300 <line:100:5, col:9> quot 'int'
+| `-FieldDecl 0xbc82340 <line:101:5, col:9> rem 'int'
+|-TypedefDecl 0xbc823a0 <line:98:1, line:102:5> div_t 'struct div_t':'div_t'
+|-RecordDecl 0xbc823e0 <line:106:9, line:110:3> struct definition
+| |-FieldDecl 0xbc82450 <line:108:5, col:14> quot 'long'
+| `-FieldDecl 0xbc82490 <line:109:5, col:14> rem 'long'
+|-TypedefDecl 0xbc824f0 <line:106:1, line:110:5> ldiv_t 'struct ldiv_t':'ldiv_t'
+|-RecordDecl 0xbc82530 <line:118:23, line:122:3> struct definition
+| |-FieldDecl 0xbc825a0 <line:120:5, col:19> quot 'long long'
+| `-FieldDecl 0xbc825e0 <line:121:5, col:19> rem 'long long'
+|-TypedefDecl 0xbc82640 <line:118:15, line:122:5> lldiv_t 'struct lldiv_t':'lldiv_t'
+|-FunctionDecl 0xbc82700 <line:140:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> __ctype_get_mb_cur_max 'size_t (void)' extern
+| `-NoThrowAttr 0xbc82760 <col:35>
+|-FunctionDecl 0xbc82830 </usr/include/stdlib.h:145:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> atof 'double (const char *)' extern
+| |-ParmVarDecl 0xbc827a0 </usr/include/stdlib.h:145:21, col:35> __nptr 'const char *'
+| |-NonNullAttr 0xbc828a0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:146:46> 0
+| |-PureAttr 0xbc828e0 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc828f0 <line:57:35>
+|-FunctionDecl 0xbc82980 </usr/include/stdlib.h:148:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> atoi 'int (const char *)' extern
+| |-ParmVarDecl 0xbc82910 </usr/include/stdlib.h:148:18, col:32> __nptr 'const char *'
+| |-NonNullAttr 0xbc829f0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:149:46> 0
+| |-PureAttr 0xbc82a30 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc82a40 <line:57:35>
+|-FunctionDecl 0xbc8d160 </usr/include/stdlib.h:151:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> atol 'long (const char *)' extern
+| |-ParmVarDecl 0xbc82a60 </usr/include/stdlib.h:151:23, col:37> __nptr 'const char *'
+| |-NonNullAttr 0xbc8d1d0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:152:46> 0
+| |-PureAttr 0xbc8d210 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc8d220 <line:57:35>
+|-FunctionDecl 0xbc8d2d0 </usr/include/stdlib.h:158:15, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> atoll 'long long (const char *)' extern
+| |-ParmVarDecl 0xbc8d240 </usr/include/stdlib.h:158:43, col:57> __nptr 'const char *'
+| |-NonNullAttr 0xbc8d340 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:159:46> 0
+| |-PureAttr 0xbc8d380 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc8d390 <line:57:35>
+|-FunctionDecl 0xbc8d4b0 </usr/include/stdlib.h:165:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strtod 'double (const char *restrict, char **restrict)' extern
+| |-ParmVarDecl 0xbc8d3b0 </usr/include/stdlib.h:165:23, col:48> __nptr 'const char *restrict'
+| |-ParmVarDecl 0xbc8d3f0 <line:166:9, col:27> __endptr 'char **restrict'
+| |-NonNullAttr 0xbc8d520 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:167:27> 0
+| `-NoThrowAttr 0xbc8d560 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc8d680 </usr/include/stdlib.h:173:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strtof 'float (const char *restrict, char **restrict)' extern
+| |-ParmVarDecl 0xbc8d580 </usr/include/stdlib.h:173:22, col:47> __nptr 'const char *restrict'
+| |-ParmVarDecl 0xbc8d5c0 <line:174:8, col:26> __endptr 'char **restrict'
+| |-NonNullAttr 0xbc8d6f0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:174:57> 0
+| `-NoThrowAttr 0xbc8d730 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc8d850 </usr/include/stdlib.h:176:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strtold 'long double (const char *restrict, char **restrict)' extern
+| |-ParmVarDecl 0xbc8d750 </usr/include/stdlib.h:176:29, col:54> __nptr 'const char *restrict'
+| |-ParmVarDecl 0xbc8d790 <line:177:8, col:26> __endptr 'char **restrict'
+| |-NonNullAttr 0xbc8d8c0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:178:27> 0
+| `-NoThrowAttr 0xbc8d900 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc8da70 </usr/include/stdlib.h:184:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strtol 'long (const char *restrict, char **restrict, int)' extern
+| |-ParmVarDecl 0xbc8d920 </usr/include/stdlib.h:184:25, col:50> __nptr 'const char *restrict'
+| |-ParmVarDecl 0xbc8d960 <line:185:4, col:22> __endptr 'char **restrict'
+| |-ParmVarDecl 0xbc8d9a0 <col:32, col:36> __base 'int'
+| |-NonNullAttr 0xbc8dae0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:186:27> 0
+| `-NoThrowAttr 0xbc8db20 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc8dc90 </usr/include/stdlib.h:188:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strtoul 'unsigned long (const char *restrict, char **restrict, int)' extern
+| |-ParmVarDecl 0xbc8db40 </usr/include/stdlib.h:188:35, col:60> __nptr 'const char *restrict'
+| |-ParmVarDecl 0xbc8db80 <line:189:7, col:25> __endptr 'char **restrict'
+| |-ParmVarDecl 0xbc8dbc0 <col:35, col:39> __base 'int'
+| |-NonNullAttr 0xbc8dd00 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:190:27> 0
+| `-NoThrowAttr 0xbc8dd40 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc8deb0 </usr/include/stdlib.h:196:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strtoq 'long long (const char *restrict, char **restrict, int)' extern
+| |-ParmVarDecl 0xbc8dd60 </usr/include/stdlib.h:196:30, col:55> __nptr 'const char *restrict'
+| |-ParmVarDecl 0xbc8dda0 <line:197:9, col:27> __endptr 'char **restrict'
+| |-ParmVarDecl 0xbc8dde0 <col:37, col:41> __base 'int'
+| |-NonNullAttr 0xbc8df20 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:198:27> 0
+| `-NoThrowAttr 0xbc8df60 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc8e0d0 </usr/include/stdlib.h:201:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strtouq 'unsigned long long (const char *restrict, char **restrict, int)' extern
+| |-ParmVarDecl 0xbc8df80 </usr/include/stdlib.h:201:40, col:65> __nptr 'const char *restrict'
+| |-ParmVarDecl 0xbc8dfc0 <line:202:12, col:30> __endptr 'char **restrict'
+| |-ParmVarDecl 0xbc8e000 <col:40, col:44> __base 'int'
+| |-NonNullAttr 0xbc8e160 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:203:27> 0
+| `-NoThrowAttr 0xbc8e1a0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc8e2b0 </usr/include/stdlib.h:210:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strtoll 'long long (const char *restrict, char **restrict, int)' extern
+| |-ParmVarDecl 0xbc8e1c0 </usr/include/stdlib.h:210:31, col:56> __nptr 'const char *restrict'
+| |-ParmVarDecl 0xbc8e200 <line:211:10, col:28> __endptr 'char **restrict'
+| |-ParmVarDecl 0xbc8e240 <col:38, col:42> __base 'int'
+| |-NonNullAttr 0xbc8e320 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:212:27> 0
+| `-NoThrowAttr 0xbc8e360 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc8e470 </usr/include/stdlib.h:215:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> strtoull 'unsigned long long (const char *restrict, char **restrict, int)' extern
+| |-ParmVarDecl 0xbc8e380 </usr/include/stdlib.h:215:41, col:66> __nptr 'const char *restrict'
+| |-ParmVarDecl 0xbc8e3c0 <line:216:6, col:24> __endptr 'char **restrict'
+| |-ParmVarDecl 0xbc8e400 <col:34, col:38> __base 'int'
+| |-NonNullAttr 0xbc8e4e0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:217:27> 0
+| `-NoThrowAttr 0xbc8e520 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc8e5b0 </usr/include/stdlib.h:311:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> l64a 'char *(long)' extern
+| |-ParmVarDecl 0xbc8e540 </usr/include/stdlib.h:311:20, col:29> __n 'long'
+| `-NoThrowAttr 0xbc8e620 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbc8e6d0 </usr/include/stdlib.h:314:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> a64l 'long (const char *)' extern
+| |-ParmVarDecl 0xbc8e660 </usr/include/stdlib.h:314:23, col:37> __s 'const char *'
+| |-NonNullAttr 0xbc8e740 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:315:46> 0
+| |-PureAttr 0xbc8e780 </usr/include/i386-linux-gnu/sys/cdefs.h:234:45>
+| `-NoThrowAttr 0xbc8e790 <line:57:35>
+|-TypedefDecl 0xbc8e7c0 </usr/include/i386-linux-gnu/sys/types.h:34:1, col:18> u_char '__u_char':'unsigned char'
+|-TypedefDecl 0xbc8e810 <line:35:1, col:19> u_short '__u_short':'unsigned short'
+|-TypedefDecl 0xbc8e860 <line:36:1, col:17> u_int '__u_int':'unsigned int'
+|-TypedefDecl 0xbc8e8b0 <line:37:1, col:18> u_long '__u_long':'unsigned long'
+|-TypedefDecl 0xbc8e8e0 <line:38:1, col:18> quad_t '__quad_t':'long long'
+|-TypedefDecl 0xbc8e910 <line:39:1, col:20> u_quad_t '__u_quad_t':'unsigned long long'
+|-TypedefDecl 0xbc8e960 <line:40:1, col:18> fsid_t '__fsid_t':'__fsid_t'
+|-TypedefDecl 0xbc8e9b0 <line:45:1, col:18> loff_t '__loff_t':'long long'
+|-TypedefDecl 0xbc8ea00 <line:49:1, col:17> ino_t '__ino_t':'unsigned long'
+|-TypedefDecl 0xbc8ea50 <line:61:1, col:17> dev_t '__dev_t':'unsigned long long'
+|-TypedefDecl 0xbc8eaa0 <line:66:1, col:17> gid_t '__gid_t':'unsigned int'
+|-TypedefDecl 0xbc8eaf0 <line:71:1, col:18> mode_t '__mode_t':'unsigned int'
+|-TypedefDecl 0xbc8eb40 <line:76:1, col:19> nlink_t '__nlink_t':'unsigned int'
+|-TypedefDecl 0xbc8eb90 <line:81:1, col:17> uid_t '__uid_t':'unsigned int'
+|-TypedefDecl 0xbc8ebe0 <line:99:1, col:17> pid_t '__pid_t':'int'
+|-TypedefDecl 0xbc8ec30 <line:105:1, col:16> id_t '__id_t':'unsigned int'
+|-TypedefDecl 0xbc8ec80 <line:116:1, col:19> daddr_t '__daddr_t':'int'
+|-TypedefDecl 0xbc8ecd0 <line:117:1, col:19> caddr_t '__caddr_t':'char *'
+|-TypedefDecl 0xbc8ed20 <line:123:1, col:17> key_t '__key_t':'int'
+|-TypedefDecl 0xbc8ed70 </usr/include/time.h:60:1, col:19> clock_t '__clock_t':'long'
+|-TypedefDecl 0xbc8edc0 <line:76:1, col:18> time_t '__time_t':'long'
+|-TypedefDecl 0xbc8ee10 <line:92:1, col:21> clockid_t '__clockid_t':'int'
+|-TypedefDecl 0xbc8ee60 <line:104:1, col:19> timer_t '__timer_t':'void *'
+|-TypedefDecl 0xbc8eea0 </usr/include/i386-linux-gnu/sys/types.h:151:1, col:27> ulong 'unsigned long'
+|-TypedefDecl 0xbc8eee0 <line:152:1, col:28> ushort 'unsigned short'
+|-TypedefDecl 0xbc8ef20 <line:153:1, col:22> uint 'unsigned int'
+|-TypedefDecl 0xbc8ef70 <line:189:3, <scratch space>:24:1> int8_t 'signed char'
+| `-ModeAttr 0xbc8efb0 </usr/include/i386-linux-gnu/sys/types.h:189:42, col:56> __QI__
+|-TypedefDecl 0xbc8f000 <col:3, <scratch space>:26:1> int16_t 'short'
+| `-ModeAttr 0xbc8f040 </usr/include/i386-linux-gnu/sys/types.h:189:42, col:56> __HI__
+|-TypedefDecl 0xbc8f090 <col:3, <scratch space>:28:1> int32_t 'int'
+| `-ModeAttr 0xbc8f0d0 </usr/include/i386-linux-gnu/sys/types.h:189:42, col:56> __SI__
+|-TypedefDecl 0xbc8f120 <col:3, <scratch space>:30:1> int64_t 'long long'
+| `-ModeAttr 0xbc96170 </usr/include/i386-linux-gnu/sys/types.h:189:42, col:56> __DI__
+|-TypedefDecl 0xbc961c0 <line:191:3, <scratch space>:32:1> u_int8_t 'unsigned char'
+| `-ModeAttr 0xbc96200 </usr/include/i386-linux-gnu/sys/types.h:191:53, col:67> __QI__
+|-TypedefDecl 0xbc96250 <col:3, <scratch space>:34:1> u_int16_t 'unsigned short'
+| `-ModeAttr 0xbc96290 </usr/include/i386-linux-gnu/sys/types.h:191:53, col:67> __HI__
+|-TypedefDecl 0xbc962e0 <col:3, <scratch space>:36:1> u_int32_t 'unsigned int'
+| `-ModeAttr 0xbc96320 </usr/include/i386-linux-gnu/sys/types.h:191:53, col:67> __SI__
+|-TypedefDecl 0xbc96370 <col:3, <scratch space>:38:1> u_int64_t 'unsigned long long'
+| `-ModeAttr 0xbc963b0 </usr/include/i386-linux-gnu/sys/types.h:191:53, col:67> __DI__
+|-TypedefDecl 0xbc96400 <line:206:1, col:13> register_t 'int'
+| `-ModeAttr 0xbc96440 <col:40, col:58> __word__
+|-TypedefDecl 0xbc96480 </usr/include/i386-linux-gnu/bits/sigset.h:24:1, col:13> __sig_atomic_t 'int'
+|-RecordDecl 0xbc964b0 <line:29:9, line:32:3> struct definition
+| `-FieldDecl 0xbc96630 <line:31:5, col:43> __val 'unsigned long [32]'
+|-TypedefDecl 0xbc96690 <line:29:1, line:32:5> __sigset_t 'struct __sigset_t':'__sigset_t'
+|-TypedefDecl 0xbc966f0 </usr/include/i386-linux-gnu/sys/select.h:38:1, col:20> sigset_t '__sigset_t':'__sigset_t'
+|-RecordDecl 0xbc96720 </usr/include/time.h:120:1, line:124:3> struct timespec definition
+| |-FieldDecl 0xbc96790 <line:122:5, col:14> tv_sec '__time_t':'long'
+| `-FieldDecl 0xbc967d0 <line:123:5, col:14> tv_nsec 'long'
+|-RecordDecl 0xbc96800 </usr/include/i386-linux-gnu/bits/time.h:31:1, line:35:3> struct timeval definition
+| |-FieldDecl 0xbc96870 <line:33:5, col:14> tv_sec '__time_t':'long'
+| `-FieldDecl 0xbc968c0 <line:34:5, col:19> tv_usec '__suseconds_t':'long'
+|-TypedefDecl 0xbc96900 </usr/include/i386-linux-gnu/sys/select.h:49:1, col:23> suseconds_t '__suseconds_t':'long'
+|-TypedefDecl 0xbc96940 <line:55:1, col:18> __fd_mask 'long'
+|-RecordDecl 0xbc96970 <line:65:9, line:76:3> struct definition
+| `-FieldDecl 0xbc96b00 <line:73:5, col:50> __fds_bits '__fd_mask [32]'
+|-TypedefDecl 0xbc96b60 <line:65:1, line:76:5> fd_set 'struct fd_set':'fd_set'
+|-TypedefDecl 0xbc96ba0 <line:83:1, col:19> fd_mask '__fd_mask':'long'
+|-FunctionDecl 0xbc96e50 <line:107:1, line:110:42> select 'int (int, fd_set *restrict, fd_set *restrict, fd_set *restrict, struct timeval *restrict)' extern
+| |-ParmVarDecl 0xbc96be0 <line:107:20, col:24> __nfds 'int'
+| |-ParmVarDecl 0xbc96c70 <col:32, col:51> __readfds 'fd_set *restrict'
+| |-ParmVarDecl 0xbc96cb0 <line:108:6, col:25> __writefds 'fd_set *restrict'
+| |-ParmVarDecl 0xbc96cf0 <line:109:6, col:25> __exceptfds 'fd_set *restrict'
+| `-ParmVarDecl 0xbc96d90 <line:110:6, col:33> __timeout 'struct timeval *restrict'
+|-FunctionDecl 0xbc9da10 <line:119:1, line:123:45> pselect 'int (int, fd_set *restrict, fd_set *restrict, fd_set *restrict, const struct timespec *restrict, const __sigset_t *restrict)' extern
+| |-ParmVarDecl 0xbc96ee0 <line:119:21, col:25> __nfds 'int'
+| |-ParmVarDecl 0xbc96f20 <col:33, col:52> __readfds 'fd_set *restrict'
+| |-ParmVarDecl 0xbc96f60 <line:120:7, col:26> __writefds 'fd_set *restrict'
+| |-ParmVarDecl 0xbc96fa0 <line:121:7, col:26> __exceptfds 'fd_set *restrict'
+| |-ParmVarDecl 0xbc97040 <line:122:7, col:41> __timeout 'const struct timespec *restrict'
+| `-ParmVarDecl 0xbc970c0 <line:123:7, col:36> __sigmask 'const __sigset_t *restrict'
+|-FunctionDecl 0xbc9db10 </usr/include/i386-linux-gnu/sys/sysmacros.h:33:1, /usr/include/i386-linux-gnu/sys/cdefs.h:241:56> gnu_dev_major 'unsigned int (unsigned long long)' extern
+| |-ParmVarDecl 0xbc9daa0 </usr/include/i386-linux-gnu/sys/sysmacros.h:33:36, col:59> __dev 'unsigned long long'
+| |-ConstAttr 0xbc9db80 </usr/include/i386-linux-gnu/sys/cdefs.h:241:46>
+| `-NoThrowAttr 0xbc9dbb0 <line:57:35>
+|-FunctionDecl 0xbc9dc20 </usr/include/i386-linux-gnu/sys/sysmacros.h:36:1, /usr/include/i386-linux-gnu/sys/cdefs.h:241:56> gnu_dev_minor 'unsigned int (unsigned long long)' extern
+| |-ParmVarDecl 0xbc9dbd0 </usr/include/i386-linux-gnu/sys/sysmacros.h:36:36, col:59> __dev 'unsigned long long'
+| |-ConstAttr 0xbc9dc90 </usr/include/i386-linux-gnu/sys/cdefs.h:241:46>
+| `-NoThrowAttr 0xbc9dcc0 <line:57:35>
+|-FunctionDecl 0xbc9dda0 </usr/include/i386-linux-gnu/sys/sysmacros.h:39:1, /usr/include/i386-linux-gnu/sys/cdefs.h:241:56> gnu_dev_makedev 'unsigned long long (unsigned int, unsigned int)' extern
+| |-ParmVarDecl 0xbc9dce0 </usr/include/i386-linux-gnu/sys/sysmacros.h:39:48, col:61> __major 'unsigned int'
+| |-ParmVarDecl 0xbc9dd20 <line:40:13, col:26> __minor 'unsigned int'
+| |-ConstAttr 0xbc9de10 </usr/include/i386-linux-gnu/sys/cdefs.h:241:46>
+| `-NoThrowAttr 0xbc9de40 <line:57:35>
+|-TypedefDecl 0xbc9de70 </usr/include/i386-linux-gnu/sys/types.h:229:1, col:21> blksize_t '__blksize_t':'long'
+|-TypedefDecl 0xbc9dec0 <line:236:1, col:20> blkcnt_t '__blkcnt_t':'long'
+|-TypedefDecl 0xbc9df10 <line:240:1, col:22> fsblkcnt_t '__fsblkcnt_t':'unsigned long'
+|-TypedefDecl 0xbc9df60 <line:244:1, col:22> fsfilcnt_t '__fsfilcnt_t':'unsigned long'
+|-TypedefDecl 0xbc9dfa0 </usr/include/i386-linux-gnu/bits/pthreadtypes.h:36:1, col:27> pthread_t 'unsigned long'
+|-RecordDecl 0xbc9dfd0 <line:39:9, line:43:1> union definition
+| |-FieldDecl 0xbc9e090 <line:41:3, col:38> __size 'char [36]'
+| `-FieldDecl 0xbc9e0d0 <line:42:3, col:12> __align 'long'
+|-TypedefDecl 0xbc9e130 <line:39:1, line:43:3> pthread_attr_t 'union pthread_attr_t':'pthread_attr_t'
+|-RecordDecl 0xbc9e170 <line:46:9, line:49:1> struct __pthread_internal_slist definition
+| `-FieldDecl 0xbc9e240 <line:48:3, col:36> __next 'struct __pthread_internal_slist *'
+|-TypedefDecl 0xbc9e280 <line:46:1, line:49:3> __pthread_slist_t 'struct __pthread_internal_slist':'struct __pthread_internal_slist'
+|-RecordDecl 0xbc9e2c0 <line:54:9, line:73:1> union definition
+| |-RecordDecl 0xbc9e320 parent 0xbbfe600 <line:56:3, line:70:3> struct __pthread_mutex_s definition
+| | |-FieldDecl 0xbc9e3a0 <line:58:5, col:9> __lock 'int'
+| | |-FieldDecl 0xbc9e3e0 <line:59:5, col:18> __count 'unsigned int'
+| | |-FieldDecl 0xbc9e420 <line:60:5, col:9> __owner 'int'
+| | |-FieldDecl 0xbc9e460 <line:63:5, col:9> __kind 'int'
+| | |-FieldDecl 0xbc9e4a0 <line:64:5, col:18> __nusers 'unsigned int'
+| | |-RecordDecl 0xbc9e4d0 <line:65:19, line:69:5> union definition
+| | | |-FieldDecl 0xbc9e540 <line:67:7, col:11> __spins 'int'
+| | | `-FieldDecl 0xbc9e590 <line:68:7, col:25> __list '__pthread_slist_t':'struct __pthread_internal_slist'
+| | |-FieldDecl 0xbc9e5f0 <line:65:19> 'union __pthread_mutex_s::<anonymous at /usr/include/i386-linux-gnu/bits/pthreadtypes.h:65:19>'
+| | |-IndirectFieldDecl 0xbc9e630 <line:67:11> __spins 'int'
+| | | |-Field 0xbc9e5f0 '' 'union __pthread_mutex_s::<anonymous at /usr/include/i386-linux-gnu/bits/pthreadtypes.h:65:19>'
+| | | `-Field 0xbc9e540 '__spins' 'int'
+| | `-IndirectFieldDecl 0xbc9e660 <line:68:25> __list '__pthread_slist_t':'struct __pthread_internal_slist'
+| |   |-Field 0xbc9e5f0 '' 'union __pthread_mutex_s::<anonymous at /usr/include/i386-linux-gnu/bits/pthreadtypes.h:65:19>'
+| |   `-Field 0xbc9e590 '__list' '__pthread_slist_t':'struct __pthread_internal_slist'
+| |-FieldDecl 0xbc9e6c0 <line:56:3, line:70:5> __data 'struct __pthread_mutex_s':'struct __pthread_mutex_s'
+| |-FieldDecl 0xbc9e750 <line:71:3, col:39> __size 'char [24]'
+| `-FieldDecl 0xbc9e790 <line:72:3, col:12> __align 'long'
+|-TypedefDecl 0xbc9e8c0 <line:54:1, line:73:3> pthread_mutex_t 'union pthread_mutex_t':'pthread_mutex_t'
+|-RecordDecl 0xbc9e900 <line:75:9, line:79:1> union definition
+| |-FieldDecl 0xbc9e990 <line:77:3, col:43> __size 'char [4]'
+| `-FieldDecl 0xbca1830 <line:78:3, col:12> __align 'long'
+|-TypedefDecl 0xbca1890 <line:75:1, line:79:3> pthread_mutexattr_t 'union pthread_mutexattr_t':'pthread_mutexattr_t'
+|-RecordDecl 0xbca18d0 <line:84:9, line:99:1> union definition
+| |-RecordDecl 0xbca1930 <line:86:3, line:96:3> struct definition
+| | |-FieldDecl 0xbca19a0 <line:88:5, col:9> __lock 'int'
+| | |-FieldDecl 0xbca19e0 <line:89:5, col:18> __futex 'unsigned int'
+| | |-FieldDecl 0xbca1a20 <line:90:19, col:42> __total_seq 'unsigned long long'
+| | |-FieldDecl 0xbca1a60 <line:91:19, col:42> __wakeup_seq 'unsigned long long'
+| | |-FieldDecl 0xbca1aa0 <line:92:19, col:42> __woken_seq 'unsigned long long'
+| | |-FieldDecl 0xbca1ae0 <line:93:5, col:11> __mutex 'void *'
+| | |-FieldDecl 0xbca1b20 <line:94:5, col:18> __nwaiters 'unsigned int'
+| | `-FieldDecl 0xbca1b60 <line:95:5, col:18> __broadcast_seq 'unsigned int'
+| |-FieldDecl 0xbca1bc0 <line:86:3, line:96:5> __data 'struct <anonymous struct at /usr/include/i386-linux-gnu/bits/pthreadtypes.h:86:3>':'struct pthread_cond_t::<anonymous at /usr/include/i386-linux-gnu/bits/pthreadtypes.h:86:3>'
+| |-FieldDecl 0xbca1c50 <line:97:3, col:38> __size 'char [48]'
+| `-FieldDecl 0xbca1c90 <line:98:17, col:31> __align 'long long'
+|-TypedefDecl 0xbca1d60 <line:84:1, line:99:3> pthread_cond_t 'union pthread_cond_t':'pthread_cond_t'
+|-RecordDecl 0xbca1da0 <line:101:9, line:105:1> union definition
+| |-FieldDecl 0xbca1e30 <line:103:3, col:42> __size 'char [4]'
+| `-FieldDecl 0xbca1e70 <line:104:3, col:12> __align 'long'
+|-TypedefDecl 0xbca1ed0 <line:101:1, line:105:3> pthread_condattr_t 'union pthread_condattr_t':'pthread_condattr_t'
+|-TypedefDecl 0xbca1f20 <line:109:1, col:22> pthread_key_t 'unsigned int'
+|-TypedefDecl 0xbca1f60 <line:113:1, col:13> pthread_once_t 'int'
+|-RecordDecl 0xbca1f90 <line:119:9, line:139:1> union definition
+| |-RecordDecl 0xbca1ff0 <line:121:3, line:136:3> struct definition
+| | |-FieldDecl 0xbca2060 <line:123:5, col:9> __lock 'int'
+| | |-FieldDecl 0xbca20a0 <line:124:5, col:18> __nr_readers 'unsigned int'
+| | |-FieldDecl 0xbca20e0 <line:125:5, col:18> __readers_wakeup 'unsigned int'
+| | |-FieldDecl 0xbca2120 <line:126:5, col:18> __writer_wakeup 'unsigned int'
+| | |-FieldDecl 0xbca2160 <line:127:5, col:18> __nr_readers_queued 'unsigned int'
+| | |-FieldDecl 0xbca21a0 <line:128:5, col:18> __nr_writers_queued 'unsigned int'
+| | |-FieldDecl 0xbca21e0 <line:131:5, col:19> __flags 'unsigned char'
+| | |-FieldDecl 0xbca2220 <line:132:5, col:19> __shared 'unsigned char'
+| | |-FieldDecl 0xbca2260 <line:133:5, col:19> __pad1 'unsigned char'
+| | |-FieldDecl 0xbca22a0 <line:134:5, col:19> __pad2 'unsigned char'
+| | `-FieldDecl 0xbca22e0 <line:135:5, col:9> __writer 'int'
+| |-FieldDecl 0xbca2340 <line:121:3, line:136:5> __data 'struct <anonymous struct at /usr/include/i386-linux-gnu/bits/pthreadtypes.h:121:3>':'struct pthread_rwlock_t::<anonymous at /usr/include/i386-linux-gnu/bits/pthreadtypes.h:121:3>'
+| |-FieldDecl 0xbca23d0 <line:137:3, col:40> __size 'char [32]'
+| `-FieldDecl 0xbca2410 <line:138:3, col:12> __align 'long'
+|-TypedefDecl 0xbca24f0 <line:119:1, line:139:3> pthread_rwlock_t 'union pthread_rwlock_t':'pthread_rwlock_t'
+|-RecordDecl 0xbca2530 <line:141:9, line:145:1> union definition
+| |-FieldDecl 0xbca25f0 <line:143:3, col:44> __size 'char [8]'
+| `-FieldDecl 0xbca2630 <line:144:3, col:12> __align 'long'
+|-TypedefDecl 0xbca2690 <line:141:1, line:145:3> pthread_rwlockattr_t 'union pthread_rwlockattr_t':'pthread_rwlockattr_t'
+|-TypedefDecl 0xbca26e0 <line:151:1, col:22> pthread_spinlock_t 'volatile int'
+|-RecordDecl 0xbca2710 <line:156:9, line:160:1> union definition
+| |-FieldDecl 0xbca27d0 <line:158:3, col:41> __size 'char [20]'
+| `-FieldDecl 0xbca2840 <line:159:3, col:12> __align 'long'
+|-TypedefDecl 0xbca28a0 <line:156:1, line:160:3> pthread_barrier_t 'union pthread_barrier_t':'pthread_barrier_t'
+|-RecordDecl 0xbca28e0 <line:162:9, line:166:1> union definition
+| |-FieldDecl 0xbca2970 <line:164:3, col:45> __size 'char [4]'
+| `-FieldDecl 0xbca29b0 <line:165:3, col:7> __align 'int'
+|-TypedefDecl 0xbca2a10 <line:162:1, line:166:3> pthread_barrierattr_t 'union pthread_barrierattr_t':'pthread_barrierattr_t'
+|-FunctionDecl 0xbca2ac0 </usr/include/stdlib.h:327:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> random 'long (void)' extern
+| `-NoThrowAttr 0xbca2b20 <col:35>
+|-FunctionDecl 0xbca2bd0 </usr/include/stdlib.h:330:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> srandom 'void (unsigned int)' extern
+| |-ParmVarDecl 0xbca2b60 </usr/include/stdlib.h:330:22, col:35> __seed 'unsigned int'
+| `-NoThrowAttr 0xbca2c40 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca2dd0 </usr/include/stdlib.h:336:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> initstate 'char *(unsigned int, char *, size_t)' extern
+| |-ParmVarDecl 0xbca2c80 </usr/include/stdlib.h:336:25, col:38> __seed 'unsigned int'
+| |-ParmVarDecl 0xbca2cc0 <col:46, col:52> __statebuf 'char *'
+| |-ParmVarDecl 0xbca2d00 <line:337:4, col:11> __statelen 'size_t':'unsigned int'
+| |-NonNullAttr 0xbca2e40 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:337:44> 1
+| `-NoThrowAttr 0xbca2e80 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca2f10 </usr/include/stdlib.h:341:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> setstate 'char *(char *)' extern
+| |-ParmVarDecl 0xbca2ea0 </usr/include/stdlib.h:341:24, col:30> __statebuf 'char *'
+| |-NonNullAttr 0xbca2f80 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:341:63> 0
+| `-NoThrowAttr 0xbca2fc0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-RecordDecl 0xbca2fd0 </usr/include/stdlib.h:349:1, line:358:3> struct random_data definition
+| |-FieldDecl 0xbca3070 <line:351:5, col:14> fptr 'int32_t *'
+| |-FieldDecl 0xbca30b0 <line:352:5, col:14> rptr 'int32_t *'
+| |-FieldDecl 0xbca30f0 <line:353:5, col:14> state 'int32_t *'
+| |-FieldDecl 0xbca3130 <line:354:5, col:9> rand_type 'int'
+| |-FieldDecl 0xbca3170 <line:355:5, col:9> rand_deg 'int'
+| |-FieldDecl 0xbca31b0 <line:356:5, col:9> rand_sep 'int'
+| `-FieldDecl 0xbca31f0 <line:357:5, col:14> end_ptr 'int32_t *'
+|-FunctionDecl 0xbca33a0 <line:360:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> random_r 'int (struct random_data *restrict, int32_t *restrict)' extern
+| |-ParmVarDecl 0xbca3290 </usr/include/stdlib.h:360:22, col:53> __buf 'struct random_data *restrict'
+| |-ParmVarDecl 0xbca32d0 <line:361:8, col:28> __result 'int32_t *restrict'
+| |-NonNullAttr 0xbca3410 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:361:62> 0 1
+| `-NoThrowAttr 0xbca3450 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca3580 </usr/include/stdlib.h:363:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> srandom_r 'int (unsigned int, struct random_data *)' extern
+| |-ParmVarDecl 0xbca3470 </usr/include/stdlib.h:363:23, col:36> __seed 'unsigned int'
+| |-ParmVarDecl 0xbca34c0 <col:44, col:64> __buf 'struct random_data *'
+| |-NonNullAttr 0xbca35f0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:364:27> 1
+| `-NoThrowAttr 0xbca3630 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca3960 </usr/include/stdlib.h:366:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> initstate_r 'int (unsigned int, char *restrict, size_t, struct random_data *restrict)' extern
+| |-ParmVarDecl 0xbca3650 </usr/include/stdlib.h:366:25, col:38> __seed 'unsigned int'
+| |-ParmVarDecl 0xbca3690 <col:46, col:63> __statebuf 'char *restrict'
+| |-ParmVarDecl 0xbca36d0 <line:367:4, col:11> __statelen 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbca3720 <line:368:4, col:35> __buf 'struct random_data *restrict'
+| |-NonNullAttr 0xbca39d0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:369:30> 1 3
+| `-NoThrowAttr 0xbca3a10 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca3b50 </usr/include/stdlib.h:371:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> setstate_r 'int (char *restrict, struct random_data *restrict)' extern
+| |-ParmVarDecl 0xbca3a30 </usr/include/stdlib.h:371:24, col:41> __statebuf 'char *restrict'
+| |-ParmVarDecl 0xbca3a80 <line:372:10, col:41> __buf 'struct random_data *restrict'
+| |-NonNullAttr 0xbca3bc0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:373:30> 0 1
+| `-NoThrowAttr 0xbca3c00 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca3c70 </usr/include/stdlib.h:380:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> rand 'int (void)' extern
+| `-NoThrowAttr 0xbca3cd0 <col:35>
+|-FunctionDecl 0xbca3d60 </usr/include/stdlib.h:382:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> srand 'void (unsigned int)' extern
+| |-ParmVarDecl 0xbca3d10 </usr/include/stdlib.h:382:20, col:33> __seed 'unsigned int'
+| `-NoThrowAttr 0xbca3dd0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca3e80 </usr/include/stdlib.h:387:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> rand_r 'int (unsigned int *)' extern
+| |-ParmVarDecl 0xbca3e10 </usr/include/stdlib.h:387:20, col:34> __seed 'unsigned int *'
+| `-NoThrowAttr 0xbca3ef0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca3f90 </usr/include/stdlib.h:395:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> drand48 'double (void)' extern
+| `-NoThrowAttr 0xbca3ff0 <col:35>
+|-FunctionDecl 0xbca4160 </usr/include/stdlib.h:396:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> erand48 'double (unsigned short *)' extern
+| |-ParmVarDecl 0xbca40b0 </usr/include/stdlib.h:396:24, col:52> __xsubi 'unsigned short *':'unsigned short *'
+| |-NonNullAttr 0xbca41d0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:396:76> 0
+| `-NoThrowAttr 0xbca4210 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca4280 </usr/include/stdlib.h:399:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> lrand48 'long (void)' extern
+| `-NoThrowAttr 0xbca42e0 <col:35>
+|-FunctionDecl 0xbca43f0 </usr/include/stdlib.h:400:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> nrand48 'long (unsigned short *)' extern
+| |-ParmVarDecl 0xbca4340 </usr/include/stdlib.h:400:26, col:54> __xsubi 'unsigned short *':'unsigned short *'
+| |-NonNullAttr 0xbca4460 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:401:27> 0
+| `-NoThrowAttr 0xbca44a0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca4510 </usr/include/stdlib.h:404:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> mrand48 'long (void)' extern
+| `-NoThrowAttr 0xbca4570 <col:35>
+|-FunctionDecl 0xbca4640 </usr/include/stdlib.h:405:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> jrand48 'long (unsigned short *)' extern
+| |-ParmVarDecl 0xbca45d0 </usr/include/stdlib.h:405:26, col:54> __xsubi 'unsigned short *':'unsigned short *'
+| |-NonNullAttr 0xbca46b0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:406:27> 0
+| `-NoThrowAttr 0xbca46f0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca4780 </usr/include/stdlib.h:409:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> srand48 'void (long)' extern
+| |-ParmVarDecl 0xbca4710 </usr/include/stdlib.h:409:22, col:31> __seedval 'long'
+| `-NoThrowAttr 0xbca47f0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca4960 </usr/include/stdlib.h:410:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> seed48 'unsigned short *(unsigned short *)' extern
+| |-ParmVarDecl 0xbca4850 </usr/include/stdlib.h:410:36, col:66> __seed16v 'unsigned short *':'unsigned short *'
+| |-NonNullAttr 0xbca49d0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:411:27> 0
+| `-NoThrowAttr 0xbca4a10 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca4b50 </usr/include/stdlib.h:412:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> lcong48 'void (unsigned short *)' extern
+| |-ParmVarDecl 0xbca4aa0 </usr/include/stdlib.h:412:22, col:50> __param 'unsigned short *':'unsigned short *'
+| |-NonNullAttr 0xbca4bc0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:412:74> 0
+| `-NoThrowAttr 0xbca4c00 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-RecordDecl 0xbca4c10 </usr/include/stdlib.h:418:1, line:425:3> struct drand48_data definition
+| |-FieldDecl 0xbca4ca0 <line:420:5, col:29> __x 'unsigned short [3]'
+| |-FieldDecl 0xbca4d00 <line:421:5, col:33> __old_x 'unsigned short [3]'
+| |-FieldDecl 0xbca4d40 <line:422:5, col:24> __c 'unsigned short'
+| |-FieldDecl 0xbca4d80 <line:423:5, col:24> __init 'unsigned short'
+| `-FieldDecl 0xbca4dc0 <line:424:5, col:28> __a 'unsigned long long'
+|-FunctionDecl 0xbca4f90 <line:428:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> drand48_r 'int (struct drand48_data *restrict, double *restrict)' extern
+| |-ParmVarDecl 0xbca4e60 </usr/include/stdlib.h:428:23, col:55> __buffer 'struct drand48_data *restrict'
+| |-ParmVarDecl 0xbca4ec0 <line:429:9, col:28> __result 'double *restrict'
+| |-NonNullAttr 0xbca5000 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:429:62> 0 1
+| `-NoThrowAttr 0xbca5040 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca51f0 </usr/include/stdlib.h:430:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> erand48_r 'int (unsigned short *, struct drand48_data *restrict, double *restrict)' extern
+| |-ParmVarDecl 0xbca5080 </usr/include/stdlib.h:430:23, col:51> __xsubi 'unsigned short *':'unsigned short *'
+| |-ParmVarDecl 0xbca50d0 <line:431:9, col:41> __buffer 'struct drand48_data *restrict'
+| |-ParmVarDecl 0xbca5110 <line:432:9, col:28> __result 'double *restrict'
+| |-NonNullAttr 0xbca5260 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:432:62> 0 1
+| `-NoThrowAttr 0xbca52a0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca5400 </usr/include/stdlib.h:435:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> lrand48_r 'int (struct drand48_data *restrict, long *restrict)' extern
+| |-ParmVarDecl 0xbca52d0 </usr/include/stdlib.h:435:23, col:55> __buffer 'struct drand48_data *restrict'
+| |-ParmVarDecl 0xbca5330 <line:436:9, col:30> __result 'long *restrict'
+| |-NonNullAttr 0xbca5470 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:437:30> 0 1
+| `-NoThrowAttr 0xbca54b0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca5660 </usr/include/stdlib.h:438:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> nrand48_r 'int (unsigned short *, struct drand48_data *restrict, long *restrict)' extern
+| |-ParmVarDecl 0xbca54f0 </usr/include/stdlib.h:438:23, col:51> __xsubi 'unsigned short *':'unsigned short *'
+| |-ParmVarDecl 0xbca5540 <line:439:9, col:41> __buffer 'struct drand48_data *restrict'
+| |-ParmVarDecl 0xbca5580 <line:440:9, col:30> __result 'long *restrict'
+| |-NonNullAttr 0xbca56d0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:441:30> 0 1
+| `-NoThrowAttr 0xbca5710 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca5810 </usr/include/stdlib.h:444:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> mrand48_r 'int (struct drand48_data *restrict, long *restrict)' extern
+| |-ParmVarDecl 0xbca5740 </usr/include/stdlib.h:444:23, col:55> __buffer 'struct drand48_data *restrict'
+| |-ParmVarDecl 0xbca5780 <line:445:9, col:30> __result 'long *restrict'
+| |-NonNullAttr 0xbca5880 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:446:30> 0 1
+| `-NoThrowAttr 0xbca58c0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca8a50 </usr/include/stdlib.h:447:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> jrand48_r 'int (unsigned short *, struct drand48_data *restrict, long *restrict)' extern
+| |-ParmVarDecl 0xbca5900 </usr/include/stdlib.h:447:23, col:51> __xsubi 'unsigned short *':'unsigned short *'
+| |-ParmVarDecl 0xbca8980 <line:448:9, col:41> __buffer 'struct drand48_data *restrict'
+| |-ParmVarDecl 0xbca89c0 <line:449:9, col:30> __result 'long *restrict'
+| |-NonNullAttr 0xbca8ac0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:450:30> 0 1
+| `-NoThrowAttr 0xbca8b00 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca8c30 </usr/include/stdlib.h:453:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> srand48_r 'int (long, struct drand48_data *)' extern
+| |-ParmVarDecl 0xbca8b20 </usr/include/stdlib.h:453:23, col:32> __seedval 'long'
+| |-ParmVarDecl 0xbca8b70 <col:43, col:64> __buffer 'struct drand48_data *'
+| |-NonNullAttr 0xbca8ca0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:454:27> 1
+| `-NoThrowAttr 0xbca8ce0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca8e40 </usr/include/stdlib.h:456:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> seed48_r 'int (unsigned short *, struct drand48_data *)' extern
+| |-ParmVarDecl 0xbca8d20 </usr/include/stdlib.h:456:22, col:52> __seed16v 'unsigned short *':'unsigned short *'
+| |-ParmVarDecl 0xbca8d70 <line:457:8, col:29> __buffer 'struct drand48_data *'
+| |-NonNullAttr 0xbca8eb0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:457:63> 0 1
+| `-NoThrowAttr 0xbca8ef0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca9030 </usr/include/stdlib.h:459:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> lcong48_r 'int (unsigned short *, struct drand48_data *)' extern
+| |-ParmVarDecl 0xbca8f30 </usr/include/stdlib.h:459:23, col:51> __param 'unsigned short *':'unsigned short *'
+| |-ParmVarDecl 0xbca8f80 <line:460:9, col:30> __buffer 'struct drand48_data *'
+| |-NonNullAttr 0xbca90a0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:461:30> 0 1
+| `-NoThrowAttr 0xbca90e0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca9150 prev 0xbc6f7b0 </usr/include/stdlib.h:471:1, /usr/include/i386-linux-gnu/sys/cdefs.h:225:58> malloc 'void *(unsigned int)' extern
+| |-ParmVarDecl 0xbca9100 </usr/include/stdlib.h:471:22, col:29> __size 'size_t':'unsigned int'
+| |-MallocAttr 0xbca91c0 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbca91f0 <line:57:35>
+|-FunctionDecl 0xbca92b0 prev 0xbc6fa20 </usr/include/stdlib.h:473:1, /usr/include/i386-linux-gnu/sys/cdefs.h:225:58> calloc 'void *(unsigned int, unsigned int)' extern
+| |-ParmVarDecl 0xbca9210 </usr/include/stdlib.h:473:22, col:29> __nmemb 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbca9250 <col:38, col:45> __size 'size_t':'unsigned int'
+| |-MallocAttr 0xbca9320 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbca9350 <line:57:35>
+|-FunctionDecl 0xbca9410 prev 0xbc6fc90 </usr/include/stdlib.h:485:1, /usr/include/i386-linux-gnu/sys/cdefs.h:299:43> realloc 'void *(void *, unsigned int)' extern
+| |-ParmVarDecl 0xbca9370 </usr/include/stdlib.h:485:23, col:29> __ptr 'void *'
+| |-ParmVarDecl 0xbca93b0 <col:36, col:43> __size 'size_t':'unsigned int'
+| |-WarnUnusedResultAttr 0xbca9480 </usr/include/i386-linux-gnu/sys/cdefs.h:299:20>
+| `-NoThrowAttr 0xbca94b0 <line:57:35>
+|-FunctionDecl 0xbca9520 prev 0xbc6fdc0 </usr/include/stdlib.h:488:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> free 'void (void *)' extern
+| |-ParmVarDecl 0xbca94d0 </usr/include/stdlib.h:488:19, col:25> __ptr 'void *'
+| `-NoThrowAttr 0xbca9590 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca9620 prev 0xbc6fec0 </usr/include/stdlib.h:493:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> cfree 'void (void *)' extern
+| |-ParmVarDecl 0xbca95d0 </usr/include/stdlib.h:493:20, col:26> __ptr 'void *'
+| `-NoThrowAttr 0xbca9690 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca9710 </usr/include/alloca.h:33:14> alloca 'void *(unsigned int)' extern
+| `-ParmVarDecl 0xbca9770 <<invalid sloc>> 'unsigned int'
+|-FunctionDecl 0xbca97b0 prev 0xbca9710 <col:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> alloca 'void *(unsigned int)' extern
+| |-ParmVarDecl 0xbca96c0 </usr/include/alloca.h:33:22, col:29> __size 'size_t':'unsigned int'
+| `-NoThrowAttr 0xbca9820 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca98a0 prev 0xbc723a0 </usr/include/stdlib.h:503:1, /usr/include/i386-linux-gnu/sys/cdefs.h:225:58> valloc 'void *(size_t)' extern
+| |-ParmVarDecl 0xbca9850 </usr/include/stdlib.h:503:22, col:29> __size 'size_t':'unsigned int'
+| |-MallocAttr 0xbca9910 </usr/include/i386-linux-gnu/sys/cdefs.h:225:47>
+| `-NoThrowAttr 0xbca9940 <line:57:35>
+|-FunctionDecl 0xbca9ae0 </usr/include/stdlib.h:508:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> posix_memalign 'int (void **, size_t, size_t)' extern
+| |-ParmVarDecl 0xbca9990 </usr/include/stdlib.h:508:28, col:35> __memptr 'void **'
+| |-ParmVarDecl 0xbca99d0 <col:45, col:52> __alignment 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbca9a10 <col:65, col:72> __size 'size_t':'unsigned int'
+| |-NonNullAttr 0xbca9b50 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:509:27> 0
+| `-NoThrowAttr 0xbca9b90 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca9c10 </usr/include/stdlib.h:514:13> abort 'void (void) __attribute__((noreturn))' extern
+|-FunctionDecl 0xbca9c70 prev 0xbca9c10 <col:1, col:63> abort 'void (void) __attribute__((noreturn))' extern
+| `-NoThrowAttr 0xbca9cd0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbca9e10 </usr/include/stdlib.h:518:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> atexit 'int (void (*)(void))' extern
+| |-ParmVarDecl 0xbca9d60 </usr/include/stdlib.h:518:20, col:40> __func 'void (*)(void)'
+| |-NonNullAttr 0xbca9e80 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:518:64> 0
+| `-NoThrowAttr 0xbca9ec0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaa100 </usr/include/stdlib.h:536:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> on_exit 'int (void (*)(int, void *), void *)' extern
+| |-ParmVarDecl 0xbcaa000 </usr/include/stdlib.h:536:21, col:62> __func 'void (*)(int, void *)'
+| |-ParmVarDecl 0xbcaa040 <col:65, col:71> __arg 'void *'
+| |-NonNullAttr 0xbcaa170 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:537:27> 0
+| `-NoThrowAttr 0xbcaa1b0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaa260 </usr/include/stdlib.h:544:13> exit 'void (int) __attribute__((noreturn))' extern
+| `-ParmVarDecl 0xbcaa2c0 <<invalid sloc>> 'int'
+|-FunctionDecl 0xbcaa300 prev 0xbcaa260 <col:1, col:70> exit 'void (int) __attribute__((noreturn))' extern
+| |-ParmVarDecl 0xbcaa1d0 <col:19, col:23> __status 'int'
+| `-NoThrowAttr 0xbcaa370 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaa400 </usr/include/stdlib.h:560:13> _Exit 'void (int) __attribute__((noreturn))' extern
+| `-ParmVarDecl 0xbcaa460 <<invalid sloc>> 'int'
+|-FunctionDecl 0xbcaa4a0 prev 0xbcaa400 <col:1, col:71> _Exit 'void (int) __attribute__((noreturn))' extern
+| |-ParmVarDecl 0xbcaa3b0 <col:20, col:24> __status 'int'
+| `-NoThrowAttr 0xbcaa510 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaa5c0 </usr/include/stdlib.h:567:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> getenv 'char *(const char *)' extern
+| |-ParmVarDecl 0xbcaa550 </usr/include/stdlib.h:567:22, col:36> __name 'const char *'
+| |-NonNullAttr 0xbcaa630 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:567:65> 0
+| `-NoThrowAttr 0xbcaa670 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaa700 </usr/include/stdlib.h:572:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> __secure_getenv 'char *(const char *)' extern
+| |-ParmVarDecl 0xbcaa690 </usr/include/stdlib.h:572:31, col:45> __name 'const char *'
+| |-NonNullAttr 0xbcaa770 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:573:27> 0
+| `-NoThrowAttr 0xbcaa7b0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaa860 </usr/include/stdlib.h:579:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> putenv 'int (char *)' extern
+| |-ParmVarDecl 0xbcaa7d0 </usr/include/stdlib.h:579:20, col:26> __string 'char *'
+| |-NonNullAttr 0xbcaa8d0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:579:57> 0
+| `-NoThrowAttr 0xbcaa910 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaaa70 </usr/include/stdlib.h:585:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> setenv 'int (const char *, const char *, int)' extern
+| |-ParmVarDecl 0xbcaa930 </usr/include/stdlib.h:585:20, col:34> __name 'const char *'
+| |-ParmVarDecl 0xbcaa990 <col:42, col:56> __value 'const char *'
+| |-ParmVarDecl 0xbcaa9d0 <col:65, col:69> __replace 'int'
+| |-NonNullAttr 0xbcaaae0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:586:27> 1
+| `-NoThrowAttr 0xbcaab20 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaabb0 </usr/include/stdlib.h:589:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> unsetenv 'int (const char *)' extern
+| |-ParmVarDecl 0xbcaab40 </usr/include/stdlib.h:589:22, col:36> __name 'const char *'
+| |-NonNullAttr 0xbcaac20 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:589:65> 0
+| `-NoThrowAttr 0xbcaac60 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaacd0 </usr/include/stdlib.h:596:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> clearenv 'int (void)' extern
+| `-NoThrowAttr 0xbcaad30 <col:35>
+|-FunctionDecl 0xbcaade0 </usr/include/stdlib.h:606:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> mktemp 'char *(char *)' extern
+| |-ParmVarDecl 0xbcaad70 </usr/include/stdlib.h:606:22, col:28> __template 'char *'
+| |-NonNullAttr 0xbcaae50 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:606:61> 0
+| `-NoThrowAttr 0xbcaae90 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaaf20 </usr/include/stdlib.h:620:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> mkstemp 'int (char *)' extern
+| |-ParmVarDecl 0xbcaaeb0 </usr/include/stdlib.h:620:21, col:27> __template 'char *'
+| `-NonNullAttr 0xbcaaf90 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:620:52> 0
+|-FunctionDecl 0xbcab0c0 <line:642:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> mkstemps 'int (char *, int)' extern
+| |-ParmVarDecl 0xbcaafe0 </usr/include/stdlib.h:642:22, col:28> __template 'char *'
+| |-ParmVarDecl 0xbcab020 <col:40, col:44> __suffixlen 'int'
+| `-NonNullAttr 0xbcab130 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:642:70> 0
+|-FunctionDecl 0xbcab1f0 <line:663:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> mkdtemp 'char *(char *)' extern
+| |-ParmVarDecl 0xbcab180 </usr/include/stdlib.h:663:23, col:29> __template 'char *'
+| |-NonNullAttr 0xbcab260 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:663:62> 0
+| `-NoThrowAttr 0xbcab2a0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcab310 </usr/include/stdlib.h:717:1, col:43> system 'int (const char *)' extern
+| `-ParmVarDecl 0xbcab2c0 <col:20, col:34> __command 'const char *'
+|-FunctionDecl 0xbcab470 <line:734:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> realpath 'char *(const char *restrict, char *restrict)' extern
+| |-ParmVarDecl 0xbcab390 </usr/include/stdlib.h:734:24, col:49> __name 'const char *restrict'
+| |-ParmVarDecl 0xbcab3d0 <line:735:10, col:27> __resolved 'char *restrict'
+| `-NoThrowAttr 0xbcab4e0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-TypedefDecl 0xbcab640 </usr/include/stdlib.h:742:1, col:61> __compar_fn_t 'int (*)(const void *, const void *)'
+|-FunctionDecl 0xbcab8a0 <line:755:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> bsearch 'void *(const void *, const void *, size_t, size_t, __compar_fn_t)' extern
+| |-ParmVarDecl 0xbcab680 </usr/include/stdlib.h:755:23, col:37> __key 'const void *'
+| |-ParmVarDecl 0xbcab6c0 <col:44, col:58> __base 'const void *'
+| |-ParmVarDecl 0xbcab700 <line:756:9, col:16> __nmemb 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbcab740 <col:25, col:32> __size 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbcab790 <col:40, col:54> __compar '__compar_fn_t':'int (*)(const void *, const void *)'
+| `-NonNullAttr 0xbcab920 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:757:25> 0 1 4
+|-FunctionDecl 0xbcacb40 <line:761:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> qsort 'void (void *, size_t, size_t, __compar_fn_t)' extern
+| |-ParmVarDecl 0xbcac9a0 </usr/include/stdlib.h:761:20, col:26> __base 'void *'
+| |-ParmVarDecl 0xbcac9e0 <col:34, col:41> __nmemb 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbcaca20 <col:50, col:57> __size 'size_t':'unsigned int'
+| |-ParmVarDecl 0xbcaca60 <line:762:6, col:20> __compar '__compar_fn_t':'int (*)(const void *, const void *)'
+| `-NonNullAttr 0xbcacbb0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:762:46> 0 3
+|-FunctionDecl 0xbcacc50 <line:771:12> abs 'int (int)' extern
+| |-ParmVarDecl 0xbcaccb0 <<invalid sloc>> 'int'
+| |-NoThrowAttr 0xbcaccf0 <col:12>
+| `-ConstAttr 0xbcacd20 <col:12>
+|-FunctionDecl 0xbcacd30 prev 0xbcacc50 <col:1, col:60> abs 'int (int)' extern
+| |-ParmVarDecl 0xbcacc00 <col:17, col:21> __x 'int'
+| |-ConstAttr 0xbcacda0 <col:50>
+| `-NoThrowAttr 0xbcacdd0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcace60 </usr/include/stdlib.h:772:17> labs 'long (long)' extern
+| |-ParmVarDecl 0xbcacec0 <<invalid sloc>> 'long'
+| |-NoThrowAttr 0xbcacf00 <col:17>
+| `-ConstAttr 0xbcacf30 <col:17>
+|-FunctionDecl 0xbcacf40 prev 0xbcace60 <col:1, col:71> labs 'long (long)' extern
+| |-ParmVarDecl 0xbcacdf0 <col:23, col:32> __x 'long'
+| |-ConstAttr 0xbcacfb0 <col:61>
+| `-NoThrowAttr 0xbcacfe0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcad070 </usr/include/stdlib.h:776:36> llabs 'long long (long long)' extern
+| |-ParmVarDecl 0xbcad0d0 <<invalid sloc>> 'long long'
+| |-NoThrowAttr 0xbcad110 <col:36>
+| `-ConstAttr 0xbcad140 <col:36>
+|-FunctionDecl 0xbcad150 prev 0xbcad070 <col:15, line:777:40> llabs 'long long (long long)' extern
+| |-ParmVarDecl 0xbcad000 <line:776:43, col:57> __x 'long long'
+| |-ConstAttr 0xbcad1c0 <line:777:30>
+| `-NoThrowAttr 0xbcad1f0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcad2f0 </usr/include/stdlib.h:785:1, line:786:40> div 'div_t (int, int)' extern
+| |-ParmVarDecl 0xbcad220 <line:785:19, col:23> __numer 'int'
+| |-ParmVarDecl 0xbcad260 <col:32, col:36> __denom 'int'
+| |-ConstAttr 0xbcad360 <line:786:30>
+| `-NoThrowAttr 0xbcad390 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcad490 </usr/include/stdlib.h:787:1, line:788:40> ldiv 'ldiv_t (long, long)' extern
+| |-ParmVarDecl 0xbcad3c0 <line:787:21, col:30> __numer 'long'
+| |-ParmVarDecl 0xbcad400 <col:39, col:48> __denom 'long'
+| |-ConstAttr 0xbcad500 <line:788:30>
+| `-NoThrowAttr 0xbcad530 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcad630 </usr/include/stdlib.h:793:15, line:795:40> lldiv 'lldiv_t (long long, long long)' extern
+| |-ParmVarDecl 0xbcad560 <line:793:37, col:51> __numer 'long long'
+| |-ParmVarDecl 0xbcad5a0 <line:794:9, col:23> __denom 'long long'
+| |-ConstAttr 0xbcad6a0 <line:795:30>
+| `-NoThrowAttr 0xbcad6d0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcad8a0 </usr/include/stdlib.h:808:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> ecvt 'char *(double, int, int *restrict, int *restrict)' extern
+| |-ParmVarDecl 0xbcad6f0 </usr/include/stdlib.h:808:20, col:27> __value 'double'
+| |-ParmVarDecl 0xbcad730 <col:36, col:40> __ndigit 'int'
+| |-ParmVarDecl 0xbcad770 <col:50, col:66> __decpt 'int *restrict'
+| |-ParmVarDecl 0xbcad7b0 <line:809:6, col:22> __sign 'int *restrict'
+| |-NonNullAttr 0xbcad910 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:809:54> 2 3
+| `-NoThrowAttr 0xbcad950 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcadaf0 </usr/include/stdlib.h:814:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> fcvt 'char *(double, int, int *restrict, int *restrict)' extern
+| |-ParmVarDecl 0xbcad9a0 </usr/include/stdlib.h:814:20, col:27> __value 'double'
+| |-ParmVarDecl 0xbcad9e0 <col:36, col:40> __ndigit 'int'
+| |-ParmVarDecl 0xbcada20 <col:50, col:66> __decpt 'int *restrict'
+| |-ParmVarDecl 0xbcada60 <line:815:6, col:22> __sign 'int *restrict'
+| |-NonNullAttr 0xbcadb60 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:815:54> 2 3
+| `-NoThrowAttr 0xbcadba0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcadce0 </usr/include/stdlib.h:820:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> gcvt 'char *(double, int, char *)' extern
+| |-ParmVarDecl 0xbcadbc0 </usr/include/stdlib.h:820:20, col:27> __value 'double'
+| |-ParmVarDecl 0xbcadc00 <col:36, col:40> __ndigit 'int'
+| |-ParmVarDecl 0xbcadc40 <col:50, col:56> __buf 'char *'
+| |-NonNullAttr 0xbcadd50 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:821:27> 2
+| `-NoThrowAttr 0xbcadd90 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcadf60 </usr/include/stdlib.h:826:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> qecvt 'char *(long double, int, int *restrict, int *restrict)' extern
+| |-ParmVarDecl 0xbcaddb0 </usr/include/stdlib.h:826:21, col:33> __value 'long double'
+| |-ParmVarDecl 0xbcaddf0 <col:42, col:46> __ndigit 'int'
+| |-ParmVarDecl 0xbcade30 <line:827:7, col:23> __decpt 'int *restrict'
+| |-ParmVarDecl 0xbcade70 <col:32, col:48> __sign 'int *restrict'
+| |-NonNullAttr 0xbcadfd0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:828:30> 2 3
+| `-NoThrowAttr 0xbcae010 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcae180 </usr/include/stdlib.h:829:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> qfcvt 'char *(long double, int, int *restrict, int *restrict)' extern
+| |-ParmVarDecl 0xbcae030 </usr/include/stdlib.h:829:21, col:33> __value 'long double'
+| |-ParmVarDecl 0xbcae070 <col:42, col:46> __ndigit 'int'
+| |-ParmVarDecl 0xbcae0b0 <line:830:7, col:23> __decpt 'int *restrict'
+| |-ParmVarDecl 0xbcae0f0 <col:32, col:48> __sign 'int *restrict'
+| |-NonNullAttr 0xbcae1f0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:831:30> 2 3
+| `-NoThrowAttr 0xbcae230 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcae370 </usr/include/stdlib.h:832:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> qgcvt 'char *(long double, int, char *)' extern
+| |-ParmVarDecl 0xbcae250 </usr/include/stdlib.h:832:21, col:33> __value 'long double'
+| |-ParmVarDecl 0xbcae290 <col:42, col:46> __ndigit 'int'
+| |-ParmVarDecl 0xbcae2d0 <col:56, col:62> __buf 'char *'
+| |-NonNullAttr 0xbcae3e0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:833:27> 2
+| `-NoThrowAttr 0xbcae420 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcae6a0 </usr/include/stdlib.h:838:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> ecvt_r 'int (double, int, int *restrict, int *restrict, char *restrict, size_t)' extern
+| |-ParmVarDecl 0xbcae440 </usr/include/stdlib.h:838:20, col:27> __value 'double'
+| |-ParmVarDecl 0xbcae480 <col:36, col:40> __ndigit 'int'
+| |-ParmVarDecl 0xbcae4c0 <col:50, col:66> __decpt 'int *restrict'
+| |-ParmVarDecl 0xbcae500 <line:839:6, col:22> __sign 'int *restrict'
+| |-ParmVarDecl 0xbcae540 <col:30, col:47> __buf 'char *restrict'
+| |-ParmVarDecl 0xbcae580 <line:840:6, col:13> __len 'size_t':'unsigned int'
+| |-NonNullAttr 0xbcae720 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:840:47> 2 3 4
+| `-NoThrowAttr 0xbcae770 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcae9b0 </usr/include/stdlib.h:841:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> fcvt_r 'int (double, int, int *restrict, int *restrict, char *restrict, size_t)' extern
+| |-ParmVarDecl 0xbcae790 </usr/include/stdlib.h:841:20, col:27> __value 'double'
+| |-ParmVarDecl 0xbcae7d0 <col:36, col:40> __ndigit 'int'
+| |-ParmVarDecl 0xbcae810 <col:50, col:66> __decpt 'int *restrict'
+| |-ParmVarDecl 0xbcae850 <line:842:6, col:22> __sign 'int *restrict'
+| |-ParmVarDecl 0xbcae890 <col:30, col:47> __buf 'char *restrict'
+| |-ParmVarDecl 0xbcae8d0 <line:843:6, col:13> __len 'size_t':'unsigned int'
+| |-NonNullAttr 0xbcaea30 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:843:47> 2 3 4
+| `-NoThrowAttr 0xbcaea80 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaed00 </usr/include/stdlib.h:845:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> qecvt_r 'int (long double, int, int *restrict, int *restrict, char *restrict, size_t)' extern
+| |-ParmVarDecl 0xbcaeaa0 </usr/include/stdlib.h:845:21, col:33> __value 'long double'
+| |-ParmVarDecl 0xbcaeae0 <col:42, col:46> __ndigit 'int'
+| |-ParmVarDecl 0xbcaeb20 <line:846:7, col:23> __decpt 'int *restrict'
+| |-ParmVarDecl 0xbcaeb60 <col:32, col:48> __sign 'int *restrict'
+| |-ParmVarDecl 0xbcaeba0 <line:847:7, col:24> __buf 'char *restrict'
+| |-ParmVarDecl 0xbcaebe0 <col:31, col:38> __len 'size_t':'unsigned int'
+| |-NonNullAttr 0xbcaed80 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:848:33> 2 3 4
+| `-NoThrowAttr 0xbcaedd0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaefe0 </usr/include/stdlib.h:849:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> qfcvt_r 'int (long double, int, int *restrict, int *restrict, char *restrict, size_t)' extern
+| |-ParmVarDecl 0xbcaedf0 </usr/include/stdlib.h:849:21, col:33> __value 'long double'
+| |-ParmVarDecl 0xbcaee30 <col:42, col:46> __ndigit 'int'
+| |-ParmVarDecl 0xbcaee70 <line:850:7, col:23> __decpt 'int *restrict'
+| |-ParmVarDecl 0xbcaeeb0 <col:32, col:48> __sign 'int *restrict'
+| |-ParmVarDecl 0xbcaeef0 <line:851:7, col:24> __buf 'char *restrict'
+| |-ParmVarDecl 0xbcaef30 <col:31, col:38> __len 'size_t':'unsigned int'
+| |-NonNullAttr 0xbcaf060 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:852:33> 2 3 4
+| `-NoThrowAttr 0xbcaf0b0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaf1b0 </usr/include/stdlib.h:860:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> mblen 'int (const char *, size_t)' extern
+| |-ParmVarDecl 0xbcaf0d0 </usr/include/stdlib.h:860:19, col:33> __s 'const char *'
+| |-ParmVarDecl 0xbcaf110 <col:38, col:45> __n 'size_t':'unsigned int'
+| `-NoThrowAttr 0xbcaf220 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaf3c0 </usr/include/stdlib.h:863:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> mbtowc 'int (wchar_t *restrict, const char *restrict, size_t)' extern
+| |-ParmVarDecl 0xbcaf290 </usr/include/stdlib.h:863:20, col:40> __pwc 'wchar_t *restrict'
+| |-ParmVarDecl 0xbcaf2d0 <line:864:6, col:31> __s 'const char *restrict'
+| |-ParmVarDecl 0xbcaf310 <col:36, col:43> __n 'size_t':'unsigned int'
+| `-NoThrowAttr 0xbcaf430 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaf530 </usr/include/stdlib.h:867:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> wctomb 'int (char *, wchar_t)' extern
+| |-ParmVarDecl 0xbcaf470 </usr/include/stdlib.h:867:20, col:26> __s 'char *'
+| |-ParmVarDecl 0xbcaf4b0 <col:31, col:39> __wchar 'wchar_t':'int'
+| `-NoThrowAttr 0xbcaf5a0 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaf710 </usr/include/stdlib.h:871:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> mbstowcs 'size_t (wchar_t *restrict, const char *restrict, size_t)' extern
+| |-ParmVarDecl 0xbcaf5e0 </usr/include/stdlib.h:871:25, col:46> __pwcs 'wchar_t *restrict'
+| |-ParmVarDecl 0xbcaf620 <line:872:4, col:29> __s 'const char *restrict'
+| |-ParmVarDecl 0xbcaf660 <col:34, col:41> __n 'size_t':'unsigned int'
+| `-NoThrowAttr 0xbcaf780 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcaf910 </usr/include/stdlib.h:874:1, /usr/include/i386-linux-gnu/sys/cdefs.h:57:54> wcstombs 'size_t (char *restrict, const wchar_t *restrict, size_t)' extern
+| |-ParmVarDecl 0xbcaf7c0 </usr/include/stdlib.h:874:25, col:42> __s 'char *restrict'
+| |-ParmVarDecl 0xbcaf820 <line:875:4, col:32> __pwcs 'const wchar_t *restrict'
+| |-ParmVarDecl 0xbcaf860 <col:40, col:47> __n 'size_t':'unsigned int'
+| `-NoThrowAttr 0xbcaf980 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcafa50 </usr/include/stdlib.h:885:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> rpmatch 'int (const char *)' extern
+| |-ParmVarDecl 0xbcaf9e0 </usr/include/stdlib.h:885:21, col:35> __response 'const char *'
+| |-NonNullAttr 0xbcafac0 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:885:68> 0
+| `-NoThrowAttr 0xbcafb00 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcafcc0 </usr/include/stdlib.h:896:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> getsubopt 'int (char **restrict, char *const *restrict, char **restrict)' extern
+| |-ParmVarDecl 0xbcafb20 </usr/include/stdlib.h:896:23, col:41> __optionp 'char **restrict'
+| |-ParmVarDecl 0xbcafb80 <line:897:9, col:35> __tokens 'char *const *restrict'
+| |-ParmVarDecl 0xbcafbc0 <line:898:9, col:27> __valuep 'char **restrict'
+| |-NonNullAttr 0xbcafd30 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:899:33> 0 1 2
+| `-NoThrowAttr 0xbcafd80 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-FunctionDecl 0xbcafee0 </usr/include/stdlib.h:948:1, /usr/include/i386-linux-gnu/sys/cdefs.h:290:63> getloadavg 'int (double *, int)' extern
+| |-ParmVarDecl 0xbcafde0 </usr/include/stdlib.h:948:24, col:41> __loadavg 'double *':'double *'
+| |-ParmVarDecl 0xbcafe20 <col:44, col:48> __nelem 'int'
+| |-NonNullAttr 0xbcaff50 </usr/include/i386-linux-gnu/sys/cdefs.h:290:44, /usr/include/stdlib.h:949:27> 0
+| `-NoThrowAttr 0xbcaff90 </usr/include/i386-linux-gnu/sys/cdefs.h:57:35>
+|-RecordDecl 0xbcaffa0 <struct4.c:5:9, line:8:1> struct data_type definition
+| |-FieldDecl 0xbcb0010 <line:6:4, col:8> age 'int'
+| `-FieldDecl 0xbcb0050 <line:7:4, col:10> string 'char *'
+|-TypedefDecl 0xbcb00b0 <line:5:1, line:8:2> data 'struct data_type':'struct data_type'
+|-FunctionDecl 0xbcb0280 <line:10:1, line:13:1> func2 'void (data **)'
+| |-ParmVarDecl 0xbcb01f0 <line:10:12, col:20> p 'data **':'data **'
+| `-CompoundStmt 0xbcb0520 <line:11:1, line:13:1>
+|   `-CallExpr 0xbcb04a8 <line:12:4, col:59> 'int'
+|     |-ImplicitCastExpr 0xbcb0498 <col:4> 'int (*)(const char *, ...)' <FunctionToPointerDecay>
+|     | `-DeclRefExpr 0xbcb02e4 <col:4> 'int (const char *, ...)' Function 0xbc663b0 'printf' 'int (const char *, ...)'
+|     |-ImplicitCastExpr 0xbcb04e0 <col:11> 'const char *' <BitCast>
+|     | `-ImplicitCastExpr 0xbcb04d0 <col:11> 'char *' <ArrayToPointerDecay>
+|     |   `-StringLiteral 0xbcb02fc <col:11> 'char [20]' lvalue "%c is %d years old\n"
+|     |-ImplicitCastExpr 0xbcb0500 <col:34, col:48> 'int' <IntegralCast>
+|     | `-ImplicitCastExpr 0xbcb04f0 <col:34, col:48> 'char' <LValueToRValue>
+|     |   `-ArraySubscriptExpr 0xbcb03e0 <col:34, col:48> 'char' lvalue
+|     |     |-ImplicitCastExpr 0xbcb03d0 <col:34, col:40> 'char *' <LValueToRValue>
+|     |     | `-MemberExpr 0xbcb0394 <col:34, col:40> 'char *' lvalue ->string 0xbcb0050
+|     |     |   `-ImplicitCastExpr 0xbcb0388 <col:34, col:37> 'data *' <LValueToRValue>
+|     |     |     `-ArraySubscriptExpr 0xbcb0370 <col:34, col:37> 'data *' lvalue
+|     |     |       |-ImplicitCastExpr 0xbcb0360 <col:34> 'data **':'data **' <LValueToRValue>
+|     |     |       | `-DeclRefExpr 0xbcb032c <col:34> 'data **':'data **' lvalue ParmVar 0xbcb01f0 'p' 'data **':'data **'
+|     |     |       `-IntegerLiteral 0xbcb0348 <col:36> 'int' 0
+|     |     `-IntegerLiteral 0xbcb03b8 <col:47> 'int' 4
+|     `-ImplicitCastExpr 0xbcb0510 <col:50, col:56> 'int' <LValueToRValue>
+|       `-MemberExpr 0xbcb045c <col:50, col:56> 'int' lvalue ->age 0xbcb0010
+|         `-ImplicitCastExpr 0xbcb0450 <col:50, col:53> 'data *' <LValueToRValue>
+|           `-ArraySubscriptExpr 0xbcb0438 <col:50, col:53> 'data *' lvalue
+|             |-ImplicitCastExpr 0xbcb0428 <col:50> 'data **':'data **' <LValueToRValue>
+|             | `-DeclRefExpr 0xbcb03f4 <col:50> 'data **':'data **' lvalue ParmVar 0xbcb01f0 'p' 'data **':'data **'
+|             `-IntegerLiteral 0xbcb0410 <col:52> 'int' 0
+`-FunctionDecl 0xbcb0560 <line:15:1, line:26:1> main 'int ()'
+  `-CompoundStmt 0xbcb0a30 <line:16:1, line:26:1>
+    |-DeclStmt 0xbcb0648 <line:17:3, col:24>
+    | `-VarDecl 0xbcb05f0 <col:3, col:15> len 'char [8]'
+    |   `-StringLiteral 0xbcb0620 <col:15> 'char [8]' lvalue "ASDESFP"
+    |-DeclStmt 0xbcb0750 <line:18:3, col:41>
+    | `-VarDecl 0xbcb0670 <col:3, col:40> bob 'data *'
+    |   `-CStyleCastExpr 0xbcb0738 <col:13, col:40> 'data *' <BitCast>
+    |     `-CallExpr 0xbcb0708 <col:21, col:40> 'void *'
+    |       |-ImplicitCastExpr 0xbcb06f8 <col:21> 'void *(*)(unsigned int)' <FunctionToPointerDecay>
+    |       | `-DeclRefExpr 0xbcb06a0 <col:21> 'void *(unsigned int)' Function 0xbca9150 'malloc' 'void *(unsigned int)'
+    |       `-UnaryExprOrTypeTraitExpr 0xbcb06c0 <col:28, col:39> 'unsigned int' sizeof 'data':'struct data_type'
+    |-IfStmt 0xbcb0920 <line:19:3, line:23:3>
+    | |-<<<NULL>>>
+    | |-BinaryOperator 0xbcb07f0 <line:19:6, /home/administrator/build/Release+Asserts/bin/../lib/clang/3.4/include/stddef.h:77:25> 'int' '!='
+    | | |-ImplicitCastExpr 0xbcb07d0 <struct4.c:19:6> 'data *' <LValueToRValue>
+    | | | `-DeclRefExpr 0xbcb0760 <col:6> 'data *' lvalue Var 0xbcb0670 'bob' 'data *'
+    | | `-ImplicitCastExpr 0xbcb07e0 </home/administrator/build/Release+Asserts/bin/../lib/clang/3.4/include/stddef.h:77:16, col:25> 'data *' <BitCast>
+    | |   `-ParenExpr 0xbcb07b8 <col:16, col:25> 'void *'
+    | |     `-CStyleCastExpr 0xbcb07a0 <col:17, col:24> 'void *' <NullToPointer>
+    | |       `-IntegerLiteral 0xbcb0778 <col:24> 'int' 0
+    | |-CompoundStmt 0xbcb0908 <struct4.c:20:3, line:23:3>
+    | | |-BinaryOperator 0xbcb0868 <line:21:6, col:15> 'int' '='
+    | | | |-MemberExpr 0xbcb082c <col:6, col:11> 'int' lvalue ->age 0xbcb0010
+    | | | | `-ImplicitCastExpr 0xbcb0820 <col:6> 'data *' <LValueToRValue>
+    | | | |   `-DeclRefExpr 0xbcb0808 <col:6> 'data *' lvalue Var 0xbcb0670 'bob' 'data *'
+    | | | `-IntegerLiteral 0xbcb0850 <col:15> 'int' 3
+    | | `-BinaryOperator 0xbcb08f0 <line:22:6, col:18> 'char *' '='
+    | |   |-MemberExpr 0xbcb08a4 <col:6, col:11> 'char *' lvalue ->string 0xbcb0050
+    | |   | `-ImplicitCastExpr 0xbcb0898 <col:6> 'data *' <LValueToRValue>
+    | |   |   `-DeclRefExpr 0xbcb0880 <col:6> 'data *' lvalue Var 0xbcb0670 'bob' 'data *'
+    | |   `-ImplicitCastExpr 0xbcb08e0 <col:18> 'char *' <ArrayToPointerDecay>
+    | |     `-DeclRefExpr 0xbcb08c4 <col:18> 'char [8]' lvalue Var 0xbcb05f0 'len' 'char [8]'
+    | `-<<<NULL>>>
+    |-CallExpr 0xbcb09e8 <line:24:3, col:13> 'void'
+    | |-ImplicitCastExpr 0xbcb09d8 <col:3> 'void (*)(data **)' <FunctionToPointerDecay>
+    | | `-DeclRefExpr 0xbcb093c <col:3> 'void (data **)' Function 0xbcb0280 'func2' 'void (data **)'
+    | `-UnaryOperator 0xbcb0970 <col:9, col:10> 'data **' prefix '&'
+    |   `-DeclRefExpr 0xbcb0954 <col:10> 'data *' lvalue Var 0xbcb0670 'bob' 'data *'
+    `-ReturnStmt 0xbcb0a20 <line:25:3, col:10>
+      `-IntegerLiteral 0xbcb0a08 <col:10> 'int' 1

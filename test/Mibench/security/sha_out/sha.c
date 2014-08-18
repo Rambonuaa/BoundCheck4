@@ -1,0 +1,244 @@
+/* NIST Secure Hash Algorithm */
+/* heavily modified by Uwe Hollerbach uh@alumni.caltech edu */
+/* from Peter C. Gutmann's implementation as found in */
+/* Applied Cryptography by Bruce Schneier */
+
+/* NIST's proposed modification to SHA of 7/11/94 may be */
+/* activated by defining USE_MODIFIED_SHA */
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include "sha.h"
+
+/* SHA f()-functions */
+
+#define f1(x,y,z)	((x & y) | (~x & z))
+#define f2(x,y,z)	(x ^ y ^ z)
+#define f3(x,y,z)	((x & y) | (x & z) | (y & z))
+#define f4(x,y,z)	(x ^ y ^ z)
+
+/* SHA constants */
+
+#define CONST1		0x5a827999L
+#define CONST2		0x6ed9eba1L
+#define CONST3		0x8f1bbcdcL
+#define CONST4		0xca62c1d6L
+
+/* 32-bit rotate */
+
+#define ROT32(x,n)	((x << n) | (x >> (32 - n)))
+
+#define FUNC(n,i)						\
+    temp = ROT32(A,5) + f##n(B,C,D) + E + W[i] + CONST##n;	\
+    E = D; D = C; C = ROT32(B,30); B = A; A = temp
+
+/* do SHA transformation */
+
+static void sha_transform(SHA_INFO *sha_info)
+{
+    int i;
+__boundcheck_metadata_store((void *)(&i),(void *)((size_t)(&i)+sizeof(i)*8-1));
+
+    LONG temp;
+__boundcheck_metadata_store((void *)(&temp),(void *)((size_t)(&temp)+sizeof(temp)*8-1));
+LONG A;
+__boundcheck_metadata_store((void *)(&A),(void *)((size_t)(&A)+sizeof(A)*8-1));
+LONG B;
+__boundcheck_metadata_store((void *)(&B),(void *)((size_t)(&B)+sizeof(B)*8-1));
+LONG C;
+__boundcheck_metadata_store((void *)(&C),(void *)((size_t)(&C)+sizeof(C)*8-1));
+LONG D;
+__boundcheck_metadata_store((void *)(&D),(void *)((size_t)(&D)+sizeof(D)*8-1));
+LONG E;
+__boundcheck_metadata_store((void *)(&E),(void *)((size_t)(&E)+sizeof(E)*8-1));
+LONG W[80];
+__boundcheck_metadata_store((void *)(&W),(void *)((size_t)(&W)+sizeof(W)*8-1));
+
+
+    for (i = 0; i < 16; ++i) {
+	W[_RV_insert_check(0,80,44,4,"sha_transform",i)] = sha_info->data[_RV_insert_check(0,16,44,24,"sha_transform",i)];
+    }
+    for (i = 16; i < 80; ++i) {
+	W[_RV_insert_check(0,80,47,4,"sha_transform",i)] = W[_RV_insert_check(0,80,47,11,"sha_transform",i-3)] ^ W[_RV_insert_check(0,80,47,20,"sha_transform",i-8)] ^ W[_RV_insert_check(0,80,47,29,"sha_transform",i-14)] ^ W[_RV_insert_check(0,80,47,39,"sha_transform",i-16)];
+#ifdef USE_MODIFIED_SHA
+	W[i] = ROT32(W[i], 1);
+#endif /* USE_MODIFIED_SHA */
+    }
+    A = sha_info->digest[_RV_insert_check(0,5,52,26,"sha_transform",0)];
+    B = sha_info->digest[_RV_insert_check(0,5,53,26,"sha_transform",1)];
+    C = sha_info->digest[_RV_insert_check(0,5,54,26,"sha_transform",2)];
+    D = sha_info->digest[_RV_insert_check(0,5,55,26,"sha_transform",3)];
+    E = sha_info->digest[_RV_insert_check(0,5,56,26,"sha_transform",4)];
+#ifdef UNROLL_LOOPS
+    FUNC(1, 0);  FUNC(1, 1);  FUNC(1, 2);  FUNC(1, 3);  FUNC(1, 4);
+    FUNC(1, 5);  FUNC(1, 6);  FUNC(1, 7);  FUNC(1, 8);  FUNC(1, 9);
+    FUNC(1,10);  FUNC(1,11);  FUNC(1,12);  FUNC(1,13);  FUNC(1,14);
+    FUNC(1,15);  FUNC(1,16);  FUNC(1,17);  FUNC(1,18);  FUNC(1,19);
+
+    FUNC(2,20);  FUNC(2,21);  FUNC(2,22);  FUNC(2,23);  FUNC(2,24);
+    FUNC(2,25);  FUNC(2,26);  FUNC(2,27);  FUNC(2,28);  FUNC(2,29);
+    FUNC(2,30);  FUNC(2,31);  FUNC(2,32);  FUNC(2,33);  FUNC(2,34);
+    FUNC(2,35);  FUNC(2,36);  FUNC(2,37);  FUNC(2,38);  FUNC(2,39);
+
+    FUNC(3,40);  FUNC(3,41);  FUNC(3,42);  FUNC(3,43);  FUNC(3,44);
+    FUNC(3,45);  FUNC(3,46);  FUNC(3,47);  FUNC(3,48);  FUNC(3,49);
+    FUNC(3,50);  FUNC(3,51);  FUNC(3,52);  FUNC(3,53);  FUNC(3,54);
+    FUNC(3,55);  FUNC(3,56);  FUNC(3,57);  FUNC(3,58);  FUNC(3,59);
+
+    FUNC(4,60);  FUNC(4,61);  FUNC(4,62);  FUNC(4,63);  FUNC(4,64);
+    FUNC(4,65);  FUNC(4,66);  FUNC(4,67);  FUNC(4,68);  FUNC(4,69);
+    FUNC(4,70);  FUNC(4,71);  FUNC(4,72);  FUNC(4,73);  FUNC(4,74);
+    FUNC(4,75);  FUNC(4,76);  FUNC(4,77);  FUNC(4,78);  FUNC(4,79);
+#else /* !UNROLL_LOOPS */
+    for (i = 0; i < 20; ++i) {
+	FUNC(1,i);
+    }
+    for (i = 20; i < 40; ++i) {
+	FUNC(2,i);
+    }
+    for (i = 40; i < 60; ++i) {
+	FUNC(3,i);
+    }
+    for (i = 60; i < 80; ++i) {
+	FUNC(4,i);
+    }
+#endif /* !UNROLL_LOOPS */
+    sha_info->digest[_RV_insert_check(0,5,91,22,"sha_transform",0)] += A;
+    sha_info->digest[_RV_insert_check(0,5,92,22,"sha_transform",1)] += B;
+    sha_info->digest[_RV_insert_check(0,5,93,22,"sha_transform",2)] += C;
+    sha_info->digest[_RV_insert_check(0,5,94,22,"sha_transform",3)] += D;
+    sha_info->digest[_RV_insert_check(0,5,95,22,"sha_transform",4)] += E;
+}
+
+#ifdef LITTLE_ENDIAN
+
+/* change endianness of data */
+
+static void byte_reverse(LONG *buffer, int count)
+{
+    int i;
+__boundcheck_metadata_store((void *)(&i),(void *)((size_t)(&i)+sizeof(i)*8-1));
+
+    BYTE ct[4];
+__boundcheck_metadata_store((void *)(&ct),(void *)((size_t)(&ct)+sizeof(ct)*8-1));
+ BYTE * cp;
+__boundcheck_metadata_store((void *)(&cp),(void *)((size_t)(&cp)+sizeof(cp)*8-1));
+
+
+    count /= sizeof(LONG);
+    cp = (BYTE *) buffer;
+__boundcheck_metadata_trans_check((void *)(cp),(void *)(buffer),(void *)((BYTE *)buffer));
+
+    for (i = 0; i < count; ++i) {
+	ct[_RV_insert_check(0,4,110,5,"byte_reverse",0)] = cp[__boundcheck_ptr_cast_to_array_reference(110,13,"byte_reverse",(void *)(cp),(void *)(cp+0),0)];
+	ct[_RV_insert_check(0,4,111,5,"byte_reverse",1)] = cp[__boundcheck_ptr_cast_to_array_reference(111,13,"byte_reverse",(void *)(cp),(void *)(cp+1),1)];
+	ct[_RV_insert_check(0,4,112,5,"byte_reverse",2)] = cp[__boundcheck_ptr_cast_to_array_reference(112,13,"byte_reverse",(void *)(cp),(void *)(cp+2),2)];
+	ct[_RV_insert_check(0,4,113,5,"byte_reverse",3)] = cp[__boundcheck_ptr_cast_to_array_reference(113,13,"byte_reverse",(void *)(cp),(void *)(cp+3),3)];
+	cp[__boundcheck_ptr_cast_to_array_reference(114,5,"byte_reverse",(void *)(cp),(void *)(cp+0),0)] = ct[_RV_insert_check(0,4,114,13,"byte_reverse",3)];
+	cp[__boundcheck_ptr_cast_to_array_reference(115,5,"byte_reverse",(void *)(cp),(void *)(cp+1),1)] = ct[_RV_insert_check(0,4,115,13,"byte_reverse",2)];
+	cp[__boundcheck_ptr_cast_to_array_reference(116,5,"byte_reverse",(void *)(cp),(void *)(cp+2),2)] = ct[_RV_insert_check(0,4,116,13,"byte_reverse",1)];
+	cp[__boundcheck_ptr_cast_to_array_reference(117,5,"byte_reverse",(void *)(cp),(void *)(cp+3),3)] = ct[_RV_insert_check(0,4,117,13,"byte_reverse",0)];
+	cp += sizeof(LONG);
+    }
+}
+
+#endif /* LITTLE_ENDIAN */
+
+/* initialize the SHA digest */
+
+void sha_init(SHA_INFO *sha_info)
+{
+    sha_info->digest[_RV_insert_check(0,5,128,22,"sha_init",0)] = 0x67452301L;
+    sha_info->digest[_RV_insert_check(0,5,129,22,"sha_init",1)] = 0xefcdab89L;
+    sha_info->digest[_RV_insert_check(0,5,130,22,"sha_init",2)] = 0x98badcfeL;
+    sha_info->digest[_RV_insert_check(0,5,131,22,"sha_init",3)] = 0x10325476L;
+    sha_info->digest[_RV_insert_check(0,5,132,22,"sha_init",4)] = 0xc3d2e1f0L;
+    sha_info->count_lo = 0L;
+    sha_info->count_hi = 0L;
+}
+
+/* update the SHA digest */
+
+void sha_update(SHA_INFO *sha_info, BYTE *buffer, int count)
+{
+    if ((sha_info->count_lo + ((LONG) count << 3)) < sha_info->count_lo) {
+	++sha_info->count_hi;
+    }
+    sha_info->count_lo += (LONG) count << 3;
+    sha_info->count_hi += (LONG) count >> 29;
+    while (count >= SHA_BLOCKSIZE) {
+	memcpy(sha_info->data, buffer, SHA_BLOCKSIZE);
+#ifdef LITTLE_ENDIAN
+	byte_reverse(sha_info->data, SHA_BLOCKSIZE);
+#endif /* LITTLE_ENDIAN */
+	sha_transform(sha_info);
+	buffer += SHA_BLOCKSIZE;
+	count -= SHA_BLOCKSIZE;
+    }
+    memcpy(sha_info->data, buffer, count);
+}
+
+/* finish computing the SHA digest */
+
+void sha_final(SHA_INFO *sha_info)
+{
+    int count;
+__boundcheck_metadata_store((void *)(&count),(void *)((size_t)(&count)+sizeof(count)*8-1));
+
+    LONG lo_bit_count;
+__boundcheck_metadata_store((void *)(&lo_bit_count),(void *)((size_t)(&lo_bit_count)+sizeof(lo_bit_count)*8-1));
+LONG hi_bit_count;
+__boundcheck_metadata_store((void *)(&hi_bit_count),(void *)((size_t)(&hi_bit_count)+sizeof(hi_bit_count)*8-1));
+
+
+    lo_bit_count = sha_info->count_lo;
+    hi_bit_count = sha_info->count_hi;
+    count = (int) ((lo_bit_count >> 3) & 0x3f);
+    ((BYTE *) sha_info->data)[count++] = 0x80;
+    if (count > 56) {
+	memset((BYTE *) &sha_info->data + count, 0, 64 - count);
+#ifdef LITTLE_ENDIAN
+	byte_reverse(sha_info->data, SHA_BLOCKSIZE);
+#endif /* LITTLE_ENDIAN */
+	sha_transform(sha_info);
+	memset(&sha_info->data, 0, 56);
+    } else {
+	memset((BYTE *) &sha_info->data + count, 0, 56 - count);
+    }
+#ifdef LITTLE_ENDIAN
+    byte_reverse(sha_info->data, SHA_BLOCKSIZE);
+#endif /* LITTLE_ENDIAN */
+    sha_info->data[_RV_insert_check(0,16,182,20,"sha_final",14)] = hi_bit_count;
+    sha_info->data[_RV_insert_check(0,16,183,20,"sha_final",15)] = lo_bit_count;
+    sha_transform(sha_info);
+}
+
+/* compute the SHA digest of a FILE stream */
+
+#define BLOCK_SIZE	8192
+
+void sha_stream(SHA_INFO *sha_info, FILE *fin)
+{
+    int i;
+__boundcheck_metadata_store((void *)(&i),(void *)((size_t)(&i)+sizeof(i)*8-1));
+
+    BYTE data[BLOCK_SIZE];
+__boundcheck_metadata_store((void *)(&data),(void *)((size_t)(&data)+sizeof(data)*8-1));
+
+
+    sha_init(sha_info);
+    while ((i = fread(data, 1, BLOCK_SIZE, fin)) > 0) {
+	sha_update(sha_info, data, i);
+    }
+    sha_final(sha_info);
+}
+
+/* print a SHA digest */
+
+void sha_print(SHA_INFO *sha_info)
+{
+    printf("%08lx %08lx %08lx %08lx %08lx\n",
+	sha_info->digest[_RV_insert_check(0,5,208,19,"sha_print",0)], sha_info->digest[_RV_insert_check(0,5,208,40,"sha_print",1)], sha_info->digest[_RV_insert_check(0,5,208,61,"sha_print",2)],
+	sha_info->digest[_RV_insert_check(0,5,209,19,"sha_print",3)], sha_info->digest[_RV_insert_check(0,5,209,40,"sha_print",4)]);
+}

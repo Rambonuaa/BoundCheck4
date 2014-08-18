@@ -1,0 +1,21 @@
+#include"boundcheck.h"
+#include<string.h>
+/* bss1.c */
+#include <stdio.h>
+#include <stdlib.h>
+#include<string.h>
+static char input[20];
+__boundcheck_metadata_store((void *)(input),(void *)(input+20-1));
+
+static char output[20];
+__boundcheck_metadata_store((void *)(output),(void *)(output+20-1));
+
+
+int main(int argc, char *argv[])
+{
+   __boundcheck_strcpy (input, argv[1]);
+   __boundcheck_strcpy (output, "normal output");
+   printf ("input at %p: %s\n", input, input);
+   printf ("output at %p: %s\n", output, output);
+   printf("\n\n%s\n", output);
+}

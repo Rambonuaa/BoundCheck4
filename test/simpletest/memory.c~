@@ -1,0 +1,14 @@
+#include<stdio.h>
+struct struct1{
+  int len;
+  int interp;
+};
+int main()
+{
+	struct struct1 ss;
+	int var;
+	char *p;
+	int array1[10];
+	char array2[10];
+}
+	

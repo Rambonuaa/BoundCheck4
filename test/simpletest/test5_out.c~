@@ -1,0 +1,46 @@
+#include"boundcheck.h"
+#include<string.h>
+#include<stdio.h>
+#include<stdbool.h>
+
+bool conver(int d[],int b[])
+{
+   int i,int *p;
+__boundcheck_metadata_store((void *)(p),(void *)(p));
+
+   p=b;
+__boundcheck_metadata_trans_check((void *)(p),(void *)(b),(void *)(b));
+
+   printf("%d\n",*(int *)(__boundcheck_ptr_reference(8,19,"conver",(void *)(p),(void *)((p+2)))));
+   for(i=0;i<5;i++)
+      d[__boundcheck_ptr_cast_to_array_reference(10,9,"conver",(void *)(d),(void *)(d+i),i)]=b[__boundcheck_ptr_cast_to_array_reference(10,14,"conver",(void *)(b),(void *)(b+i),i)];    
+   return 1;
+}
+
+int main()
+{
+   char *p2=NULL;
+__boundcheck_metadata_store((void *)(p2),NULL);
+
+   char string[8]="ASDDSFF";
+__boundcheck_metadata_store((void *)(string),(void *)(string+8-1));
+
+   char *__tmp_string_0="DDDFF";
+ __boundcheck_metadata_store((void *)(__tmp_string_0),(void *)(__tmp_string_0+5));
+char *p3=__tmp_string_0;
+__boundcheck_metadata_store((void *)(p3),(void *)(p3+6-1));
+
+   int i;
+
+   static int a[10];
+__boundcheck_metadata_store((void *)(a),(void *)(a+10-1));
+
+   int num[5]={1,2,3,4,5};
+__boundcheck_metadata_store((void *)(num),(void *)(num+5-1));
+
+   if(conver(a,num))
+    for (i = 0; i <5; i++)
+      printf("%d  ",a[_RV_insert_check(0,10,25,23,"main",i)]);
+ 
+   return 0;
+}

@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<string.h>
+#define N 4
+
+
+
+struct struct2 {
+  int len;
+  char *string;
+  char string1[10];
+  int interp;
+};
+
+int main()
+{
+   char *__string1="define";
+   char *__string2="asdfs";
+   char *__string3="else";
+   char *__string4="sdfweq";
+
+   struct struct2 ss[2]= {
+	{ 6, __string1,"asdfs",	 	1 },
+	{ 4, __string3,"sdfweq",	 	0 }
+   };
+   struct struct2 *p=ss;
+   char *q=p[1].string1;
+//   char *m=p[1].string1;
+   char **l=&q;
+   printf("%s\n",*l);
+   printf("%c\n",**l);
+   return 1;
+}

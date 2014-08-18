@@ -1,0 +1,42 @@
+#include"boundcheck.h"
+#include<string.h>
+/* run.config
+   OPT: -rte -warn-signed-overflow -print -machdep x86_32
+*/
+#include<stdio.h>
+int main() 
+{
+  int x=1;
+__boundcheck_metadata_store(&(x),&(x));
+
+  printf("x=%p \n",&x);
+  int *p;
+__boundcheck_metadata_store((void *)(p),(void *)(p));
+int *q;
+__boundcheck_metadata_store((void *)(q),(void *)(q));
+
+  printf("p=%p \n",(void *)p);
+  int tab[10]={0};
+__boundcheck_metadata_store((void *)(tab),(void *)(tab+10-1));
+
+
+  p = &x;
+  printf("p--=%p \n",(void *)p);
+  q = p;
+__boundcheck_metadata_trans_check((void *)(q),(void *)(p),(void *)(p));
+
+  *(int *)(__boundcheck_ptr_reference(16,4,"main",(void *)(q),(void *)(q))) = *(int *)(__boundcheck_ptr_reference(16,9,"main",(void *)(p),(void *)(p))) + 5;
+
+  tab[3] = *(int *)(__boundcheck_ptr_reference(18,13,"main",(void *)(q),(void *)(q)));
+  tab[x] = *(int *)(__boundcheck_ptr_reference(19,13,"main",(void *)(q),(void *)(q)));
+
+  p = &tab[2];
+  p = &tab[x];
+
+  *(int *)(__boundcheck_ptr_reference(24,4,"main",(void *)(p),(void *)((p+1)))) = tab[0];
+  *(int *)(__boundcheck_ptr_reference(25,4,"main",(void *)(p),(void *)((p+1)))) = tab[x];
+
+  *(int *)(__boundcheck_ptr_reference(27,4,"main",(void *)(q),(void *)(q)))=p[2];
+
+  return 0;
+}

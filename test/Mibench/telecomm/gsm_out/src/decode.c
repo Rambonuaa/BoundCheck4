@@ -1,0 +1,73 @@
+/*
+ * Copyright 1992 by Jutta Degener and Carsten Bormann, Technische
+ * Universitaet Berlin.  See the accompanying file "COPYRIGHT" for
+ * details.  THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.
+ */
+
+/* $Header: /home/mguthaus/.cvsroot/mibench/telecomm/gsm/src/decode.c,v 1.1.1.1 2000/11/06 19:54:25 mguthaus Exp $ */
+
+#include <stdio.h>
+
+#include	"private.h"
+#include	"gsm.h"
+#include	"proto.h"
+
+/*
+ *  4.3 FIXED POINT IMPLEMENTATION OF THE RPE-LTP DECODER
+ */
+
+static void Postprocessing P2((S,s),
+	struct gsm_state	* S,
+	register word 		* s)
+{
+	register int		k;
+	register word		msr = S->msr;
+	register longword	ltmp;	/* for GSM_ADD */
+	register word		tmp;
+
+	for (k = 160; k--; s++) {
+		tmp = GSM_MULT_R( msr, 28180 );
+		msr = GSM_ADD(*s, tmp);  	   /* Deemphasis 	     */
+		*(word *)(__boundcheck_ptr_reference(31,4,"Postprocessing",(void *)(s),(void *)(s)))  = GSM_ADD(msr, msr) & 0xFFF8;  /* Truncation & Upscaling */
+	}
+	S->msr = msr;
+}
+
+void Gsm_Decoder P8((S,LARcr, Ncr,bcr,Mcr,xmaxcr,xMcr,s),
+	struct gsm_state	* S,
+
+	word		* LARcr,	/* [0..7]		IN	*/
+
+	word		* Ncr,		/* [0..3] 		IN 	*/
+	word		* bcr,		/* [0..3]		IN	*/
+	word		* Mcr,		/* [0..3] 		IN 	*/
+	word		* xmaxcr,	/* [0..3]		IN 	*/
+	word		* xMcr,		/* [0..13*4]		IN	*/
+
+	word		* s)		/* [0..159]		OUT 	*/
+{
+	int		j;
+__boundcheck_metadata_store((void *)(&j),(void *)((size_t)(&j)+sizeof(j)*8-1));
+int k;
+__boundcheck_metadata_store((void *)(&k),(void *)((size_t)(&k)+sizeof(k)*8-1));
+
+	word		erp[40];
+__boundcheck_metadata_store((void *)(&erp),(void *)((size_t)(&erp)+sizeof(erp)*8-1));
+word  wt[160];
+__boundcheck_metadata_store((void *)(&wt),(void *)((size_t)(&wt)+sizeof(wt)*8-1));
+
+	word		* drp = S->dp0 + 120;
+__boundcheck_metadata_store((void *)(&drp),(void *)((size_t)(&drp)+sizeof(drp)*8-1));
+
+
+	for (j=0; j <= 3; j++, xmaxcr++, bcr++, Ncr++, Mcr++, xMcr += 13) {
+
+		Gsm_RPE_Decoding( S, *(word *)(__boundcheck_ptr_reference(55,25,"Gsm_Decoder",(void *)(xmaxcr),(void *)(xmaxcr))), *(word *)(__boundcheck_ptr_reference(55,34,"Gsm_Decoder",(void *)(Mcr),(void *)(Mcr))), xMcr, erp );
+		Gsm_Long_Term_Synthesis_Filtering( S, *(word *)(__boundcheck_ptr_reference(56,42,"Gsm_Decoder",(void *)(Ncr),(void *)(Ncr))), *(word *)(__boundcheck_ptr_reference(56,48,"Gsm_Decoder",(void *)(bcr),(void *)(bcr))), erp, drp );
+
+		for (k = 0; k <= 39; k++) wt[ _RV_insert_check(0,160,58,33,"Gsm_Decoder",j * 40 + k )] =  drp[ __boundcheck_ptr_cast_to_array_reference(58,54,"Gsm_Decoder",(void *)(drp),(void *)(drp+k),k )];
+	}
+
+	Gsm_Short_Term_Synthesis_Filter( S, LARcr, wt, s );
+	Postprocessing(S, s);
+}

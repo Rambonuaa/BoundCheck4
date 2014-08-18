@@ -1,0 +1,16 @@
+OBJ = main.o fftmisc.o  fourierf.o
+LIBDIR=-L'/home/administrator/boundcheck3/boundcheck-lib' -lboundcheck_rt
+FILE = main.c fftmisc.c  fourierf.c
+CFLAGS = -static -O3 -g
+
+fft: ${OBJ} Makefile
+	gcc  -o fft ${CFLAGS} ${OBJ} ${LIBDIR}  -lm
+fftmisc.o: fftmisc.c
+	gcc ${CFLAGS} -c fftmisc.c
+fourierf.o: fourierf.c
+	gcc ${CFLAGS} -c fourierf.c
+main.o: main.c
+	gcc ${CFLAGS} -c main.c
+
+clean:
+	rm -rf *.o fft output*

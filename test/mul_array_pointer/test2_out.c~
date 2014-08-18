@@ -1,0 +1,23 @@
+#include"self2.h"
+#include<string.h>
+#include<stdio.h>
+#define SIZE 5
+int main( )
+{ 
+   char *pc[]={" Beijing", "Shanghai", "Tianjing", "Guangzhou", "Chongqing" };
+   char **p;
+void *_p_base=NULL33;
+void *_p_bound=NULL;
+
+   int i;
+   for( i=0; i<SIZE;i++)
+   { 
+      p = pc+i;
+_p_base=&pc[0];
+_p_bound=&pc[5-1];
+
+      printf ("%s\n", *(char **)(_RV_insert_pointer_check(_p_base,_p_bound,11,24,"main",(void *)p)));
+      printf("%c\n",*(*(char **)(_RV_insert_pointer_check(_p_base,_p_bound,12,24,"main",(void *)p))+2));
+   }
+   return 0;
+}

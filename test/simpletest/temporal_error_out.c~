@@ -1,0 +1,60 @@
+#include"self2.h"
+#include<string.h>
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+	//dangling stack pointer dereference	
+
+
+	//dangling heap pointer dereference
+	int *m;
+void *_m_base=NULL;
+void *_m_bound=NULL;
+int *n;
+void *_n_base=NULL;
+void *_n_bound=NULL;
+
+	m=(int *)malloc(10*sizeof(int));
+_m_base=m;
+_m_bound=m+10 * sizeof(int)/sizeof(int)-1;
+
+	m[_RV_insert_pointertoarray_check(_m_base,_m_bound,12,4,"main",(void *)(m+1),14)]=5;
+	n=m;
+_n_base=_m_base;
+_n_bound=_m_bound;
+
+        printf("the 2st is %d\n",n[_RV_insert_pointertoarray_check(_n_base,_n_bound,14,36,"main",(void *)(n+1),1)]);
+	free(m);
+_m_bound=NULL;
+	printf("the 2st is %d\n",n[_RV_insert_pointertoarray_check(_n_base,_n_bound,16,29,"main",(void *)(n+1),1)]);
+	
+    //multiple deallocations
+	int  *c;
+void *_c_base=NULL;
+void *_c_bound=NULL;
+int *d;
+void *_d_base=NULL;
+void *_d_bound=NULL;
+
+	c=(int *)malloc(10*sizeof(int));
+_c_base=c;
+_c_bound=c+10 * sizeof(int)/sizeof(int)-1;
+
+	d=c;
+_d_base=_c_base;
+_d_bound=_c_bound;
+
+        printf("the 2st is %d\n",c[_RV_insert_pointertoarray_check(_c_base,_c_bound,22,36,"main",(void *)(c+1),1)]);
+        printf("the 2st is %d\n",d[_RV_insert_pointertoarray_check(_d_base,_d_bound,23,36,"main",(void *)(d+1),1)]);
+	free(c);
+_c_bound=NULL;
+        printf("the 2st is %d\n",d[_RV_insert_pointertoarray_check(_d_base,_d_bound,25,36,"main",(void *)(d+1),1)]);
+	free(d);
+_d_bound=NULL;
+        printf("the 2st is %d\n",d[_RV_insert_pointertoarray_check(_d_base,_d_bound,27,36,"main",(void *)(d+1),1)]);
+}
+	
+	
+	

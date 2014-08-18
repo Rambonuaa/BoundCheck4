@@ -1,0 +1,26 @@
+#include"boundcheck.h"
+#include<string.h>
+#include<stdio.h>
+void fillrand(char *buf, int len)
+{
+	int                  i;
+__boundcheck_metadata_store((void *)(&i),(void *)((size_t)(&i)+sizeof(i)*8-1));
+
+	for(i = 0; i < len; ++i)
+	{
+		buf[__boundcheck_ptr_cast_to_array_reference(7,7,"fillrand",(void *)(buf),(void *)(buf+i),i)] = len;
+	}
+
+}
+int main()
+{
+	char            inbuf[16];
+__boundcheck_metadata_store((void *)(&inbuf),(void *)((size_t)(&inbuf)+sizeof(inbuf)*8-1));
+char [16] outbuf[16];
+__boundcheck_metadata_store((void *)(&outbuf),(void *)((size_t)(&outbuf)+sizeof(outbuf)*8-1));
+
+	fillrand(outbuf, 16);
+	fillrand(inbuf, 1);
+	return 1;
+}
+	

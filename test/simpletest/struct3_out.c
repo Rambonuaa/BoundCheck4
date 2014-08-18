@@ -1,0 +1,74 @@
+#include"boundcheck.h"
+#include<string.h>
+#include<stdio.h>
+#include<string.h>
+#define N 4
+struct struct1 {
+  int len;
+  int interp;
+} s[] = {
+	{ 6, 1 },
+	{ 4, 0 },
+	{ 5, 0 },
+	{ 5, 0 },
+	{ 6, 0 },
+	{ 2, 0 },
+};
+struct struct2 {
+  int len;
+  char *string;
+  char string1[10];
+  int interp;
+} ss[] = {
+	{ 6, "define","asdfs",	 	1 },
+	{ 4, "else","sdfsf",	 	0 },
+	{ 5, "endif","sdfweq",	 	0 },
+	{ 5, "ifdef","werew",	 	0 },
+	{ 6, "ifndef","ewrewq",   	0 },
+	{ 2, "if","qwewq",		0 },
+	{ 7, "include","rtyrtu",  	1 },
+	{ 8, "undefine","tyuytu", 	1 },
+};
+struct struct3{
+  int len;
+  char array[10];
+}sss[]={
+        {1,"asdf"},
+        {2,"dfds"},
+}; 
+
+void __global_variables_init(){
+printf("%d\n",sizeof(ss)*8);
+__boundcheck_metadata_store((void *)(&s),(void *)((size_t)(&s)+sizeof(s)*8-1));
+__boundcheck_metadata_store((void *)(&ss),(void *)((size_t)(&ss)+sizeof(ss)*8-1));
+__boundcheck_metadata_store((void *)(&sss),(void *)((size_t)(&sss)+sizeof(sss)*8-1));
+}
+int main()
+{
+	__global_variables_init();
+
+  struct struct2 *p=ss;
+__boundcheck_metadata_store((void *)(&p),(void *)((size_t)(&p)+sizeof(p)*8-1));
+
+  char *q=&p[__boundcheck_ptr_cast_to_array_reference(41,14,"main",(void *)(p),(void *)(p+2),2)].string[3];
+__boundcheck_metadata_store((void *)(&q),(void *)((size_t)(&q)+sizeof(q)*8-1));
+
+//  printf("%d\n",strlen(p[2].string));
+  char *n=p[__boundcheck_ptr_cast_to_array_reference(43,13,"main",(void *)(p),(void *)(p+2),2)].string;
+__boundcheck_metadata_store((void *)(&n),(void *)((size_t)(&n)+sizeof(n)*8-1));
+
+  char *m=p[__boundcheck_ptr_cast_to_array_reference(44,13,"main",(void *)(p),(void *)(p+3),3)].string1;
+__boundcheck_metadata_store((void *)(&m),(void *)((size_t)(&m)+sizeof(m)*8-1));
+
+  char **l=&q;
+__boundcheck_metadata_store((void *)(&l),(void *)((size_t)(&l)+sizeof(l)*8-1));
+
+//  char *q=p[2].string;
+  printf("%s\n",q);
+  printf("%s\n",n);
+  printf("%s\n",m);
+  printf("%s\n",*(char **)(__boundcheck_ptr_reference(50,18,"main",(void *)(l),(void *)(l))));
+  printf("%c\n",*(char *)(__boundcheck_ptr_reference(50,18,"main",(void *)(*l),(void *)(*(char **)(__boundcheck_ptr_reference(50,18,"main",(void *)(l),(void *)(l)))))));
+  return 0;
+}
+

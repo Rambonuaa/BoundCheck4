@@ -1,0 +1,2 @@
+clang -I'/home/administrator/boundcheck4/boundcheck-lib' -o function.o -c function7_out.c
+clang -o function -L'/home/administrator/boundcheck4/boundcheck-lib' function.o -lboundcheck_rt

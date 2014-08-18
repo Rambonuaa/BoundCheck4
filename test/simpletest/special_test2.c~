@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<string.h>
+#define N 4
+struct model {
+  int len;
+  char *string;
+  char string1[10];
+  int interp;
+}; 
+
+int main()
+{
+   struct model ss[]= {
+{6,"define","asdfs",	 	1 },
+{4,"else","sdfsf",	 	0 },
+{5,"endif","sdfweq",	 	0 },
+	{ 5, "ifdef","werew",	 	0 },
+	{ 6, "ifndef","ewrewq",   	0 },
+	{ 2, "if","qwewq",		0 },
+	{ 7, "include","rtyrtu",  	1 },
+	{ 8, "undefine","tyuytu", 	1 }
+   };
+   char *ssl[]={"asdfds","sdfwee","sdfwee"};
+   char *str="qweqwe";
+   struct model *p=ss;
+   char *q=&p[2].string[0];
+   char **l=&q;
+   printf("%s\n",*l);
+   printf("%c\n",**l);
+   return 1;
+}

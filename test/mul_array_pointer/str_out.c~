@@ -1,0 +1,18 @@
+#include"boundcheck.h"
+#include<string.h>
+#include <stdio.h>
+
+void show_string(char *string)
+ { 
+   while (*(char *)(__boundcheck_ptr_reference(5,12,"show_string",(void *)(string),(void *)(string))))
+     putchar(*(char *)(__boundcheck_ptr_reference(6,21,"show_string",(void *)(string),(void *)(string++))));
+ }
+
+int main(void)
+ {
+   char *_string_0="Jamsa's 1001 C/C++ Tips";
+   __boundcheck_metadata_store((void *)(&_string_0),(void *)((size_t)(&_string_0)+sizeof(_string_0)*8-1));
+   show_string(_string_0);
+   return 1; 
+}
+

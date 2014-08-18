@@ -1,0 +1,15 @@
+/* bss1.c */
+//#include <stdio.h>
+//#include <stdlib.h>
+#include<string.h>
+static char input[20];
+static char output[20];
+
+int main(int argc, char *argv[])
+{
+   strcpy (input, argv[1]);
+   strcpy (output, "normal output");
+   printf ("input at %p: %s\n", input, input);
+   printf ("output at %p: %s\n", output, output);
+   printf("\n\n%s\n", output);
+}

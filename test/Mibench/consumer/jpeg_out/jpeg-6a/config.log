@@ -1,0 +1,30 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+gcc -E
+gcc -o conftest -O conftest.c
+gcc -c -O conftest.c
+gcc -E
+gcc -E
+gcc -E
+gcc -c -O conftest.c
+gcc -c -O conftest.c
+gcc -c -O conftest.c
+gcc -c -O conftest.c
+gcc -c -O conftest.c
+gcc -c -O conftest.c
+gcc -c -O conftest.c
+gcc -o conftest -O conftest.c
+gcc -o conftest -O conftest.c
+configure: In function 'is_char_signed':
+configure:1199:5: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+configure: In function 'main':
+configure:1206:3: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+gcc -o conftest -O conftest.c
+configure: In function 'is_shifting_signed':
+configure:1248:3: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+configure: In function 'main':
+configure:1253:3: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+gcc -o conftest -O conftest.c
+configure: In function 'main':
+configure:1279:5: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]

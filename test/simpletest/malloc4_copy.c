@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+typedef unsigned int size_t;
+extern  void *__malloc(size_t size);
+
+extern  void *__store_block(void *ptr,size_t size);
+
+extern  void __delete_block(void *ptr);
+
+extern  void* __valid_read(void *ptr,size_t size);
+
+void *__e_acsl_malloc(size_t size)
+{
+  void *__retres;
+  __store_block((void *)(& __retres),4U);
+  __retres = __malloc(size);
+  __delete_block((void *)(& __retres));
+  return __retres;
+}
+int main()
+{
+   int i;
+   char *a[10];
+   for(i=0;i<10;i++)
+       a[i]=(char *)__e_acsl_malloc(10*sizeof(char));
+   if(__block_length((void *)(a[5]))<strlen("ASADAD")) printf("buffer overflow at 9:21 in main\n");
+   strcpy(a[5],"ASADAD");
+   printf("%c\n",*((char *)__valid_read((void *)(a[5]+9),sizeof(char))));
+   return 1;
+}
+

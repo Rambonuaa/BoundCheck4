@@ -1,0 +1,25 @@
+#include"boundcheck.h"
+#include<string.h>
+#include<stdio.h>
+int a[3][3]={1, 2, 3, 4, 5, 6, 7, 8, 9};
+int *b[]={a[0],a[1],a[2]]};
+int **p=b;
+void __global_variables_init(){
+__boundcheck_metadata_store((void *)(a),(void *)(a+sizeof(a)-1));
+__boundcheck_metadata_store((void *)(b),(void *)(b+sizeof(b)-1));
+__boundcheck_metadata_store((void *)(p),(void *)(p+1-1));
+}
+int main( )
+{
+	__global_variables_init();
+ 
+   int i;
+__boundcheck_metadata_store(&(i),&(i));
+int j;
+__boundcheck_metadata_store(&(j),&(j));
+
+   for( i=0; i<3; i++ )
+   for ( j=0; j<3; j++ )
+       printf("%d,%d,%d\n", *(int *)(__boundcheck_ptr_reference(10,30,"main",(void *)(b[i]),(void *)(b[_RV_insert_check(0,3,10,33,"main",i)]+j))), *(int *)(__boundcheck_ptr_reference(10,41,"main",(void *)(*(p + i)),(void *)(*(int **)(__boundcheck_ptr_reference(10,43,"main",(void *)(p),(void *)((p+i))))+j))), *(int *)(__boundcheck_ptr_reference(10,54,"main",(void *)(*(a + i)),(void *)(*(a+i)+j))) );
+   return 1;
+}

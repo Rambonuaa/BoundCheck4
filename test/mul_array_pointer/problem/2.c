@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <string.h>
+#include<stdlib.h>
+void  Input(char **p, int n); 
+void  Sort(char *p[ ],int n);
+void  Print(char **p, int n);
+void  Free(char *p[ ], int n);
+int main(void)
+{ 
+	char **p;
+	int n;
+	printf("help\n");
+	scanf("%d",&n);
+	p=(char **)malloc(sizeof(char *[n])); 
+	Input(p,n);      
+	Sort(p,n);       //ÅÅÐò
+	printf("\n");
+	Print(p,n);      //Êä³ö
+	Free(p,n);       //ÊÍ·Å¿ÕŒä
+        return 1;
+}
+void  Input(char **p, int n) // n ×Ö·ûŽ®žöÊý
+{ 
+	char  tempstr[100]; 
+	int i;
+	for( i=0 ;i<n;i++)
+	{
+                scanf("%s",tempstr);	
+	    p[i]=(char *)malloc(strlen(tempstr)+1);//·ÖÅäÒ»žöŽ®¿ÕŒä		
+		strcpy(p[i],tempstr);
+	}
+}
+
+void Sort(char *p[ ],int n)/*Ñ¡Ôñ·šÅÅÐò*/
+{ 
+	char *temp; int i,j,k;
+	for(i=0;i<n-1;i++)
+	{
+		k=i;
+		for(j=i+1;j<n;j++)
+			if( strcmp(p[k],p[j])>0 ) k=j;
+		if(k!=i)
+		{
+			temp=p[i];p[i]=p[k];p[k]=temp;
+		}
+	} 
+}
+
+void  Print(char **p, int n)
+{ 
+	for(int i=0; i<n; i++)
+           printf("%s\n",p[i]);		 
+}
+
+void  Free(char *p[ ], int n)
+{ 
+	for(int i=0; i<n; i++) 
+		free(p[i]); 
+	free(p); 
+}
+
