@@ -1,8 +1,7 @@
 This is the file README for the boundcheck distribution,version 1.0
 
 what is boundcheck?
-
-	Without the boundary security checking for memory operations of 
+Without the boundary security checking for memory operations of 
 C language, the efficiency of the program will be high. At the same time, 
 it brings a variety of security issues, such as array bounds violation, 
 pointer accesses violation and the illegal operated by C library 
@@ -18,14 +17,13 @@ security, and significantly reduce the impact on the performance
 of program running.
 
 how to use?
-
-	clang version is 3.4. Get libboundcheck_rt.a in dir 
+clang version is 3.4. Get libboundcheck_rt.a in dir 
 boundcheck-lib and boundcheck in dir src first,then corvert testing 
 files to new files by commond ./boundcheck filename.Finally,compile
 the new files and link them by libboundcheck_rt.a 
 
 contact
-	Please let me know if you find boundcheck useful.
+Please let me know if you find boundcheck useful.
 Thanks for your time and attention--
 
 Rambo <hunanlwm@sina.cn>
